@@ -177,6 +177,45 @@ def predict_fused_temp_rn(fusion_weights_path, dataset_name, dataset_fold,
     
     return Y_pred, Y_val
 
+#%% Functions
+def load_args():
+    ap = argparse.ArgumentParser(
+        description='Predict using Relational Network.',
+        formatter_class=argparse.ArgumentDefaultsHelpFormatter)
+    
+    # Positional arguments
+    ap.add_argument('weights_path',
+        help='path to weights to be loaded by the relational network',
+        type=str)
+    
+    # Data arguments
+    ap.add_argument('-d','--dataset-name',
+        help="dataset to be used for predicting",
+        default='UT',
+        choices=['UT', 'SBU', 'NTU', 'NTU_V2', 'YMJA'])
+    ap.add_argument('-f','--dataset-fold',
+        help="dataset fold to be used for predicting",
+        default=9,
+        type=int)
+    ap.add_argument('-t', '--timesteps',
+        type=int,
+        default=16,
+        help='how many timesteps to use')
+    
+    # Predicting arguments
+    ap.add_argument('-b', '--batch-size',
+        type=int,
+        default=32,
+        help='batch size used to extract the features')
+    
+    ap.add_argument('--print_args',
+        help="whether to print current arguments' values",
+        action='store_true')
+    
+    args = ap.parse_args()
+    
+    return args
+
 
 #%% Main
 if __name__ == '__main__':
@@ -190,6 +229,7 @@ if __name__ == '__main__':
         for argument, value in args.items():
             print('\t', argument, ":", value)
     
-    predict_fused_rn(**args)
+    # predict_fused_rn(**args)
+    predict_temp_rn(**args)
 
     print('\n> Finished Predict RN -', time.asctime( time.localtime(time.time()) ))

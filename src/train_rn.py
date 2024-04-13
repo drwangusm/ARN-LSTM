@@ -10,7 +10,7 @@ warnings.filterwarnings('ignore')
 if int(tf.__version__.split('.')[1]) >= 14:
     tf.compat.v1.logging.set_verbosity(tf.compat.v1.logging.ERROR)
 
-from tensorflow.keras.optimizers import SGD
+from tensorflow.keras.optimizers import SGD #noqa
 from tensorflow.keras.optimizers import Adam
 from tensorflow.keras.callbacks import ModelCheckpoint, TensorBoard, EarlyStopping, CSVLogger, Callback
 from tensorflow.keras import backend as K
@@ -316,16 +316,16 @@ def train_rn(output_path, dataset_name, model_kwargs, data_kwargs,
     
     if dataset_name == 'UT':
         dataset = UT
-    elif dataset_name == 'SBU':
-        dataset = SBU
-    elif dataset_name == 'YMJA':
-        dataset = YMJA
-    elif dataset_name == 'NTU':
-        dataset = NTU
-        use_data_gen = True # Unable to read all data at once, dataset too big.
-    elif dataset_name == 'NTU-V2':
-        dataset = NTU_V2
-        use_data_gen = True # Unable to read all data at once, dataset too big.
+    # elif dataset_name == 'SBU':
+    #     dataset = SBU
+    # elif dataset_name == 'YMJA':
+    #     dataset = YMJA
+    # elif dataset_name == 'NTU':
+    #     dataset = NTU
+    #     use_data_gen = True # Unable to read all data at once, dataset too big.
+    # elif dataset_name == 'NTU-V2':
+    #     dataset = NTU_V2
+    #     use_data_gen = True # Unable to read all data at once, dataset too big.
     
     if verbose > 0:
         print("Reading data...")
@@ -430,10 +430,10 @@ def train_fused_rn(output_path, dataset_name, dataset_fold,
     
     if dataset_name == 'UT':
         dataset = UT
-    elif dataset_name == 'SBU':
-        dataset = SBU
-    elif dataset_name == 'YMJA':
-        dataset = YMJA
+    # elif dataset_name == 'SBU':
+    #     dataset = SBU
+    # elif dataset_name == 'YMJA':
+    #     dataset = YMJA
     
     if verbose > 0:
         print("Reading data...")

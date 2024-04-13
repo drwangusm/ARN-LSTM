@@ -53,21 +53,25 @@ def parse_train_log(train_log_filepath, criteria='val_accuracy', top_k=10, plot=
     if trunc_epochs is not None:
         train_log_df = train_log_df[:trunc_epochs]
     
+    sorted_log_df = None  # 初始化 sorted_log_df
+    
     if criteria.endswith('loss'):
         sorted_log_df = train_log_df.sort_values([criteria, 'epoch'], 
             ascending=[True, False])
-    elif criteria.endswith('acc'):
+    elif criteria.endswith('accuracy'):
         sorted_log_df = train_log_df.sort_values([criteria, 'epoch'], 
             ascending=[False, False])
-    
-    pretty_print_stats(sorted_log_df.head(top_k))
+
+    if sorted_log_df is not None:  # 添加条件检查
+        pretty_print_stats(sorted_log_df.head(top_k))
+
+    # pretty_print_stats(sorted_log_df.head(top_k))
     
     if plot:
         fig, axes = plt.subplots(nrows=1, ncols=2)
         
         train_log_df[skip_epochs:].plot.line(x='epoch', y=['accuracy','val_accuracy'], ax=axes[0])
         train_log_df[skip_epochs:].plot.line(x='epoch', y=['loss','val_loss'], ax=axes[1])
-        
         plt.show()
 
 #%% Main

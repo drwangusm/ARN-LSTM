@@ -91,12 +91,12 @@ def predict_rn(weights_path, dataset_name, model_kwargs, data_kwargs,
     ####
     if dataset_name == 'UT':
         dataset = UT
-    elif dataset_name == 'SBU':
-        dataset = SBU
-    elif dataset_name == 'NTU':
-        dataset = NTU
-    elif dataset_name == 'YMJA':
-        dataset = YMJA
+    # elif dataset_name == 'SBU':
+    #     dataset = SBU
+    # elif dataset_name == 'NTU':
+    #     dataset = NTU
+    # elif dataset_name == 'YMJA':
+    #     dataset = YMJA
     
     if verbose > 0:
         print("Reading data...")
@@ -157,12 +157,12 @@ def predict_rn_seq(weights_path, dataset_name, model_kwargs, data_kwargs,
     ####
     if dataset_name == 'UT':
         dataset = UT
-    elif dataset_name == 'SBU':
-        dataset = SBU
-    elif dataset_name == 'NTU':
-        dataset = NTU
-    elif dataset_name == 'YMJA':
-        dataset = YMJA
+    # elif dataset_name == 'SBU':
+    #     dataset = SBU
+    # elif dataset_name == 'NTU':
+    #     dataset = NTU
+    # elif dataset_name == 'YMJA':
+    #     dataset = YMJA
     
     if verbose > 0:
         print("Reading data...")
@@ -387,12 +387,12 @@ def predict_fused_rn_seq(fusion_weights_path, dataset_name, dataset_fold,
     ####
     if dataset_name == 'UT':
         dataset = UT
-    elif dataset_name == 'SBU':
-        dataset = SBU
-    elif dataset_name == 'NTU':
-        dataset = NTU
-    elif dataset_name == 'YMJA':
-        dataset = YMJA
+    # elif dataset_name == 'SBU':
+    #     dataset = SBU
+    # elif dataset_name == 'NTU':
+    #     dataset = NTU
+    # elif dataset_name == 'YMJA':
+    #     dataset = YMJA
     
     data_kwargs, _, _ = read_config(config_filepaths[0])
     
