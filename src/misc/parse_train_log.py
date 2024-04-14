@@ -27,6 +27,7 @@ def load_args():
         choices=['val_accuracy', 'val_loss'])
     ap.add_argument('-p','--plot',
         help="plot accuracies and losses curves",
+        default=True,
         action='store_true')
     ap.add_argument('-s','--skip-epochs',
         help="number of epochs to skip when plotting",
@@ -34,10 +35,12 @@ def load_args():
         default=50)
     ap.add_argument('-t','--trunc-epochs',
         help="number of epochs to trunc at the end when ranking and plotting",
+        # default=32,
         type=int)
     
     ap.add_argument('--print_args',
         help="whether to print current arguments' values",
+        default=True,
         action='store_false')
     
     args = ap.parse_args()
@@ -72,7 +75,10 @@ def parse_train_log(train_log_filepath, criteria='val_accuracy', top_k=10, plot=
         
         train_log_df[skip_epochs:].plot.line(x='epoch', y=['accuracy','val_accuracy'], ax=axes[0])
         train_log_df[skip_epochs:].plot.line(x='epoch', y=['loss','val_loss'], ax=axes[1])
-        plt.show()
+        print(type(fig))
+        save_path = train_log_filepath.rsplit('/', 1)[0] + '/'+'/plot_image.png'
+        plt.savefig(save_path)
+        plt.show(block=False)
 
 #%% Main
 if __name__ == '__main__':
