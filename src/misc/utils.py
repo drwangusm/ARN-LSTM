@@ -63,3 +63,6 @@ def read_config(config_filepath, fusion=False):
     kwargs.append(train_kwargs)
     
     return tuple(kwargs)
+
+#TODO绘制消融矩阵，loss,val_accuracy等
+# 
