@@ -400,7 +400,6 @@ def train_fused_rn(output_path, dataset_name, dataset_fold,
         initial_epoch=0, initial_weights=None, use_data_gen = True,
         subsample_ratio=None,
         gpus=1,verbose=2):
-    
     data_kwargs, _, _ = read_config(config_filepaths[0])
     if new_arch:
         data_kwargs['arch'] = 'joint_temp_fused'

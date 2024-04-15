@@ -3,7 +3,7 @@ import numpy as np
 
 from tensorflow.keras.utils import Sequence
 
-from datasets import UT#, SBU, NTU, NTU_V2, YMJA
+from datasets import UT, YMJA #, SBU, NTU, NTU_V2
 from misc.data_io import get_data
 
 class DataGenerator(Sequence):

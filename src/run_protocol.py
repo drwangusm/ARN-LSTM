@@ -3,7 +3,7 @@ import argparse, sys, os, time
 import pandas as pd
 from shutil import copyfile
 
-from datasets import UT#, SBU, NTU, NTU_V2, YMJA
+from datasets import UT, YMJA #, SBU, NTU, NTU_V2
 
 from train_rn import train_rn, train_fused_rn
 from train_temp_rn import train_temp_rn, train_fused_temp_rn
