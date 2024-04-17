@@ -233,9 +233,7 @@ def train_model(model, verbose, learning_rate, output_path, checkpoint_period,
                     csv_att.write(str(Y_val[i]) + "," + str(Y_pred[i]))
                     for j in range(attention.shape[1]):
                         csv_att.write("," + str(attention[i][j][0]))
-                    csv_att.write("\n")
-        
-
+                    csv_att.write("\n")       
     else:
         X_train, Y_train = train_data
         X_val, Y_val = val_data
@@ -546,8 +544,6 @@ def train_fused_rn(output_path, dataset_name, dataset_fold,
         train_data=train_data, val_data=val_data, subsample_ratio=subsample_ratio, data_len=data_len)
     
     return fit_history
-
-
     
 #%% Main
 if __name__ == '__main__':

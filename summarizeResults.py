@@ -18,13 +18,10 @@ if __name__ == "__main__":
 
     with open("final_results.csv", 'w') as output_file:
         output_file.write("model,val_acc_mean,val_acc_std,val_recall_mean,val_recall_std,val_precision_mean,val_precision_std,val_f1_mean,val_f1_std\n")
-
         for subdir, dirs, files in os.walk(sys.argv[1]):
             for file in files:
                 if file == "summary.csv" and "fold_" in subdir:
                     if prev_model != subdir.split('/')[2]:
-
-
                         if prev_model != "":
                             val_acc_mean_avg = round(np.array(val_acc_mean).astype(np.float).mean() * 100, 2)
                             val_acc_std_avg = round(np.array(val_acc_std).astype(np.float).mean() * 100, 2)
@@ -39,8 +36,6 @@ if __name__ == "__main__":
                             print("Val Precision: " + str(val_prec_mean_avg) + "% +/- "+ str(val_prec_std_avg) + "%")
                             print ("Val F1: " + str(val_f1_mean_avg) + "% +/- " + str(val_f1_std_avg) + "%")
                             output_file.write(prev_model + "," + str(val_acc_mean_avg) + "," + str(val_acc_std_avg) + "," +str(val_recall_mean_avg) + "," + str(val_recall_std_avg) + "," +str(val_prec_mean_avg) + "," + str(val_prec_std_avg) + "," +str(val_f1_mean_avg) + "," + str(val_f1_std_avg) + "\n")
-
-
                         val_acc_mean = []
                         val_acc_std = []
                         val_recall_mean = []
@@ -49,8 +44,6 @@ if __name__ == "__main__":
                         val_precision_std = []
                         val_f1_mean = []
                         val_f1_std = []
-
-
                         print("")
                         print ("Model: " + subdir.split('/')[2])
                         prev_model = subdir.split('/')[2]
@@ -95,8 +88,3 @@ if __name__ == "__main__":
         print("Val Precision: " + str(val_prec_mean_avg) + "% +/- "+ str(val_prec_std_avg) + "%")
         print ("Val F1: " + str(val_f1_mean_avg) + "% +/- " + str(val_f1_std_avg) + "%")
         output_file.write(prev_model + "," + str(val_acc_mean_avg) + "," + str(val_acc_std_avg) + "," +str(val_recall_mean_avg) + "," + str(val_recall_std_avg) + "," +str(val_prec_mean_avg) + "," + str(val_prec_std_avg) + "," +str(val_f1_mean_avg) + "," + str(val_f1_std_avg))
-
-
-
-
-            
