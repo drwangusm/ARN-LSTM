@@ -44,7 +44,6 @@ def find_best_weights(base_path, criteria='val_loss', verbose=0):
     return weights_path
 
 def read_config(config_filepath, fusion=False):
-    print("config_filepath==",config_filepath)
     def unstringify_dict(d):
         return dict((k,literal_eval(v)) for k,v in d.items())
     
