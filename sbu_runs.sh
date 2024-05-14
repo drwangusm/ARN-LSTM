@@ -1,0 +1,51 @@
+#!/bin/bash
+
+#SBU joint, no lstm, no fusion
+python3 src/run_protocol.py joint_rel_ave configs/SBU/no-lstm/joint_rel_ave.cfg SBU -n 5
+python3 src/run_protocol.py joint_rel_att configs/SBU/no-lstm/joint_rel_att.cfg SBU -n 5
+python3 src/run_protocol.py joint_no_rel_ave configs/SBU/no-lstm/joint_no_rel_ave.cfg SBU -n 5
+python3 src/run_protocol.py joint_no_rel_att configs/SBU/no-lstm/joint_no_rel_att.cfg SBU -n 5
+
+#SBU temp, no lstm, no fusion
+python3 src/run_protocol.py temp_rel_ave configs/SBU/no-lstm/temp_rel_ave.cfg SBU -n 5
+python3 src/run_protocol.py temp_rel_att configs/SBU/no-lstm/temp_rel_att.cfg SBU -n 5
+python3 src/run_protocol.py temp_no_rel_ave configs/SBU/no-lstm/temp_no_rel_ave.cfg SBU -n 5
+python3 src/run_protocol.py temp_no_rel_att configs/SBU/no-lstm/temp_no_rel_att.cfg SBU -n 5
+
+
+#SBU joint, lstm no fusion
+python3 src/run_protocol.py joint_rel_ave_lstm configs/SBU/lstm/joint_rel_ave_lstm.cfg SBU -n 5 -t
+python3 src/run_protocol.py joint_rel_att_lstm configs/SBU/lstm/joint_rel_att_lstm.cfg SBU -n 5 -t
+python3 src/run_protocol.py joint_no_rel_ave_lstm configs/SBU/lstm/joint_no_rel_ave_lstm.cfg SBU -n 5 -t
+python3 src/run_protocol.py joint_no_rel_att_lstm configs/SBU/lstm/joint_no_rel_att_lstm.cfg SBU -n 5 -t
+
+##SBU temp, lstm no fusion
+python3 src/run_protocol.py temp_rel_ave_lstm configs/SBU/lstm/temp_rel_ave_lstm.cfg SBU -n 5 -t
+python3 src/run_protocol.py temp_rel_att_lstm configs/SBU/lstm/temp_rel_att_lstm.cfg SBU -n 5 -t
+python3 src/run_protocol.py temp_no_rel_ave_lstm configs/SBU/lstm/temp_no_rel_ave_lstm.cfg SBU -n 5 -t
+python3 src/run_protocol.py temp_no_rel_att_lstm configs/SBU/lstm/temp_no_rel_att_lstm.cfg SBU -n 5 -t
+
+
+#SBU no lstm, fusion
+python3 src/run_protocol.py ARN_rel_ave_before configs/SBU/lstm-fusion/ARN_rel_ave_before.cfg SBU -F middle -n 5
+python3 src/run_protocol.py ARN_rel_att_before configs/SBU/lstm-fusion/ARN_rel_att_before.cfg SBU -F middle -n 5
+python3 src/run_protocol.py ARN_no_rel_ave_before configs/SBU/lstm-fusion/ARN_no_rel_ave_before.cfg SBU -F middle -n 5
+python3 src/run_protocol.py ARN_no_rel_att_before configs/SBU/lstm-fusion/ARN_no_rel_att_before.cfg SBU -F middle -n 5
+
+python3 src/run_protocol.py ARN_rel_ave_after configs/SBU/lstm-fusion/ARN_rel_ave_after.cfg SBU -F middle -n 5
+python3 src/run_protocol.py ARN_rel_att_after configs/SBU/lstm-fusion/ARN_rel_att_after.cfg SBU -F middle -n 5
+python3 src/run_protocol.py ARN_no_rel_ave_after configs/SBU/lstm-fusion/ARN_no_rel_ave_after.cfg SBU -F middle -n 5
+python3 src/run_protocol.py ARN_no_rel_att_after configs/SBU/lstm-fusion/ARN_no_rel_att_after.cfg SBU -F middle -n 5
+
+
+
+#SBU lstm fusion -- run error
+python3 src/run_protocol.py ARN_rel_ave_before_lstm configs/SBU/lstm-fusion/ARN_rel_ave_before_lstm.cfg SBU -t -F middle -n 5
+python3 src/run_protocol.py ARN_rel_att_before_lstm configs/SBU/lstm-fusion/ARN_rel_att_before_lstm.cfg SBU -t -F middle -n 5
+python3 src/run_protocol.py ARN_no_rel_ave_before_lstm configs/SBU/lstm-fusion/ARN_no_rel_ave_before_lstm.cfg SBU -t -F middle -n 5
+python3 src/run_protocol.py ARN_no_rel_att_before_lstm configs/SBU/lstm-fusion/ARN_no_rel_att_before_lstm.cfg SBU -t -F middle -n 5
+
+python3 src/run_protocol.py ARN_rel_ave_after_lstm configs/SBU/lstm-fusion/ARN_rel_ave_after_lstm.cfg SBU -t -F middle -n 5
+python3 src/run_protocol.py ARN_rel_att_after_lstm configs/SBU/lstm-fusion/ARN_rel_att_after_lstm.cfg SBU -t -F middle -n 5
+python3 src/run_protocol.py ARN_no_rel_ave_after_lstm configs/SBU/lstm-fusion/ARN_no_rel_ave_after_lstm.cfg SBU -t -F middle -n 5
+python3 src/run_protocol.py ARN_no_rel_att_after_lstm configs/SBU/lstm-fusion/ARN_no_rel_att_after_lstm.cfg SBU -t -F middle -n 5

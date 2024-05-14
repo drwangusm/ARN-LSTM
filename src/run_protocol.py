@@ -3,7 +3,7 @@ import argparse, sys, os, time
 import pandas as pd
 from shutil import copyfile
 
-from datasets import UT, YMJA , NTU, NTU_V2 #, SBU
+from datasets import UT, YMJA , NTU, NTU_V2 , SBU
 
 from train_rn import train_rn, train_fused_rn
 from train_temp_rn import train_temp_rn, train_fused_temp_rn
@@ -83,10 +83,8 @@ def run_protocol(experiment_name, config_filepath, dataset_name, num_reruns=1,
         weights_base_paths = ['/'.join(weights_filepath.split('/')[:-3])
             for weights_filepath in fusion_kwargs['weights_filepaths'] ]
         fusion_kwargs.pop('weights_filepaths', None)
-        criteria = fusion_kwargs.pop('criteria', 
-            'val_loss' if fusion_mode == 'middle' else 'val_accuracy')
-        data_kwargs, model_kwargs, _ = read_config(
-            fusion_kwargs['config_filepaths'][0])
+        criteria = fusion_kwargs.pop('criteria', 'val_loss' if fusion_mode == 'middle' else 'val_accuracy')
+        data_kwargs, model_kwargs, _ = read_config(fusion_kwargs['config_filepaths'][0])
     
     if dataset_name == 'UT-1':
         dataset_folds = UT.get_folds(setid=1)

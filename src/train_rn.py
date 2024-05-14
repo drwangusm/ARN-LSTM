@@ -15,7 +15,7 @@ from tensorflow.keras.optimizers import Adam
 from tensorflow.keras.callbacks import ModelCheckpoint, TensorBoard, EarlyStopping, CSVLogger, Callback
 from tensorflow.keras import backend as K
 
-from datasets import UT#, SBU, NTU, NTU_V2, YMJA
+from datasets import UT, NTU, NTU_V2, YMJA #, SBU
 from datasets.data_generator import DataGenerator
 from models.rn import get_model, fuse_rn
 from misc.utils import read_config
@@ -316,14 +316,14 @@ def train_rn(output_path, dataset_name, model_kwargs, data_kwargs,
         dataset = UT
     # elif dataset_name == 'SBU':
     #     dataset = SBU
-    # elif dataset_name == 'YMJA':
-    #     dataset = YMJA
-    # elif dataset_name == 'NTU':
-    #     dataset = NTU
-    #     use_data_gen = True # Unable to read all data at once, dataset too big.
-    # elif dataset_name == 'NTU-V2':
-    #     dataset = NTU_V2
-    #     use_data_gen = True # Unable to read all data at once, dataset too big.
+    elif dataset_name == 'YMJA':
+        dataset = YMJA
+    elif dataset_name == 'NTU':
+        dataset = NTU
+        use_data_gen = True # Unable to read all data at once, dataset too big.
+    elif dataset_name == 'NTU-V2':
+        dataset = NTU_V2
+        use_data_gen = True # Unable to read all data at once, dataset too big.
     
     if verbose > 0:
         print("Reading data...")
