@@ -59,7 +59,7 @@ python3 src/run_protocol.py ARN_final_no_rel_ave_before_s2 configs/UT/set_2/fina
 python3 src/run_protocol.py ARN_final_no_rel_att_before_s1 configs/UT/set_1/final/ARN_final_no_rel_att_before.cfg UT-1 -F middle -n 5
 python3 src/run_protocol.py ARN_final_no_rel_att_before_s2 configs/UT/set_2/final/ARN_final_no_rel_att_before.cfg UT-2 -F middle -n 5
 
-##UT two_stream
+##UT two_stream --run error
 # python3 src/run_protocol.py ARN_final_rel_ave_before_lstm_s1 configs/UT/set_1/final/lstm/ARN_final_rel_ave_before_lstm.cfg UT-1 -t -F middle -n 5
 # python3 src/run_protocol.py ARN_final_rel_ave_before_lstm_s2 configs/UT/set_2/final/lstm/ARN_final_rel_ave_before_lstm.cfg UT-2 -t -F middle -n 5
 # python3 src/run_protocol.py ARN_final_rel_att_before_lstm_s1 configs/UT/set_1/final/lstm/ARN_final_rel_att_before_lstm.cfg UT-1 -t -F middle -n 5

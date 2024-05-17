@@ -15,7 +15,7 @@ from tensorflow.keras.optimizers import Adam
 from tensorflow.keras.callbacks import ModelCheckpoint, TensorBoard, EarlyStopping, CSVLogger, Callback
 from tensorflow.keras import backend as K
 
-from datasets import UT, NTU, NTU_V2, YMJA #, SBU
+from datasets import UT, NTU, NTU_V2, YMJA , SBU
 from datasets.data_generator import DataGenerator
 from models.rn import get_model, fuse_rn
 from misc.utils import read_config
@@ -427,10 +427,10 @@ def train_fused_rn(output_path, dataset_name, dataset_fold,
     
     if dataset_name == 'UT':
         dataset = UT
-    # elif dataset_name == 'SBU':
-    #     dataset = SBU
-    # elif dataset_name == 'YMJA':
-    #     dataset = YMJA
+    elif dataset_name == 'SBU':
+        dataset = SBU
+    elif dataset_name == 'YMJA':
+        dataset = YMJA
     
     if verbose > 0:
         print("Reading data...")
