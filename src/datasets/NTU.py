@@ -49,8 +49,7 @@ TRAIN_SUBJECTS = [1,2,4,5,8,9,13,14,15,16,17,18,19,25,27,28,31,34,35,38]
 
 def get_ground_truth(data_dir=DATA_DIR, only_mutual=True, only_non_mutual=False):
     ground_truth = pd.read_csv(data_dir+'/descs.csv', index_col=False, header=None).T
-    ground_truth.columns = ['setup','camera','subject','duplicate','action',
-        'start_frame_pt','end_frame_pt',]
+    ground_truth.columns = ['setup','camera','subject','duplicate','action','start_frame_pt','end_frame_pt',]
     
     if only_mutual:
         ground_truth = ground_truth[ground_truth.action >= 50]
