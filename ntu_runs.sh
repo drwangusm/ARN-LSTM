@@ -80,7 +80,7 @@ python3 src/run_protocol.py temp_no_rel_att configs/NTU-V2/no-lstm/temp_no_rel_a
 python3 src/run_protocol.py ARN_rel_ave_before_cs configs/NTU-V2/no-lstm/ARN_rel_ave_before_cs.cfg NTU-V2 -F middle -n 5 -v 2
 python3 src/run_protocol.py ARN_rel_ave_before_cv configs/NTU-V2/no-lstm/ARN_rel_ave_before_cv.cfg NTU-V2 -F middle -n 5 -v 2
 python3 src/run_protocol.py ARN_rel_att_before_cs configs/NTU-V2/no-lstm/ARN_rel_att_before_cs.cfg NTU-V2 -F middle -n 5 -v 2
-python3 src/run_protocol.py ARN_rel_att_before_cv configs/NTU-V2/no-lstm/ARN_rel_att_before_cs.cfg NTU-V2 -F middle -n 5 -v 2
+python3 src/run_protocol.py ARN_rel_att_before_cv configs/NTU-V2/no-lstm/ARN_rel_att_before_cv.cfg NTU-V2 -F middle -n 5 -v 2
 python3 src/run_protocol.py ARN_no_rel_ave_before_cs configs/NTU-V2/no-lstm/ARN_no_rel_ave_before_cs.cfg NTU-V2 -F middle -n 5 -v 2
 python3 src/run_protocol.py ARN_no_rel_ave_before_cv configs/NTU-V2/no-lstm/ARN_no_rel_ave_before_cv.cfg NTU-V2 -F middle -n 5 -v 2
 python3 src/run_protocol.py ARN_no_rel_att_before_cs configs/NTU-V2/no-lstm/ARN_no_rel_att_before_cs.cfg NTU-V2 -F middle -n 5 -v 2
