@@ -88,12 +88,12 @@ python3 src/run_protocol.py ARN_no_rel_att_before_cv configs/NTU-V2/no-lstm/ARN_
 
 python3 src/run_protocol.py ARN_rel_ave_after_cs configs/NTU-V2/no-lstm/ARN_rel_ave_after_cs.cfg NTU-V2 -F middle -n 5 -v 2
 python3 src/run_protocol.py ARN_rel_ave_after_cv configs/NTU-V2/no-lstm/ARN_rel_ave_after_cv.cfg NTU-V2 -F middle -n 5 -v 2
-python3 src/run_protocol.py ARN_rel_att_after_cs configs/NTU-V2/no-lstm/ARN_rel_att_after_cs.cfg NTU-V2 -F middle -n 5 -v 2
-python3 src/run_protocol.py ARN_rel_att_after_cv configs/NTU-V2/no-lstm/ARN_rel_att_after_cv.cfg NTU-V2 -F middle -n 5 -v 2
-python3 src/run_protocol.py ARN_no_rel_ave_after_cs configs/NTU-V2/no-lstm/ARN_no_rel_ave_after_cs.cfg NTU-V2 -F middle -n 5 -v 2
-python3 src/run_protocol.py ARN_no_rel_ave_after_cv configs/NTU-V2/no-lstm/ARN_no_rel_ave_after_cv.cfg NTU-V2 -F middle -n 5 -v 2
-python3 src/run_protocol.py ARN_no_rel_att_after_cs configs/NTU-V2/no-lstm/ARN_no_rel_att_after_cs.cfg NTU-V2 -F middle -n 5 -v 2
-python3 src/run_protocol.py ARN_no_rel_att_after_cv configs/NTU-V2/no-lstm/ARN_no_rel_att_after_cv.cfg NTU-V2 -F middle -n 5 -v 2
+# python3 src/run_protocol.py ARN_rel_att_after_cs configs/NTU-V2/no-lstm/ARN_rel_att_after_cs.cfg NTU-V2 -F middle -n 5 -v 2
+# python3 src/run_protocol.py ARN_rel_att_after_cv configs/NTU-V2/no-lstm/ARN_rel_att_after_cv.cfg NTU-V2 -F middle -n 5 -v 2
+# python3 src/run_protocol.py ARN_no_rel_ave_after_cs configs/NTU-V2/no-lstm/ARN_no_rel_ave_after_cs.cfg NTU-V2 -F middle -n 5 -v 2
+# python3 src/run_protocol.py ARN_no_rel_ave_after_cv configs/NTU-V2/no-lstm/ARN_no_rel_ave_after_cv.cfg NTU-V2 -F middle -n 5 -v 2
+# python3 src/run_protocol.py ARN_no_rel_att_after_cs configs/NTU-V2/no-lstm/ARN_no_rel_att_after_cs.cfg NTU-V2 -F middle -n 5 -v 2
+# python3 src/run_protocol.py ARN_no_rel_att_after_cv configs/NTU-V2/no-lstm/ARN_no_rel_att_after_cv.cfg NTU-V2 -F middle -n 5 -v 2
 
 # NTU-V2 no lstm, fusion cross_subject and cross_setup
 python3 src/run_protocol.py ARN_rel_ave_before configs/NTU-V2/no-lstm/ARN_rel_ave_before.cfg NTU-V2 -F middle -n 5 -v 2
