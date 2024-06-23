@@ -72,7 +72,7 @@ python3 src/run_protocol.py joint_no_rel_att configs/NTU-V2/no-lstm/joint_no_rel
 
 python3 src/run_protocol.py temp_rel_ave configs/NTU-V2/no-lstm/temp_rel_ave.cfg NTU-V2 -n 5 -v 2
 python3 src/run_protocol.py temp_rel_att configs/NTU-V2/no-lstm/temp_rel_att.cfg NTU-V2 -n 5 -v 2
-python3 src/run_protocol.py temp_no_rel_ave configs/NTU-V2/no-lstm/temp_no_rel_ave.cfg NTU-V2 -m 5 -v 2
+python3 src/run_protocol.py temp_no_rel_ave configs/NTU-V2/no-lstm/temp_no_rel_ave.cfg NTU-V2 -n 5 -v 2
 python3 src/run_protocol.py temp_no_rel_att configs/NTU-V2/no-lstm/temp_no_rel_att.cfg NTU-V2 -n 5 -v 2
 
 
