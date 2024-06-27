@@ -79,3 +79,15 @@ python3 src/run_protocol.py ARN_rel_ave_after_lstm configs/NTU-V2/lstm/ARN_rel_a
 python3 src/run_protocol.py ARN_rel_att_after_lstm configs/NTU-V2/lstm/ARN_rel_att_after_lstm.cfg NTU-V2 -t -F middle -n 5 -v 2
 python3 src/run_protocol.py ARN_no_rel_ave_after_lstm configs/NTU-V2/lstm/ARN_no_rel_ave_after_lstm.cfg NTU-V2 -t -F middle -n 5 -v 2
 python3 src/run_protocol.py ARN_no_rel_att_after_lstm configs/NTU-V2/lstm/ARN_no_rel_att_after_lstm.cfg NTU-V2 -t -F middle -n 5 -v 2
+
+#NTU-V2 temp, lstm no fusion
+python3 src/run_protocol.py temp_rel_ave_lstm configs/NTU-V2/lstm/temp_rel_ave_lstm.cfg NTU -n 5 -t -v 2
+python3 src/run_protocol.py temp_rel_att_lstm configs/NTU-V2/lstm/temp_rel_att_lstm.cfg NTU -n 5 -t -v 2
+python3 src/run_protocol.py temp_no_rel_ave_lstm configs/NTU-V2/lstm/temp_no_rel_ave_lstm.cfg NTU -n 5 -t -v 2
+python3 src/run_protocol.py temp_no_rel_att_lstm configs/NTU-V2/lstm/temp_no_rel_att_lstm.cfg NTU -n 5 -t -v 2
+
+#NTU-V2 joint, lstm no fusion
+python3 src/run_protocol.py joint_rel_ave_lstm configs/NTU-V2/lstm/joint_rel_ave_lstm.cfg NTU -n 5 -t -v 2
+python3 src/run_protocol.py joint_rel_att_lstm configs/NTU-V2/lstm/joint_rel_att_lstm.cfg NTU -n 5 -t -v 2
+python3 src/run_protocol.py joint_no_rel_ave_lstm configs/NTU-V2/lstm/joint_no_rel_ave_lstm.cfg NTU -n 5 -t -v 2
+python3 src/run_protocol.py joint_no_rel_att_lstm configs/NTU-V2/lstm/joint_no_rel_att_lstm.cfg NTU -n 5 -t -v 2
