@@ -47,24 +47,6 @@ python3 src/run_protocol.py joint_no_rel_att_lstm configs/NTU-V1/lstm/joint_no_r
 
 
 ##NTU-v2 cs joint, temp, no lstm no two_stream
-# python3 src/run_protocol.py joint_rel_ave_cs configs/NTU-V2/no-lstm/joint_rel_ave.cfg NTU-V2 -n 5 -f cross_subject
-# python3 src/run_protocol.py joint_rel_ave_cv configs/NTU-V2/no-lstm/joint_rel_ave.cfg NTU-V2 -n 5 -f cross_setup #cross_view
-# python3 src/run_protocol.py joint_rel_att_cs configs/NTU-V2/no-lstm/joint_rel_att.cfg NTU-V2 -n 5 -f cross_subject
-# python3 src/run_protocol.py joint_rel_att_cv configs/NTU-V2/no-lstm/joint_rel_att.cfg NTU-V2 -n 5 -f cross_setup
-# python3 src/run_protocol.py joint_no_rel_ave_cs configs/NTU-V2/no-lstm/joint_no_rel_ave.cfg NTU-V2 -n 5 -f cross_subject
-# python3 src/run_protocol.py joint_no_rel_ave_cv configs/NTU-V2/no-lstm/joint_no_rel_ave.cfg NTU-V2 -n 5 -f cross_setup
-# python3 src/run_protocol.py joint_no_rel_att_cs configs/NTU-V2/no-lstm/joint_no_rel_att.cfg NTU-V2 -n 5 -f cross_subject
-# python3 src/run_protocol.py joint_no_rel_att_cv configs/NTU-V2/no-lstm/joint_no_rel_att.cfg NTU-V2 -n 5 -f cross_setup
-
-# python3 src/run_protocol.py temp_rel_ave_cs configs/NTU-V2/no-lstm/temp_rel_ave.cfg NTU-V2 -n 5 -f cross_subject
-# python3 src/run_protocol.py temp_rel_ave_cv configs/NTU-V2/no-lstm/temp_rel_ave.cfg NTU-V2 -n 5 -f cross_setup
-# python3 src/run_protocol.py temp_rel_att_cs configs/NTU-V2/no-lstm/temp_rel_att.cfg NTU-V2 -n 5 -f cross_subject
-# python3 src/run_protocol.py temp_rel_att_cv configs/NTU-V2/no-lstm/temp_rel_att.cfg NTU-V2 -n 5 -f cross_setup
-# python3 src/run_protocol.py temp_no_rel_ave_cs configs/NTU-V2/no-lstm/temp_no_rel_ave.cfg NTU-V2 -n 5 -f cross_subject
-# python3 src/run_protocol.py temp_no_rel_ave_cv configs/NTU-V2/no-lstm/temp_no_rel_ave.cfg NTU-V2 -n 5 -f cross_setup
-# python3 src/run_protocol.py temp_no_rel_att_cs configs/NTU-V2/no-lstm/temp_no_rel_att.cfg NTU-V2 -n 5 -f cross_subject
-# python3 src/run_protocol.py temp_no_rel_att_cv configs/NTU-V2/no-lstm/temp_no_rel_att.cfg NTU-V2 -n 5 -f cross_setup
-
 python3 src/run_protocol.py joint_rel_ave configs/NTU-V2/no-lstm/joint_rel_ave.cfg NTU-V2 -n 5 -v 2
 python3 src/run_protocol.py joint_rel_att configs/NTU-V2/no-lstm/joint_rel_att.cfg NTU-V2 -n 5 -v 2
 python3 src/run_protocol.py joint_no_rel_ave configs/NTU-V2/no-lstm/joint_no_rel_ave.cfg NTU-V2 -n 5 -v 2
@@ -75,25 +57,6 @@ python3 src/run_protocol.py temp_rel_att configs/NTU-V2/no-lstm/temp_rel_att.cfg
 python3 src/run_protocol.py temp_no_rel_ave configs/NTU-V2/no-lstm/temp_no_rel_ave.cfg NTU-V2 -n 5 -v 2
 python3 src/run_protocol.py temp_no_rel_att configs/NTU-V2/no-lstm/temp_no_rel_att.cfg NTU-V2 -n 5 -v 2
 
-
-#NTU-V2 no lstm, fusion  --run error
-python3 src/run_protocol.py ARN_rel_ave_before_cs configs/NTU-V2/no-lstm/ARN_rel_ave_before_cs.cfg NTU-V2 -F middle -n 5 -v 2
-python3 src/run_protocol.py ARN_rel_ave_before_cv configs/NTU-V2/no-lstm/ARN_rel_ave_before_cv.cfg NTU-V2 -F middle -n 5 -v 2
-python3 src/run_protocol.py ARN_rel_att_before_cs configs/NTU-V2/no-lstm/ARN_rel_att_before_cs.cfg NTU-V2 -F middle -n 5 -v 2
-python3 src/run_protocol.py ARN_rel_att_before_cv configs/NTU-V2/no-lstm/ARN_rel_att_before_cv.cfg NTU-V2 -F middle -n 5 -v 2
-python3 src/run_protocol.py ARN_no_rel_ave_before_cs configs/NTU-V2/no-lstm/ARN_no_rel_ave_before_cs.cfg NTU-V2 -F middle -n 5 -v 2
-python3 src/run_protocol.py ARN_no_rel_ave_before_cv configs/NTU-V2/no-lstm/ARN_no_rel_ave_before_cv.cfg NTU-V2 -F middle -n 5 -v 2
-python3 src/run_protocol.py ARN_no_rel_att_before_cs configs/NTU-V2/no-lstm/ARN_no_rel_att_before_cs.cfg NTU-V2 -F middle -n 5 -v 2
-python3 src/run_protocol.py ARN_no_rel_att_before_cv configs/NTU-V2/no-lstm/ARN_no_rel_att_before_cv.cfg NTU-V2 -F middle -n 5 -v 2
-
-python3 src/run_protocol.py ARN_rel_ave_after_cs configs/NTU-V2/no-lstm/ARN_rel_ave_after_cs.cfg NTU-V2 -F middle -n 5 -v 2
-python3 src/run_protocol.py ARN_rel_ave_after_cv configs/NTU-V2/no-lstm/ARN_rel_ave_after_cv.cfg NTU-V2 -F middle -n 5 -v 2
-# python3 src/run_protocol.py ARN_rel_att_after_cs configs/NTU-V2/no-lstm/ARN_rel_att_after_cs.cfg NTU-V2 -F middle -n 5 -v 2
-# python3 src/run_protocol.py ARN_rel_att_after_cv configs/NTU-V2/no-lstm/ARN_rel_att_after_cv.cfg NTU-V2 -F middle -n 5 -v 2
-# python3 src/run_protocol.py ARN_no_rel_ave_after_cs configs/NTU-V2/no-lstm/ARN_no_rel_ave_after_cs.cfg NTU-V2 -F middle -n 5 -v 2
-# python3 src/run_protocol.py ARN_no_rel_ave_after_cv configs/NTU-V2/no-lstm/ARN_no_rel_ave_after_cv.cfg NTU-V2 -F middle -n 5 -v 2
-# python3 src/run_protocol.py ARN_no_rel_att_after_cs configs/NTU-V2/no-lstm/ARN_no_rel_att_after_cs.cfg NTU-V2 -F middle -n 5 -v 2
-# python3 src/run_protocol.py ARN_no_rel_att_after_cv configs/NTU-V2/no-lstm/ARN_no_rel_att_after_cv.cfg NTU-V2 -F middle -n 5 -v 2
 
 # NTU-V2 no lstm, fusion cross_subject and cross_setup
 python3 src/run_protocol.py ARN_rel_ave_before configs/NTU-V2/no-lstm/ARN_rel_ave_before.cfg NTU-V2 -F middle -n 5 -v 2
@@ -116,18 +79,3 @@ python3 src/run_protocol.py ARN_rel_ave_after_lstm configs/NTU-V2/lstm/ARN_rel_a
 python3 src/run_protocol.py ARN_rel_att_after_lstm configs/NTU-V2/lstm/ARN_rel_att_after_lstm.cfg NTU-V2 -t -F middle -n 5 -v 2
 python3 src/run_protocol.py ARN_no_rel_ave_after_lstm configs/NTU-V2/lstm/ARN_no_rel_ave_after_lstm.cfg NTU-V2 -t -F middle -n 5 -v 2
 python3 src/run_protocol.py ARN_no_rel_att_after_lstm configs/NTU-V2/lstm/ARN_no_rel_att_after_lstm.cfg NTU-V2 -t -F middle -n 5 -v 2
-
-#NTU-V2 lstm fusion --run error
-python3 src/run_protocol.py ARN_rel_ave_before_lstm_cs configs/NTU-V2/lstm/ARN_rel_ave_before_lstm_cs.cfg NTU-V2 -t -F middle -n 5 -v 2
-python3 src/run_protocol.py ARN_rel_ave_before_lstm_cv configs/NTU-V2/lstm/ARN_rel_ave_before_lstm_cv.cfg NTU-V2 -t -F middle -n 5 -v 2
-python3 src/run_protocol.py ARN_rel_att_before_lstm_cs configs/NTU-V2/lstm/ARN_rel_att_before_lstm_cs.cfg NTU-V2 -t -F middle -n 5 -v 2
-python3 src/run_protocol.py ARN_rel_att_before_lstm_cv configs/NTU-V2/lstm/ARN_rel_att_before_lstm_cv.cfg NTU-V2 -t -F middle -n 5 -v 2
-python3 src/run_protocol.py ARN_no_rel_ave_before_lstm_cs configs/NTU-V2/lstm/ARN_no_rel_ave_before_lstm_cs.cfg NTU-V2  -t -F middle -n 5 -v 2
-python3 src/run_protocol.py ARN_no_rel_ave_before_lstm_cv configs/NTU-V2/lstm/ARN_no_rel_ave_before_lstm_cv.cfg NTU-V2  -t -F middle -n 5 -v 2
-python3 src/run_protocol.py ARN_no_rel_att_before_lstm_cs configs/NTU-V2/lstm/ARN_no_rel_att_before_lstm_cs.cfg NTU-V2  -t -F middle -n 5 -v 2
-python3 src/run_protocol.py ARN_no_rel_att_before_lstm_cv configs/NTU-V2/lstm/ARN_no_rel_att_before_lstm_cv.cfg NTU-V2  -t -F middle -n 5 -v 2
-
-python3 src/run_protocol.py ARN_rel_ave_after_lstm_v1 configs/NTU-V2/lstm/ARN_rel_ave_after_lstm.cfg NTU-V2 -t -F middle -n 5 -v 2
-python3 src/run_protocol.py ARN_rel_att_after_lstm_v1 configs/NTU-V2/lstm/ARN_rel_att_after_lstm.cfg NTU-V2 -t -F middle -n 5 -v 2
-python3 src/run_protocol.py ARN_no_rel_ave_after_lstm_v1 configs/NTU-V2/lstm/ARN_no_rel_ave_after_lstm.cfg NTU-V2 -t -F middle -n 5 -v 2
-python3 src/run_protocol.py ARN_no_rel_att_after_lstm_v1 configs/NTU-V2/lstm/ARN_no_rel_att_after_lstm.cfg NTU-V2 -t -F middle -n 5 -v 2
