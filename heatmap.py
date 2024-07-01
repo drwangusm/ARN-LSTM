@@ -4,7 +4,7 @@ import seaborn as sns
 import os
 
 # 加载数据
-data = pd.read_csv('runs/models/UT-1/final_joint_no_rel_att_s1/summary.csv')
+data = pd.read_csv('runs/models/UT-1/joint_no_rel_att_s1/summary.csv')
 
 base_path = 'figure'
 os.makedirs(base_path)
