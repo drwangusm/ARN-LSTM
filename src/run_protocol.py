@@ -204,8 +204,7 @@ def run_protocol(experiment_name, config_filepath, dataset_name, num_reruns=1,
                 hist_df = parse_fit_history(fit_history)
                 hist_df.to_csv(output_path+'/fit_history.csv', index=False)
             
-            sorted_hist_df = hist_df.sort_values(['val_accuracy', 'val_loss'], 
-                ascending=[False, True])
+            sorted_hist_df = hist_df.sort_values(['val_accuracy', 'val_loss'], ascending=[False, True])
             best_epoch = sorted_hist_df.iloc[0]
             print("> {}: ACC: {:.2%} Loss: {:.4f} - MAX val_ACC: {:.2%} val_Loss: {:.4f}".format(
                 rerun_idx, best_epoch.accuracy, best_epoch.loss, 
@@ -244,8 +243,7 @@ def run_protocol(experiment_name, config_filepath, dataset_name, num_reruns=1,
         summary_fold.index.name = 'rerun'
         summary_fold.to_csv(fold_path+'/summary.csv')
         
-        sorted_summary_fold = summary_fold.sort_values(['val_accuracy', 'val_loss'], 
-            ascending=[False, True])
+        sorted_summary_fold = summary_fold.sort_values(['val_accuracy', 'val_loss'], ascending=[False, True])
         best_fold = sorted_summary_fold.iloc[0]
         fold_results.append(best_fold)
         
