@@ -101130,3 +101130,7 @@ Epoch 142/200
 Epoch 143/200
 205/205 - 1484s - loss: 0.2117 - accuracy: 0.9341 - recall_m: 0.9145 - precision_m: 0.9525 - f1_m: 0.9330 - val_loss: 1.3886 - val_accuracy: 0.6756 - val_recall_m: 0.6598 - val_precision_m: 0.7131 - val_f1_m: 0.6850 - 1484s/epoch - 7s/step
 Epoch 144/200
+205/205 - 1484s - loss: 0.2155 - accuracy: 0.9294 - recall_m: 0.9111 - precision_m: 0.9520 - f1_m: 0.9309 - val_loss: 1.4661 - val_accuracy: 0.6661 - val_recall_m: 0.6473 - val_precision_m: 0.6974 - val_f1_m: 0.6710 - 1484s/epoch - 7s/step
+Epoch 145/200
+205/205 - 1481s - loss: 0.2757 - accuracy: 0.9100 - recall_m: 0.8889 - precision_m: 0.9350 - f1_m: 0.9112 - val_loss: 1.3688 - val_accuracy: 0.6706 - val_recall_m: 0.6517 - val_precision_m: 0.7093 - val_f1_m: 0.6788 - 1481s/epoch - 7s/step
+Epoch 146/200
