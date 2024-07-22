@@ -1,0 +1,157 @@
+2024-07-22 19:08:35.562622: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:936] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2024-07-22 19:08:35.574588: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:936] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2024-07-22 19:08:35.574672: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:936] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2024-07-22 19:08:35.574849: I tensorflow/core/platform/cpu_feature_guard.cc:151] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2024-07-22 19:08:35.576185: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:936] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2024-07-22 19:08:35.576256: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:936] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2024-07-22 19:08:35.576298: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:936] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2024-07-22 19:08:35.640747: W tensorflow/stream_executor/cuda/cuda_driver.cc:374] A non-primary context 0x563dea00a610 for device 0 exists before initializing the StreamExecutor. The primary context is now 0. We haven't verified StreamExecutor works with that.
+2024-07-22 19:08:35.640824: F tensorflow/core/platform/statusor.cc:33] Attempting to fetch value instead of handling error INTERNAL: failed initializing StreamExecutor for CUDA device ordinal 0: INTERNAL: failed call to cuDevicePrimaryCtxRetain: CUDA_ERROR_OUT_OF_MEMORY: out of memory; total memory reported: 25393692672
+ntu_runs.sh: line 73: 46985 Aborted                 (core dumped) python3 src/run_protocol.py temp_rel_att_lstm configs/NTU-V2/lstm/temp_rel_att_lstm.cfg NTU-V2 -n 5 -t -v 2
+2024-07-22 19:08:38.850647: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:936] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2024-07-22 19:08:38.862614: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:936] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2024-07-22 19:08:38.862704: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:936] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2024-07-22 19:08:38.862881: I tensorflow/core/platform/cpu_feature_guard.cc:151] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2024-07-22 19:08:38.864388: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:936] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2024-07-22 19:08:38.864469: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:936] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2024-07-22 19:08:38.864513: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:936] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2024-07-22 19:08:38.985454: W tensorflow/stream_executor/cuda/cuda_driver.cc:374] A non-primary context 0x5618122d6890 for device 0 exists before initializing the StreamExecutor. The primary context is now 0. We haven't verified StreamExecutor works with that.
+2024-07-22 19:08:38.985642: F tensorflow/core/platform/statusor.cc:33] Attempting to fetch value instead of handling error INTERNAL: failed initializing StreamExecutor for CUDA device ordinal 0: INTERNAL: failed call to cuDevicePrimaryCtxRetain: CUDA_ERROR_OUT_OF_MEMORY: out of memory; total memory reported: 25393692672
+ntu_runs.sh: line 74: 47095 Aborted                 (core dumped) python3 src/run_protocol.py temp_rel_ave_lstm configs/NTU-V2/lstm/temp_rel_ave_lstm.cfg NTU-V2 -n 5 -t -v 2
+2024-07-22 19:08:42.214645: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:936] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2024-07-22 19:08:42.226664: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:936] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2024-07-22 19:08:42.226753: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:936] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2024-07-22 19:08:42.226938: I tensorflow/core/platform/cpu_feature_guard.cc:151] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2024-07-22 19:08:42.228669: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:936] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2024-07-22 19:08:42.228745: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:936] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2024-07-22 19:08:42.228786: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:936] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2024-07-22 19:08:42.279035: W tensorflow/stream_executor/cuda/cuda_driver.cc:374] A non-primary context 0x559f1b0e4e20 for device 0 exists before initializing the StreamExecutor. The primary context is now 0. We haven't verified StreamExecutor works with that.
+2024-07-22 19:08:42.279115: F tensorflow/core/platform/statusor.cc:33] Attempting to fetch value instead of handling error INTERNAL: failed initializing StreamExecutor for CUDA device ordinal 0: INTERNAL: failed call to cuDevicePrimaryCtxRetain: CUDA_ERROR_OUT_OF_MEMORY: out of memory; total memory reported: 25393692672
+ntu_runs.sh: line 75: 47202 Aborted                 (core dumped) python3 src/run_protocol.py temp_no_rel_ave_lstm configs/NTU-V2/lstm/temp_no_rel_ave_lstm.cfg NTU-V2 -n 5 -t -v 2
+2024-07-22 19:18:03.822163: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:936] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2024-07-22 19:18:03.890787: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:936] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2024-07-22 19:18:03.891014: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:936] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2024-07-22 19:18:03.891714: I tensorflow/core/platform/cpu_feature_guard.cc:151] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2024-07-22 19:18:03.894270: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:936] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2024-07-22 19:18:03.894448: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:936] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2024-07-22 19:18:03.894560: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:936] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2024-07-22 19:18:04.238243: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:936] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2024-07-22 19:18:04.238361: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:936] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2024-07-22 19:18:04.238409: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:936] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2024-07-22 19:18:04.238587: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1525] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 22135 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 4090, pci bus id: 0000:01:00.0, compute capability: 8.9
+> Starting Run Protocol -  Mon Jul 22 19:18:01 2024
+Running for dataset: NTU-V2
+Running for folds: ['cross_subject', 'cross_setup']
+Experiment name: temp_rel_att_lstm
+Experiment folder: /demo/ARN-LSTM/runs/models/NTU-V2/temp_rel_att_lstm
+Number of reruns per dataset fold: 5
+Resuming run protocol...
+***** Experiment parameters *****
+Configuration file: configs/NTU-V2/lstm/temp_rel_att_lstm.cfg
+	 Skeleton info
+	 > selected_joints: ['Nose', 'Neck', 'MidHip', 'RWrist', 'LWrist', 'RAnkle', 'LAnkle']
+	 > add_joint_idx: False
+	 > add_body_part: False
+	 > timesteps: 32
+	 > skip_timesteps: None
+	 > normalization: NTU
+	 > sample_method: all
+	 > seq_step: 16
+	 > arch: temp-lstm
+	 Model info
+	 > rel_type: temp_stream
+	 > fuse_type: None
+	 > compute_distance: False
+	 > compute_motion: False
+	 > use_relations: True
+	 > use_attention: True
+	 > return_attention: False
+	 > Using Temporal RN: True
+	 Training options
+	 > drop_rate: 0.1
+	 > kernel_init_type: TruncatedNormal
+	 > learning_rate: 0.0001
+	 > checkpoint_period: 1
+	 > kernel_init_param: 0.045
+	 > epochs: 200
+	 > Batch Size: 64
+	 Evaluation options
+	 > Pool average from videos sequences: False
+Running for fold: cross_subject
+> 0: ACC: 93.89% Loss: 0.1881 - MAX val_ACC: 69.02% val_Loss: 1.4182
+> 1: ACC: 95.84% Loss: 0.1292 - MAX val_ACC: 69.73% val_Loss: 1.4563
+> 2: ACC: 95.33% Loss: 0.1451 - MAX val_ACC: 69.11% val_Loss: 1.4821
+> 3: ACC: 97.30% Loss: 0.0897 - MAX val_ACC: 70.51% val_Loss: 1.4264
+> 4: ACC: 95.42% Loss: 0.1413 - MAX val_ACC: 69.15% val_Loss: 1.4715
+Running for fold: cross_setup
+***** Training parameters for train_temp_rn *****
+	 Output path: /demo/ARN-LSTM/runs/models/NTU-V2/temp_rel_att_lstm/fold_cross_setup//rerun_0
+	 Dataset: NTU-V2
+	 Dataset fold: cross_setup
+	 Skeleton info
+	 > selected_joints: ['Nose', 'Neck', 'MidHip', 'RWrist', 'LWrist', 'RAnkle', 'LAnkle']
+	 > add_joint_idx: False
+	 > add_body_part: False
+	 > timesteps: 32
+	 > skip_timesteps: None
+	 > normalization: NTU
+	 > sample_method: all
+	 > seq_step: 16
+	 > arch: temp-lstm
+	 Model info
+	 > rel_type: temp_stream
+	 > fuse_type: None
+	 > compute_distance: False
+	 > compute_motion: False
+	 > use_relations: True
+	 > use_attention: True
+	 > return_attention: False
+	 Kernel Init info
+	 > kernel_init_type: TruncatedNormal
+	 > kernel_init_param: 0.045
+	 > kernel_init_seed: None
+	 Training options
+	 > Batch Size: 64
+	 > Epochs: 200
+	 > Checkpoint Period: 1
+	 > Learning Rate: 0.0001
+	 > Dropout rate: 0.1
+	 > Training Subsample Ratio: None
+Reading data...
+> Using DataGenerator
+Creating model...
+batch_size: None
+Model: "temp_rel_net"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ input_1 (InputLayer)        [(None, 13, 32, 42)]      0         
+                                                                 
+ time_distributed (TimeDistr  (None, 13, 100)          3148700   
+ ibuted)                                                         
+                                                                 
+ lstm (LSTM)                 (None, 256)               365568    
+                                                                 
+ model (Dense)               (None, 120)               30840     
+                                                                 
+=================================================================
+Total params: 3,545,108
+Trainable params: 3,545,108
+Non-trainable params: 0
+_________________________________________________________________
+WARNING:tensorflow:`period` argument is deprecated. Please use `save_freq` to specify the frequency in number of batches seen.
+WARNING:tensorflow:`batch_size` is no longer needed in the `TensorBoard` Callback and will be ignored in TensorFlow 2.0.
+WARNING:tensorflow:`period` argument is deprecated. Please use `save_freq` to specify the frequency in number of batches seen.
+Compiling model...
+Starting training...
+Epoch 1/200
+2024-07-22 19:18:30.472263: I tensorflow/stream_executor/cuda/cuda_blas.cc:1786] TensorFloat-32 will be used for the matrix multiplication. This will only be logged once.
+2024-07-22 19:18:30.601588: I tensorflow/stream_executor/cuda/cuda_dnn.cc:368] Loaded cuDNN version 8907
+186/186 - 162s - loss: 3.5821 - accuracy: 0.0663 - recall_m: 0.0000e+00 - precision_m: 0.0000e+00 - f1_m: 0.0000e+00 - val_loss: 3.0545 - val_accuracy: 0.1194 - val_recall_m: 0.0000e+00 - val_precision_m: 0.0000e+00 - val_f1_m: 0.0000e+00 - 162s/epoch - 873ms/step
+Epoch 2/200
+186/186 - 133s - loss: 2.8420 - accuracy: 0.1654 - recall_m: 0.0000e+00 - precision_m: 0.0000e+00 - f1_m: 0.0000e+00 - val_loss: 2.6444 - val_accuracy: 0.2153 - val_recall_m: 0.0000e+00 - val_precision_m: 0.0000e+00 - val_f1_m: 0.0000e+00 - 133s/epoch - 716ms/step
+Epoch 3/200
