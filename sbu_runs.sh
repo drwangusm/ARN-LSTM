@@ -1,4 +1,5 @@
 #!/bin/bash
+# nohup bash sbu_runs.sh > sbu_runs.log 2>&1&  #服务器后台运行，log保存至 sbu_runs.log中
 
 #SBU joint, no lstm, no fusion
 python3 src/run_protocol.py joint_rel_ave configs/SBU/no-lstm/joint_rel_ave.cfg SBU -n 5

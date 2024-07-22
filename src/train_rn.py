@@ -375,6 +375,9 @@ def train_rn(output_path, dataset_name, model_kwargs, data_kwargs,
         kernel_init_seed=kernel_init_seed, drop_rate=drop_rate,
         **model_kwargs)
 
+    #计算模型参数量
+    model.summary()
+
     return_attention = False
     if 'return_attention' in model_kwargs:
         return_attention = model_kwargs['return_attention']

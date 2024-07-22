@@ -71,7 +71,9 @@ python3 src/run_protocol.py ARN_no_rel_att_after configs/NTU-V2/no-lstm/ARN_no_r
 
 #NTU-V2 temp, lstm no fusion
 python3 src/run_protocol.py temp_rel_ave_lstm configs/NTU-V2/lstm/temp_rel_ave_lstm.cfg NTU-V2 -n 5 -t -v 2
-python3 src/run_protocol.py temp_rel_att_lstm configs/NTU-V2/lstm/temp_rel_att_lstm.cfg NTU-V2 -n 5 -t -v 2
+
+python3 src/run_protocol.py temp_rel_att_lstm configs/NTU-V2/lstm/temp_rel_att_lstm.cfg NTU-V2 -n 5 -t -v 2  #没跑完
+
 python3 src/run_protocol.py temp_no_rel_ave_lstm configs/NTU-V2/lstm/temp_no_rel_ave_lstm.cfg NTU-V2 -n 5 -t -v 2
 python3 src/run_protocol.py temp_no_rel_att_lstm configs/NTU-V2/lstm/temp_no_rel_att_lstm.cfg NTU -n 5 -t -v 2
 

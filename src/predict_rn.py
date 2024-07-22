@@ -118,6 +118,9 @@ def predict_rn(weights_path, dataset_name, model_kwargs, data_kwargs,
         output_size=output_size, num_dim=num_dim, overhead=overhead,
         **model_kwargs)
     
+    #计算模型参数量
+    model.summary()
+
     model.load_weights(weights_path)
     
     if verbose > 0:
@@ -231,7 +234,9 @@ def predict_rn_seq(weights_path, dataset_name, model_kwargs, data_kwargs,
     model = get_model(num_objs=num_joints, object_shape=object_shape, 
         output_size=output_size, num_dim=num_dim, overhead=overhead,
         **model_kwargs)
-    
+    #计算模型参数量
+    model.summary()
+
     if verbose > 0:
         print("Loading weights...")
     model.load_weights(weights_path)
