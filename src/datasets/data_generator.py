@@ -3,7 +3,7 @@ import numpy as np
 
 from tensorflow.keras.utils import Sequence
 
-from datasets import UT, YMJA , NTU, NTU_V2 , SBU
+from datasets import UT, NTU, NTU_V2 , SBU
 from misc.data_io import get_data
 
 class DataGenerator(Sequence):
@@ -17,9 +17,6 @@ class DataGenerator(Sequence):
         elif dataset_name == 'SBU':
             dataset = SBU
             self.pose_style = 'SBU'
-        elif dataset_name == 'YMJA':
-            dataset = YMJA
-            self.pose_style = 'YMJA'
         elif dataset_name == 'NTU':
             dataset = NTU
             self.pose_style = 'NTU'
@@ -117,7 +114,7 @@ class DataGenerator(Sequence):
         if self.shuffle_indiv_order:
             NUM_PEOPLE = 2
             NUM_DIM = 3
-            if self.pose_style == 'YMJA' or self.pose_style == 'OpenPose' :
+            if self.pose_style == 'OpenPose' :
                 NUM_DIM = 2
                 # NUM_PEOPLE = 2
 
@@ -222,10 +219,6 @@ class DataGeneratorSeq(Sequence):
             dataset = SBU
             max_framenum = 46
             self.pose_style = 'SBU'
-        elif dataset_name == 'YMJA':
-            dataset = YMJA
-            max_framenum = 64
-            self.pose_style = 'YMJA'
         elif dataset_name == 'NTU':
             dataset = NTU
             max_framenum = 300 # for all videos
@@ -343,7 +336,7 @@ class DataGeneratorSeq(Sequence):
             num_dim = 3
             num_ppl = 2
 
-            if self.pose_style == 'YMJA' or self.pose_style == 'OpenPose':
+            if self.pose_style == 'OpenPose':
                 num_dim = 2
 
             new_batch_x_j = np.empty((batch_x.shape[0], batch_x.shape[1], (batch_x.shape[2]//num_ppl), (num_ppl * batch_x.shape[3])))
@@ -374,7 +367,7 @@ class DataGeneratorSeq(Sequence):
             #todo check the order is correct after reshaping and all
             num_dim = 3
 
-            if self.pose_style == 'YMJA' or self.pose_style == 'OpenPose':
+            if self.pose_style == 'OpenPose':
                 num_dim = 2
 
             new_batch_x_t = np.empty((batch_x.shape[0], batch_x.shape[1], (batch_x.shape[3]//num_dim), (num_dim * batch_x.shape[2])))

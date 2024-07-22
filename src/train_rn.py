@@ -15,7 +15,7 @@ from tensorflow.keras.optimizers import Adam
 from tensorflow.keras.callbacks import ModelCheckpoint, TensorBoard, EarlyStopping, CSVLogger, Callback
 from tensorflow.keras import backend as K
 
-from datasets import UT, NTU, NTU_V2, YMJA , SBU
+from datasets import UT, NTU, NTU_V2, SBU
 from datasets.data_generator import DataGenerator
 from models.rn import get_model, fuse_rn
 from misc.utils import read_config
@@ -37,7 +37,7 @@ def load_args():
     ap.add_argument('-d','--dataset-name',
         help="dataset to be used for training",
         default='UT',
-        choices=['UT', 'SBU', 'NTU_V2', 'NTU', 'YMJA'])
+        choices=['UT', 'SBU', 'NTU_V2', 'NTU'])
     ap.add_argument('-f','--dataset-fold',
         help="dataset fold to be used for training",
         default=9,
@@ -314,10 +314,8 @@ def train_rn(output_path, dataset_name, model_kwargs, data_kwargs,
     
     if dataset_name == 'UT':
         dataset = UT
-    # elif dataset_name == 'SBU':
-    #     dataset = SBU
-    elif dataset_name == 'YMJA':
-        dataset = YMJA
+    elif dataset_name == 'SBU':
+        dataset = SBU
     elif dataset_name == 'NTU':
         dataset = NTU
         use_data_gen = True # Unable to read all data at once, dataset too big.
@@ -432,8 +430,10 @@ def train_fused_rn(output_path, dataset_name, dataset_fold,
         dataset = UT
     elif dataset_name == 'SBU':
         dataset = SBU
-    elif dataset_name == 'YMJA':
-        dataset = YMJA
+    elif dataset_name == 'NTU':
+        dataset = 'NTU'
+    elif dataset_name == 'NTU-V2':
+        dataset = 'NTU-V2'
     
     if verbose > 0:
         print("Reading data...")
