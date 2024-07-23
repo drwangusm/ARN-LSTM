@@ -2,9 +2,12 @@ import os
 import numpy as np
 
 from tensorflow.keras.utils import Sequence
-
 from datasets import UT, NTU, NTU_V2 , SBU
 from misc.data_io import get_data
+
+#定义了一个用于生成数据批次的生成器类 DataGenerator 和 DataGeneratorSeq，通常用于机器学习中的批量数据处理。生成器类继承自 tensorflow.keras.utils.Sequence，
+#提供了一种将数据分割成批次并在每个训练周期结束时重新洗牌数据的方法.提供一种灵活的方式来生成训练和验证数据批次，支持不同的数据集和采样方法，同时提供在每个epoch
+# 结束时重新洗牌数据的功能
 
 class DataGenerator(Sequence):
     def __init__(self, dataset_name, dataset_fold, subset,
