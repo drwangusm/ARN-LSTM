@@ -5,9 +5,9 @@ read the skeleton file for validation set of fold 4 and see if there are 15 join
 import numpy as np
 import os
 
-main_path = r"/demo/ARN-LSM/data/sbu"
-# skl = np.loadtxt(main_path,delimiter=",")
-# print('done')
+main_path = r"/usr/local/inter-rel-net-hockey/data02/sbu"
+skl = np.loadtxt(main_path,delimiter=",")
+print('done')
 
 for path, subdirs, files in os.walk(main_path):
     for name in files:
