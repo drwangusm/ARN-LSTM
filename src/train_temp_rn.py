@@ -240,9 +240,9 @@ def train_fused_temp_rn(output_path, dataset_name, dataset_fold,
         use_earlyStopping = False
     elif dataset_name == 'SBU':
         dataset = SBU
-    #todo add NTU
-    # elif dataset_name == 'NTU':
-    #     dataset = NTU
+        #todo add NTU
+    elif dataset_name == 'NTU':
+        dataset = NTU
     
     if verbose > 0:
         print("Reading data...")
