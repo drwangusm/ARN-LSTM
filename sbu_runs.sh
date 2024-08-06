@@ -84,3 +84,13 @@ python3 src/run_protocol.py ARN-LSTM_inward configs/SBU/ARN-LSTM_inward.cfg SBU 
 python3 src/run_protocol.py ARN-LSTM_outward configs/SBU/ARN-LSTM_outward.cfg SBU -n 1 -V 2
 python3 src/run_protocol.py ARN-LSTM-fc1_inward+outward configs/SBU/ARN-LSTM-fc1_inward+outward.cfg SBU -F middle -n 1 -V 2
 
+# other experiments
+python3 src/run_protocol.py ARN_inward_no_aug configs/SBU/ARN_inward-no_aug.cfg SBU -n 1 -V 2
+python3 src/run_protocol.py ARN_outward_no_aug configs/SBU/ARN_outward-no_aug.cfg SBU -n 1 -V 2
+
+python3 src/run_protocol.py ARN-Naive_inward+outward configs/SBU/ARN-Naive_inward+outward.cfg SBU -n 1 -V 2
+
+python3 src/run_protocol.py ARN_inward_random configs/SBU/ARN_inward_random.cfg SBU -n 1 -V 2
+python3 src/run_protocol.py ARN_outward_random configs/SBU/ARN_outward_random.cfg SBU -n 1 -V 2
+python3 src/run_protocol.py ARN_inward+outward_random configs/SBU/ARN_inward+outward_random.cfg SBU -F middle -n 1 -V 2
+
