@@ -51,7 +51,36 @@
 # python3 src/run_protocol.py ARN_no_rel_ave_after_lstm configs/SBU/lstm-fusion/ARN_no_rel_ave_after_lstm.cfg SBU -t -F middle -n 5
 # python3 src/run_protocol.py ARN_no_rel_att_after_lstm configs/SBU/lstm-fusion/ARN_no_rel_att_after_lstm.cfg SBU -t -F middle -n 5
 
+# ARN fusion inward+outward
+python3 src/run_protocol.py ARN_inward configs/SBU/ARN_inward.cfg SBU -n 1 -V 2
+python3 src/run_protocol.py ARN_outward configs/SBU/ARN_outward.cfg SBU -n 1 -V 2
+python3 src/run_protocol.py ARN_inward+outward configs/SBU/ARN_inward+outward.cfg SBU -F middle -n 1 -V 2
+python3 src/run_protocol.py ARN-fc1_inward+outward configs/SBU/ARN-fc1_inward+outward.cfg SBU -F middle -n 1 -V 2
+
+# ARN two stream fusion 
+python3 src/run_protocol.py ARN_joint_stream configs/SBU/ARN_joint_stream.cfg SBU -n 1 -V 2
+python3 src/run_protocol.py ARN_temporal_stream configs/SBU/ARN_temporal_stream.cfg SBU -n 1 -V 2
+python3 src/run_protocol.py ARN_two_stream configs/SBU/ARN_two_stream.cfg SBU -F middle -n 1 -V 2
+
+# ARN two stream fusion att
+python3 src/run_protocol.py ARN_joint_stream_att configs/SBU/ARN_joint_stream_att.cfg SBU -n 1 -V 2
+python3 src/run_protocol.py ARN_temporal_stream_att configs/SBU/ARN_temporal_stream_att.cfg SBU -n 1 -V 2
+python3 src/run_protocol.py ARN_two_stream_att configs/SBU/ARN_two_stream_att.cfg SBU -F middle -n 1 -V 2
+# ARN two stream fusion att_avg
+python3 src/run_protocol.py ARN_two_stream_att_avg configs/SBU/ARN_two_stream_att_avg.cfg SBU -F middle -n 1 -V 2 
+
+# ARN two stream fusion att + projection_size2000
+python3 src/run_protocol.py ARN_joint_stream_att_proj_2000 configs/SBU/ARN_joint_stream_att_proj_2000.cfg SBU -n 1 -V 2
+python3 src/run_protocol.py ARN_temporal_stream_att_proj_2000 configs/SBU/ARN_temporal_stream_att_proj_2000.cfg SBU -n 1 -V 2
+python3 src/run_protocol.py ARN_two_stream_att_proj_2000 configs/SBU/ARN_two_stream_att_proj_2000.cfg SBU -F middle -n 1 -V 2
+
+# ARN two stream fusion att + projection_size2000 with no use_relations
+python3 src/run_protocol.py ARN_joint_stream_att_no_rel_proj_2000 configs/SBU/ARN_joint_stream_att_no_rel_proj_2000.cfg SBU -n 1 -V 2
+python3 src/run_protocol.py ARN_temporal_stream_att_no_rel_proj_2000 configs/SBU/ARN_temporal_stream_att_no_rel_proj_2000.cfg SBU -n 1 -V 2
+python3 src/run_protocol.py ARN_two_stream_att_no_rel_proj_2000 configs/SBU/ARN_two_stream_att_no_rel_proj_2000.cfg SBU -F middle -n 1 -V 2
+
 # ARN-LSTM fusion inward+outward
-python3 src/run_protocol.py ARN-LSTM_inward configs/SBU/ARN-LSTM_inward.cfg SBU -n 1
-python3 src/run_protocol.py ARN-LSTM_outward configs/SBU/ARN-LSTM_outward.cfg SBU -n 1
-python3 src/run_protocol.py ARN-LSTM-fc1_inward+outward configs/SBU/ARN-LSTM-fc1_inward+outward.cfg SBU -F middle -n 1
+python3 src/run_protocol.py ARN-LSTM_inward configs/SBU/ARN-LSTM_inward.cfg SBU -n 1 -V 2
+python3 src/run_protocol.py ARN-LSTM_outward configs/SBU/ARN-LSTM_outward.cfg SBU -n 1 -V 2
+python3 src/run_protocol.py ARN-LSTM-fc1_inward+outward configs/SBU/ARN-LSTM-fc1_inward+outward.cfg SBU -F middle -n 1 -V 2
+
