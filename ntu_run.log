@@ -17361,3 +17361,1459 @@ Epoch 128/200
 Epoch 129/200
 324/324 - 163s - loss: 0.1138 - accuracy: 0.9616 - recall_m: 0.9569 - precision_m: 0.9669 - f1_m: 0.9618 - val_loss: 1.1186 - val_accuracy: 0.7981 - val_recall_m: 0.7907 - val_precision_m: 0.8109 - val_f1_m: 0.8004 - 163s/epoch - 503ms/step
 Epoch 130/200
+324/324 - 162s - loss: 0.0952 - accuracy: 0.9677 - recall_m: 0.9632 - precision_m: 0.9720 - f1_m: 0.9676 - val_loss: 1.1431 - val_accuracy: 0.7934 - val_recall_m: 0.7859 - val_precision_m: 0.8078 - val_f1_m: 0.7964 - 162s/epoch - 501ms/step
+Epoch 131/200
+324/324 - 162s - loss: 0.0834 - accuracy: 0.9717 - recall_m: 0.9684 - precision_m: 0.9757 - f1_m: 0.9720 - val_loss: 1.2782 - val_accuracy: 0.7895 - val_recall_m: 0.7847 - val_precision_m: 0.7981 - val_f1_m: 0.7912 - 162s/epoch - 500ms/step
+Epoch 132/200
+324/324 - 162s - loss: 0.0815 - accuracy: 0.9739 - recall_m: 0.9695 - precision_m: 0.9775 - f1_m: 0.9735 - val_loss: 1.2257 - val_accuracy: 0.7853 - val_recall_m: 0.7796 - val_precision_m: 0.7955 - val_f1_m: 0.7873 - 162s/epoch - 501ms/step
+Epoch 133/200
+324/324 - 162s - loss: 0.0848 - accuracy: 0.9715 - recall_m: 0.9685 - precision_m: 0.9764 - f1_m: 0.9724 - val_loss: 1.2440 - val_accuracy: 0.7921 - val_recall_m: 0.7857 - val_precision_m: 0.8018 - val_f1_m: 0.7935 - 162s/epoch - 501ms/step
+Epoch 134/200
+324/324 - 163s - loss: 0.0789 - accuracy: 0.9736 - recall_m: 0.9703 - precision_m: 0.9777 - f1_m: 0.9740 - val_loss: 1.2369 - val_accuracy: 0.7868 - val_recall_m: 0.7801 - val_precision_m: 0.7975 - val_f1_m: 0.7885 - 163s/epoch - 502ms/step
+Epoch 135/200
+324/324 - 162s - loss: 0.0735 - accuracy: 0.9750 - recall_m: 0.9716 - precision_m: 0.9789 - f1_m: 0.9752 - val_loss: 1.2862 - val_accuracy: 0.7941 - val_recall_m: 0.7877 - val_precision_m: 0.8039 - val_f1_m: 0.7955 - 162s/epoch - 501ms/step
+Epoch 136/200
+324/324 - 162s - loss: 0.0953 - accuracy: 0.9680 - recall_m: 0.9642 - precision_m: 0.9727 - f1_m: 0.9684 - val_loss: 1.2730 - val_accuracy: 0.7895 - val_recall_m: 0.7836 - val_precision_m: 0.7979 - val_f1_m: 0.7906 - 162s/epoch - 501ms/step
+Epoch 137/200
+324/324 - 162s - loss: 0.0779 - accuracy: 0.9738 - recall_m: 0.9706 - precision_m: 0.9777 - f1_m: 0.9741 - val_loss: 1.2795 - val_accuracy: 0.7889 - val_recall_m: 0.7831 - val_precision_m: 0.7997 - val_f1_m: 0.7912 - 162s/epoch - 501ms/step
+Epoch 138/200
+324/324 - 163s - loss: 0.0856 - accuracy: 0.9710 - recall_m: 0.9674 - precision_m: 0.9752 - f1_m: 0.9713 - val_loss: 1.1909 - val_accuracy: 0.7879 - val_recall_m: 0.7819 - val_precision_m: 0.7992 - val_f1_m: 0.7903 - 163s/epoch - 503ms/step
+Epoch 139/200
+324/324 - 162s - loss: 0.0714 - accuracy: 0.9756 - recall_m: 0.9719 - precision_m: 0.9789 - f1_m: 0.9753 - val_loss: 1.3068 - val_accuracy: 0.7963 - val_recall_m: 0.7914 - val_precision_m: 0.8034 - val_f1_m: 0.7973 - 162s/epoch - 501ms/step
+Epoch 140/200
+324/324 - 163s - loss: 0.0742 - accuracy: 0.9763 - recall_m: 0.9725 - precision_m: 0.9803 - f1_m: 0.9764 - val_loss: 1.2728 - val_accuracy: 0.7922 - val_recall_m: 0.7869 - val_precision_m: 0.8037 - val_f1_m: 0.7950 - 163s/epoch - 502ms/step
+Epoch 141/200
+324/324 - 162s - loss: 0.0704 - accuracy: 0.9757 - recall_m: 0.9730 - precision_m: 0.9798 - f1_m: 0.9764 - val_loss: 1.2709 - val_accuracy: 0.7831 - val_recall_m: 0.7765 - val_precision_m: 0.7926 - val_f1_m: 0.7844 - 162s/epoch - 500ms/step
+Epoch 142/200
+324/324 - 162s - loss: 0.0707 - accuracy: 0.9754 - recall_m: 0.9728 - precision_m: 0.9786 - f1_m: 0.9757 - val_loss: 1.2195 - val_accuracy: 0.7922 - val_recall_m: 0.7870 - val_precision_m: 0.8044 - val_f1_m: 0.7954 - 162s/epoch - 500ms/step
+Epoch 143/200
+324/324 - 162s - loss: 0.0688 - accuracy: 0.9766 - recall_m: 0.9732 - precision_m: 0.9803 - f1_m: 0.9767 - val_loss: 1.2849 - val_accuracy: 0.7950 - val_recall_m: 0.7912 - val_precision_m: 0.8036 - val_f1_m: 0.7972 - 162s/epoch - 500ms/step
+Epoch 144/200
+324/324 - 162s - loss: 0.0940 - accuracy: 0.9674 - recall_m: 0.9637 - precision_m: 0.9715 - f1_m: 0.9676 - val_loss: 1.2360 - val_accuracy: 0.7843 - val_recall_m: 0.7786 - val_precision_m: 0.7946 - val_f1_m: 0.7863 - 162s/epoch - 501ms/step
+Epoch 145/200
+324/324 - 162s - loss: 0.0665 - accuracy: 0.9775 - recall_m: 0.9748 - precision_m: 0.9804 - f1_m: 0.9776 - val_loss: 1.2678 - val_accuracy: 0.7894 - val_recall_m: 0.7826 - val_precision_m: 0.8018 - val_f1_m: 0.7919 - 162s/epoch - 502ms/step
+Epoch 146/200
+324/324 - 162s - loss: 0.0797 - accuracy: 0.9720 - recall_m: 0.9689 - precision_m: 0.9758 - f1_m: 0.9723 - val_loss: 1.2520 - val_accuracy: 0.7912 - val_recall_m: 0.7841 - val_precision_m: 0.8017 - val_f1_m: 0.7927 - 162s/epoch - 501ms/step
+Epoch 147/200
+324/324 - 163s - loss: 0.0675 - accuracy: 0.9766 - recall_m: 0.9733 - precision_m: 0.9799 - f1_m: 0.9766 - val_loss: 1.3177 - val_accuracy: 0.7820 - val_recall_m: 0.7754 - val_precision_m: 0.7923 - val_f1_m: 0.7836 - 163s/epoch - 502ms/step
+Epoch 148/200
+324/324 - 162s - loss: 0.0766 - accuracy: 0.9742 - recall_m: 0.9715 - precision_m: 0.9774 - f1_m: 0.9744 - val_loss: 1.2023 - val_accuracy: 0.7924 - val_recall_m: 0.7871 - val_precision_m: 0.8043 - val_f1_m: 0.7955 - 162s/epoch - 500ms/step
+Epoch 149/200
+324/324 - 162s - loss: 0.0625 - accuracy: 0.9788 - recall_m: 0.9761 - precision_m: 0.9821 - f1_m: 0.9791 - val_loss: 1.3147 - val_accuracy: 0.7928 - val_recall_m: 0.7865 - val_precision_m: 0.8015 - val_f1_m: 0.7938 - 162s/epoch - 501ms/step
+Epoch 150/200
+324/324 - 163s - loss: 0.0726 - accuracy: 0.9759 - recall_m: 0.9735 - precision_m: 0.9791 - f1_m: 0.9763 - val_loss: 1.2544 - val_accuracy: 0.7912 - val_recall_m: 0.7863 - val_precision_m: 0.8017 - val_f1_m: 0.7937 - 163s/epoch - 502ms/step
+Epoch 151/200
+324/324 - 162s - loss: 0.0750 - accuracy: 0.9739 - recall_m: 0.9710 - precision_m: 0.9772 - f1_m: 0.9741 - val_loss: 1.3113 - val_accuracy: 0.7832 - val_recall_m: 0.7773 - val_precision_m: 0.7956 - val_f1_m: 0.7862 - 162s/epoch - 501ms/step
+Epoch 152/200
+324/324 - 163s - loss: 0.0606 - accuracy: 0.9787 - recall_m: 0.9759 - precision_m: 0.9819 - f1_m: 0.9789 - val_loss: 1.3880 - val_accuracy: 0.7876 - val_recall_m: 0.7803 - val_precision_m: 0.7962 - val_f1_m: 0.7880 - 163s/epoch - 504ms/step
+Epoch 153/200
+324/324 - 162s - loss: 0.0634 - accuracy: 0.9792 - recall_m: 0.9765 - precision_m: 0.9819 - f1_m: 0.9792 - val_loss: 1.3685 - val_accuracy: 0.7915 - val_recall_m: 0.7880 - val_precision_m: 0.7993 - val_f1_m: 0.7935 - 162s/epoch - 501ms/step
+Epoch 154/200
+324/324 - 163s - loss: 0.0718 - accuracy: 0.9759 - recall_m: 0.9718 - precision_m: 0.9789 - f1_m: 0.9753 - val_loss: 1.3042 - val_accuracy: 0.7962 - val_recall_m: 0.7910 - val_precision_m: 0.8047 - val_f1_m: 0.7977 - 163s/epoch - 502ms/step
+Epoch 155/200
+324/324 - 162s - loss: 0.0567 - accuracy: 0.9812 - recall_m: 0.9780 - precision_m: 0.9837 - f1_m: 0.9808 - val_loss: 1.3116 - val_accuracy: 0.7933 - val_recall_m: 0.7875 - val_precision_m: 0.8029 - val_f1_m: 0.7950 - 162s/epoch - 501ms/step
+Epoch 156/200
+324/324 - 163s - loss: 0.0694 - accuracy: 0.9758 - recall_m: 0.9728 - precision_m: 0.9793 - f1_m: 0.9761 - val_loss: 1.2473 - val_accuracy: 0.7989 - val_recall_m: 0.7943 - val_precision_m: 0.8090 - val_f1_m: 0.8014 - 163s/epoch - 502ms/step
+Epoch 157/200
+324/324 - 163s - loss: 0.0637 - accuracy: 0.9776 - recall_m: 0.9754 - precision_m: 0.9806 - f1_m: 0.9780 - val_loss: 1.3420 - val_accuracy: 0.7897 - val_recall_m: 0.7853 - val_precision_m: 0.7977 - val_f1_m: 0.7913 - 163s/epoch - 502ms/step
+Epoch 158/200
+324/324 - 163s - loss: 0.0608 - accuracy: 0.9795 - recall_m: 0.9769 - precision_m: 0.9821 - f1_m: 0.9794 - val_loss: 1.3276 - val_accuracy: 0.7965 - val_recall_m: 0.7917 - val_precision_m: 0.8048 - val_f1_m: 0.7981 - 163s/epoch - 504ms/step
+Epoch 159/200
+324/324 - 163s - loss: 0.0730 - accuracy: 0.9759 - recall_m: 0.9736 - precision_m: 0.9784 - f1_m: 0.9759 - val_loss: 1.3344 - val_accuracy: 0.7925 - val_recall_m: 0.7880 - val_precision_m: 0.8029 - val_f1_m: 0.7952 - 163s/epoch - 503ms/step
+Epoch 160/200
+324/324 - 162s - loss: 0.0617 - accuracy: 0.9798 - recall_m: 0.9777 - precision_m: 0.9822 - f1_m: 0.9799 - val_loss: 1.5266 - val_accuracy: 0.7833 - val_recall_m: 0.7789 - val_precision_m: 0.7904 - val_f1_m: 0.7845 - 162s/epoch - 502ms/step
+Epoch 161/200
+324/324 - 163s - loss: 0.0657 - accuracy: 0.9771 - recall_m: 0.9749 - precision_m: 0.9806 - f1_m: 0.9777 - val_loss: 1.3007 - val_accuracy: 0.8037 - val_recall_m: 0.7989 - val_precision_m: 0.8116 - val_f1_m: 0.8051 - 163s/epoch - 503ms/step
+Epoch 162/200
+324/324 - 163s - loss: 0.0508 - accuracy: 0.9835 - recall_m: 0.9811 - precision_m: 0.9856 - f1_m: 0.9834 - val_loss: 1.3254 - val_accuracy: 0.7916 - val_recall_m: 0.7862 - val_precision_m: 0.8006 - val_f1_m: 0.7932 - 163s/epoch - 502ms/step
+Epoch 163/200
+324/324 - 162s - loss: 0.0713 - accuracy: 0.9757 - recall_m: 0.9732 - precision_m: 0.9787 - f1_m: 0.9759 - val_loss: 1.3290 - val_accuracy: 0.7907 - val_recall_m: 0.7849 - val_precision_m: 0.7994 - val_f1_m: 0.7919 - 162s/epoch - 501ms/step
+Epoch 164/200
+324/324 - 163s - loss: 0.0576 - accuracy: 0.9817 - recall_m: 0.9786 - precision_m: 0.9834 - f1_m: 0.9810 - val_loss: 1.3121 - val_accuracy: 0.7942 - val_recall_m: 0.7901 - val_precision_m: 0.8045 - val_f1_m: 0.7971 - 163s/epoch - 503ms/step
+Epoch 165/200
+324/324 - 162s - loss: 0.0518 - accuracy: 0.9830 - recall_m: 0.9810 - precision_m: 0.9846 - f1_m: 0.9828 - val_loss: 1.4272 - val_accuracy: 0.7787 - val_recall_m: 0.7735 - val_precision_m: 0.7865 - val_f1_m: 0.7798 - 162s/epoch - 501ms/step
+Epoch 166/200
+324/324 - 162s - loss: 0.0543 - accuracy: 0.9823 - recall_m: 0.9805 - precision_m: 0.9846 - f1_m: 0.9825 - val_loss: 1.4055 - val_accuracy: 0.7986 - val_recall_m: 0.7946 - val_precision_m: 0.8059 - val_f1_m: 0.8001 - 162s/epoch - 501ms/step
+Epoch 167/200
+324/324 - 162s - loss: 0.0508 - accuracy: 0.9824 - recall_m: 0.9804 - precision_m: 0.9844 - f1_m: 0.9824 - val_loss: 1.4008 - val_accuracy: 0.7880 - val_recall_m: 0.7826 - val_precision_m: 0.7949 - val_f1_m: 0.7886 - 162s/epoch - 501ms/step
+Epoch 168/200
+324/324 - 163s - loss: 0.0590 - accuracy: 0.9808 - recall_m: 0.9788 - precision_m: 0.9831 - f1_m: 0.9810 - val_loss: 1.3877 - val_accuracy: 0.7875 - val_recall_m: 0.7822 - val_precision_m: 0.7960 - val_f1_m: 0.7889 - 163s/epoch - 503ms/step
+Epoch 169/200
+324/324 - 163s - loss: 0.0775 - accuracy: 0.9748 - recall_m: 0.9722 - precision_m: 0.9775 - f1_m: 0.9748 - val_loss: 1.2398 - val_accuracy: 0.7985 - val_recall_m: 0.7947 - val_precision_m: 0.8075 - val_f1_m: 0.8009 - 163s/epoch - 502ms/step
+Epoch 170/200
+324/324 - 162s - loss: 0.0436 - accuracy: 0.9862 - recall_m: 0.9846 - precision_m: 0.9883 - f1_m: 0.9864 - val_loss: 1.2841 - val_accuracy: 0.7999 - val_recall_m: 0.7951 - val_precision_m: 0.8080 - val_f1_m: 0.8014 - 162s/epoch - 501ms/step
+Epoch 171/200
+324/324 - 163s - loss: 0.0614 - accuracy: 0.9803 - recall_m: 0.9787 - precision_m: 0.9822 - f1_m: 0.9804 - val_loss: 1.2932 - val_accuracy: 0.7876 - val_recall_m: 0.7824 - val_precision_m: 0.7962 - val_f1_m: 0.7891 - 163s/epoch - 502ms/step
+Epoch 172/200
+324/324 - 163s - loss: 0.0561 - accuracy: 0.9809 - recall_m: 0.9785 - precision_m: 0.9828 - f1_m: 0.9806 - val_loss: 1.3248 - val_accuracy: 0.8011 - val_recall_m: 0.7968 - val_precision_m: 0.8109 - val_f1_m: 0.8036 - 163s/epoch - 502ms/step
+Epoch 173/200
+324/324 - 163s - loss: 0.0464 - accuracy: 0.9845 - recall_m: 0.9831 - precision_m: 0.9867 - f1_m: 0.9849 - val_loss: 1.4576 - val_accuracy: 0.7948 - val_recall_m: 0.7905 - val_precision_m: 0.8021 - val_f1_m: 0.7962 - 163s/epoch - 502ms/step
+Epoch 174/200
+324/324 - 163s - loss: 0.0660 - accuracy: 0.9779 - recall_m: 0.9755 - precision_m: 0.9808 - f1_m: 0.9782 - val_loss: 1.3257 - val_accuracy: 0.8010 - val_recall_m: 0.7969 - val_precision_m: 0.8084 - val_f1_m: 0.8025 - 163s/epoch - 502ms/step
+Epoch 175/200
+324/324 - 163s - loss: 0.0557 - accuracy: 0.9830 - recall_m: 0.9812 - precision_m: 0.9851 - f1_m: 0.9831 - val_loss: 1.3473 - val_accuracy: 0.7895 - val_recall_m: 0.7842 - val_precision_m: 0.7999 - val_f1_m: 0.7918 - 163s/epoch - 502ms/step
+Epoch 176/200
+324/324 - 163s - loss: 0.0494 - accuracy: 0.9837 - recall_m: 0.9818 - precision_m: 0.9856 - f1_m: 0.9837 - val_loss: 1.3493 - val_accuracy: 0.7914 - val_recall_m: 0.7860 - val_precision_m: 0.8004 - val_f1_m: 0.7930 - 163s/epoch - 503ms/step
+Epoch 177/200
+324/324 - 162s - loss: 0.0554 - accuracy: 0.9819 - recall_m: 0.9798 - precision_m: 0.9843 - f1_m: 0.9821 - val_loss: 1.3990 - val_accuracy: 0.7993 - val_recall_m: 0.7952 - val_precision_m: 0.8049 - val_f1_m: 0.8000 - 162s/epoch - 501ms/step
+Epoch 178/200
+324/324 - 163s - loss: 0.0487 - accuracy: 0.9838 - recall_m: 0.9819 - precision_m: 0.9860 - f1_m: 0.9839 - val_loss: 1.3270 - val_accuracy: 0.7991 - val_recall_m: 0.7941 - val_precision_m: 0.8082 - val_f1_m: 0.8010 - 163s/epoch - 502ms/step
+Epoch 179/200
+324/324 - 163s - loss: 0.0606 - accuracy: 0.9808 - recall_m: 0.9792 - precision_m: 0.9826 - f1_m: 0.9809 - val_loss: 1.3757 - val_accuracy: 0.7886 - val_recall_m: 0.7857 - val_precision_m: 0.7964 - val_f1_m: 0.7909 - 163s/epoch - 503ms/step
+Epoch 180/200
+324/324 - 163s - loss: 0.0478 - accuracy: 0.9851 - recall_m: 0.9831 - precision_m: 0.9872 - f1_m: 0.9852 - val_loss: 1.3896 - val_accuracy: 0.7936 - val_recall_m: 0.7892 - val_precision_m: 0.8003 - val_f1_m: 0.7946 - 163s/epoch - 503ms/step
+Epoch 181/200
+324/324 - 162s - loss: 0.0536 - accuracy: 0.9816 - recall_m: 0.9800 - precision_m: 0.9840 - f1_m: 0.9820 - val_loss: 1.3405 - val_accuracy: 0.7953 - val_recall_m: 0.7912 - val_precision_m: 0.8027 - val_f1_m: 0.7968 - 162s/epoch - 501ms/step
+Epoch 182/200
+324/324 - 162s - loss: 0.0358 - accuracy: 0.9883 - recall_m: 0.9871 - precision_m: 0.9905 - f1_m: 0.9888 - val_loss: 1.4240 - val_accuracy: 0.7963 - val_recall_m: 0.7933 - val_precision_m: 0.8030 - val_f1_m: 0.7980 - 162s/epoch - 501ms/step
+Epoch 183/200
+324/324 - 163s - loss: 0.0505 - accuracy: 0.9837 - recall_m: 0.9817 - precision_m: 0.9856 - f1_m: 0.9836 - val_loss: 1.3736 - val_accuracy: 0.7887 - val_recall_m: 0.7832 - val_precision_m: 0.7983 - val_f1_m: 0.7906 - 163s/epoch - 503ms/step
+Epoch 184/200
+324/324 - 163s - loss: 0.0521 - accuracy: 0.9836 - recall_m: 0.9817 - precision_m: 0.9854 - f1_m: 0.9835 - val_loss: 1.3535 - val_accuracy: 0.7830 - val_recall_m: 0.7754 - val_precision_m: 0.7912 - val_f1_m: 0.7831 - 163s/epoch - 503ms/step
+Epoch 185/200
+324/324 - 163s - loss: 0.0472 - accuracy: 0.9845 - recall_m: 0.9829 - precision_m: 0.9867 - f1_m: 0.9848 - val_loss: 1.4281 - val_accuracy: 0.7912 - val_recall_m: 0.7882 - val_precision_m: 0.7970 - val_f1_m: 0.7925 - 163s/epoch - 502ms/step
+Epoch 186/200
+324/324 - 162s - loss: 0.0486 - accuracy: 0.9848 - recall_m: 0.9839 - precision_m: 0.9868 - f1_m: 0.9854 - val_loss: 1.3730 - val_accuracy: 0.7961 - val_recall_m: 0.7924 - val_precision_m: 0.8041 - val_f1_m: 0.7981 - 162s/epoch - 501ms/step
+Epoch 187/200
+324/324 - 163s - loss: 0.0546 - accuracy: 0.9817 - recall_m: 0.9806 - precision_m: 0.9835 - f1_m: 0.9820 - val_loss: 1.3970 - val_accuracy: 0.7931 - val_recall_m: 0.7903 - val_precision_m: 0.8009 - val_f1_m: 0.7954 - 163s/epoch - 502ms/step
+Epoch 188/200
+324/324 - 162s - loss: 0.0459 - accuracy: 0.9847 - recall_m: 0.9833 - precision_m: 0.9862 - f1_m: 0.9847 - val_loss: 1.4970 - val_accuracy: 0.7903 - val_recall_m: 0.7857 - val_precision_m: 0.7957 - val_f1_m: 0.7906 - 162s/epoch - 501ms/step
+Epoch 189/200
+324/324 - 162s - loss: 0.0467 - accuracy: 0.9846 - recall_m: 0.9829 - precision_m: 0.9861 - f1_m: 0.9845 - val_loss: 1.3245 - val_accuracy: 0.7905 - val_recall_m: 0.7843 - val_precision_m: 0.7971 - val_f1_m: 0.7905 - 162s/epoch - 501ms/step
+Epoch 190/200
+324/324 - 163s - loss: 0.0602 - accuracy: 0.9808 - recall_m: 0.9787 - precision_m: 0.9826 - f1_m: 0.9807 - val_loss: 1.4868 - val_accuracy: 0.7859 - val_recall_m: 0.7823 - val_precision_m: 0.7925 - val_f1_m: 0.7873 - 163s/epoch - 502ms/step
+Epoch 191/200
+324/324 - 163s - loss: 0.0474 - accuracy: 0.9832 - recall_m: 0.9821 - precision_m: 0.9850 - f1_m: 0.9835 - val_loss: 1.4418 - val_accuracy: 0.7912 - val_recall_m: 0.7876 - val_precision_m: 0.7987 - val_f1_m: 0.7930 - 163s/epoch - 504ms/step
+Epoch 192/200
+324/324 - 162s - loss: 0.0580 - accuracy: 0.9805 - recall_m: 0.9789 - precision_m: 0.9825 - f1_m: 0.9807 - val_loss: 1.3904 - val_accuracy: 0.7880 - val_recall_m: 0.7840 - val_precision_m: 0.7962 - val_f1_m: 0.7899 - 162s/epoch - 501ms/step
+Epoch 193/200
+324/324 - 162s - loss: 0.0448 - accuracy: 0.9847 - recall_m: 0.9834 - precision_m: 0.9863 - f1_m: 0.9848 - val_loss: 1.4551 - val_accuracy: 0.7859 - val_recall_m: 0.7814 - val_precision_m: 0.7948 - val_f1_m: 0.7879 - 162s/epoch - 501ms/step
+Epoch 194/200
+324/324 - 163s - loss: 0.0411 - accuracy: 0.9865 - recall_m: 0.9847 - precision_m: 0.9879 - f1_m: 0.9863 - val_loss: 1.3716 - val_accuracy: 0.8003 - val_recall_m: 0.7959 - val_precision_m: 0.8080 - val_f1_m: 0.8018 - 163s/epoch - 503ms/step
+Epoch 195/200
+324/324 - 162s - loss: 0.0345 - accuracy: 0.9891 - recall_m: 0.9876 - precision_m: 0.9907 - f1_m: 0.9891 - val_loss: 1.4423 - val_accuracy: 0.7985 - val_recall_m: 0.7945 - val_precision_m: 0.8033 - val_f1_m: 0.7988 - 162s/epoch - 502ms/step
+Epoch 196/200
+324/324 - 163s - loss: 0.0290 - accuracy: 0.9903 - recall_m: 0.9891 - precision_m: 0.9918 - f1_m: 0.9905 - val_loss: 1.5542 - val_accuracy: 0.7949 - val_recall_m: 0.7913 - val_precision_m: 0.8008 - val_f1_m: 0.7960 - 163s/epoch - 502ms/step
+Epoch 197/200
+324/324 - 162s - loss: 0.0422 - accuracy: 0.9859 - recall_m: 0.9843 - precision_m: 0.9877 - f1_m: 0.9860 - val_loss: 1.5724 - val_accuracy: 0.7907 - val_recall_m: 0.7873 - val_precision_m: 0.7972 - val_f1_m: 0.7921 - 162s/epoch - 501ms/step
+Epoch 198/200
+324/324 - 162s - loss: 0.0577 - accuracy: 0.9802 - recall_m: 0.9785 - precision_m: 0.9826 - f1_m: 0.9806 - val_loss: 1.4618 - val_accuracy: 0.7935 - val_recall_m: 0.7898 - val_precision_m: 0.7995 - val_f1_m: 0.7945 - 162s/epoch - 501ms/step
+Epoch 199/200
+324/324 - 162s - loss: 0.0486 - accuracy: 0.9837 - recall_m: 0.9823 - precision_m: 0.9857 - f1_m: 0.9840 - val_loss: 1.3801 - val_accuracy: 0.7879 - val_recall_m: 0.7835 - val_precision_m: 0.7962 - val_f1_m: 0.7897 - 162s/epoch - 501ms/step
+Epoch 200/200
+324/324 - 162s - loss: 0.0470 - accuracy: 0.9849 - recall_m: 0.9829 - precision_m: 0.9866 - f1_m: 0.9848 - val_loss: 1.4730 - val_accuracy: 0.7900 - val_recall_m: 0.7846 - val_precision_m: 0.7979 - val_f1_m: 0.7911 - 162s/epoch - 501ms/step
+145/145 - 14s - 14s/epoch - 93ms/step
+Train - Max ACC: 99.03% Min loss: 0.0290
+Valid - Max ACC: 80.37% Min loss: 0.7683
+> 0: ACC: 97.71% Loss: 0.0657 - MAX val_ACC: 80.37% val_Loss: 1.3007
+Running for fold: cross_view
+***** Training parameters *****
+	 Output path: /demo/ARN-LSTM/runs/models/NTU/ARN-LSTM_outward/fold_cross_view//rerun_0
+	 Dataset: NTU
+	 Dataset fold: cross_view
+	 Skeleton info
+	 > selected_joints: ['Nose', 'Neck', 'MidHip', 'LShoulder', 'LElbow', 'LWrist', 'RShoulder', 'RElbow', 'RWrist', 'LHip', 'LKnee', 'LAnkle', 'RHip', 'RKnee', 'RAnkle']
+	 > add_joint_idx: True
+	 > add_body_part: True
+	 > timesteps: 32
+	 > skip_timesteps: None
+	 > normalization: NTU
+	 > sample_method: all
+	 > seq_step: 16
+	 Model info
+	 > rel_type: indivs
+	 > compute_distance: True
+	 > compute_motion: True
+	 Kernel Init info
+	 > kernel_init_type: TruncatedNormal
+	 > kernel_init_param: 0.09
+	 > kernel_init_seed: None
+	 Training options
+	 > Batch Size: 64
+	 > Epochs: 200
+	 > Checkpoint Period: 1
+	 > Learning Rate: 0.0001
+	 > Dropout rate: 0.1
+	 > Training Subsample Ratio: None
+Reading data...
+> Using DataGenerator
+Creating model...
+Model: "rel_net"
+__________________________________________________________________________________________________
+ Layer (type)                   Output Shape         Param #     Connected to                     
+==================================================================================================
+ person1_object0 (InputLayer)   [(None, 98)]         0           []                               
+                                                                                                  
+ person1_object1 (InputLayer)   [(None, 98)]         0           []                               
+                                                                                                  
+ person1_object2 (InputLayer)   [(None, 98)]         0           []                               
+                                                                                                  
+ person1_object3 (InputLayer)   [(None, 98)]         0           []                               
+                                                                                                  
+ person1_object4 (InputLayer)   [(None, 98)]         0           []                               
+                                                                                                  
+ person1_object5 (InputLayer)   [(None, 98)]         0           []                               
+                                                                                                  
+ person1_object6 (InputLayer)   [(None, 98)]         0           []                               
+                                                                                                  
+ person1_object7 (InputLayer)   [(None, 98)]         0           []                               
+                                                                                                  
+ person1_object8 (InputLayer)   [(None, 98)]         0           []                               
+                                                                                                  
+ person1_object9 (InputLayer)   [(None, 98)]         0           []                               
+                                                                                                  
+ person1_object10 (InputLayer)  [(None, 98)]         0           []                               
+                                                                                                  
+ person1_object11 (InputLayer)  [(None, 98)]         0           []                               
+                                                                                                  
+ person1_object12 (InputLayer)  [(None, 98)]         0           []                               
+                                                                                                  
+ person1_object13 (InputLayer)  [(None, 98)]         0           []                               
+                                                                                                  
+ person1_object14 (InputLayer)  [(None, 98)]         0           []                               
+                                                                                                  
+ person2_object0 (InputLayer)   [(None, 98)]         0           []                               
+                                                                                                  
+ person2_object1 (InputLayer)   [(None, 98)]         0           []                               
+                                                                                                  
+ person2_object2 (InputLayer)   [(None, 98)]         0           []                               
+                                                                                                  
+ person2_object3 (InputLayer)   [(None, 98)]         0           []                               
+                                                                                                  
+ person2_object4 (InputLayer)   [(None, 98)]         0           []                               
+                                                                                                  
+ person2_object5 (InputLayer)   [(None, 98)]         0           []                               
+                                                                                                  
+ person2_object6 (InputLayer)   [(None, 98)]         0           []                               
+                                                                                                  
+ person2_object7 (InputLayer)   [(None, 98)]         0           []                               
+                                                                                                  
+ person2_object8 (InputLayer)   [(None, 98)]         0           []                               
+                                                                                                  
+ person2_object9 (InputLayer)   [(None, 98)]         0           []                               
+                                                                                                  
+ person2_object10 (InputLayer)  [(None, 98)]         0           []                               
+                                                                                                  
+ person2_object11 (InputLayer)  [(None, 98)]         0           []                               
+                                                                                                  
+ person2_object12 (InputLayer)  [(None, 98)]         0           []                               
+                                                                                                  
+ person2_object13 (InputLayer)  [(None, 98)]         0           []                               
+                                                                                                  
+ person2_object14 (InputLayer)  [(None, 98)]         0           []                               
+                                                                                                  
+ g_theta_indivs (Functional)    (None, 500)          2762500     ['person1_object0[0][0]',        
+                                                                  'person1_object1[0][0]',        
+                                                                  'person1_object0[0][0]',        
+                                                                  'person1_object2[0][0]',        
+                                                                  'person1_object0[0][0]',        
+                                                                  'person1_object3[0][0]',        
+                                                                  'person1_object0[0][0]',        
+                                                                  'person1_object4[0][0]',        
+                                                                  'person1_object0[0][0]',        
+                                                                  'person1_object5[0][0]',        
+                                                                  'person1_object0[0][0]',        
+                                                                  'person1_object6[0][0]',        
+                                                                  'person1_object0[0][0]',        
+                                                                  'person1_object7[0][0]',        
+                                                                  'person1_object0[0][0]',        
+                                                                  'person1_object8[0][0]',        
+                                                                  'person1_object0[0][0]',        
+                                                                  'person1_object9[0][0]',        
+                                                                  'person1_object0[0][0]',        
+                                                                  'person1_object10[0][0]',       
+                                                                  'person1_object0[0][0]',        
+                                                                  'person1_object11[0][0]',       
+                                                                  'person1_object0[0][0]',        
+                                                                  'person1_object12[0][0]',       
+                                                                  'person1_object0[0][0]',        
+                                                                  'person1_object13[0][0]',       
+                                                                  'person1_object0[0][0]',        
+                                                                  'person1_object14[0][0]',       
+                                                                  'person1_object1[0][0]',        
+                                                                  'person1_object2[0][0]',        
+                                                                  'person1_object1[0][0]',        
+                                                                  'person1_object3[0][0]',        
+                                                                  'person1_object1[0][0]',        
+                                                                  'person1_object4[0][0]',        
+                                                                  'person1_object1[0][0]',        
+                                                                  'person1_object5[0][0]',        
+                                                                  'person1_object1[0][0]',        
+                                                                  'person1_object6[0][0]',        
+                                                                  'person1_object1[0][0]',        
+                                                                  'person1_object7[0][0]',        
+                                                                  'person1_object1[0][0]',        
+                                                                  'person1_object8[0][0]',        
+                                                                  'person1_object1[0][0]',        
+                                                                  'person1_object9[0][0]',        
+                                                                  'person1_object1[0][0]',        
+                                                                  'person1_object10[0][0]',       
+                                                                  'person1_object1[0][0]',        
+                                                                  'person1_object11[0][0]',       
+                                                                  'person1_object1[0][0]',        
+                                                                  'person1_object12[0][0]',       
+                                                                  'person1_object1[0][0]',        
+                                                                  'person1_object13[0][0]',       
+                                                                  'person1_object1[0][0]',        
+                                                                  'person1_object14[0][0]',       
+                                                                  'person1_object2[0][0]',        
+                                                                  'person1_object3[0][0]',        
+                                                                  'person1_object2[0][0]',        
+                                                                  'person1_object4[0][0]',        
+                                                                  'person1_object2[0][0]',        
+                                                                  'person1_object5[0][0]',        
+                                                                  'person1_object2[0][0]',        
+                                                                  'person1_object6[0][0]',        
+                                                                  'person1_object2[0][0]',        
+                                                                  'person1_object7[0][0]',        
+                                                                  'person1_object2[0][0]',        
+                                                                  'person1_object8[0][0]',        
+                                                                  'person1_object2[0][0]',        
+                                                                  'person1_object9[0][0]',        
+                                                                  'person1_object2[0][0]',        
+                                                                  'person1_object10[0][0]',       
+                                                                  'person1_object2[0][0]',        
+                                                                  'person1_object11[0][0]',       
+                                                                  'person1_object2[0][0]',        
+                                                                  'person1_object12[0][0]',       
+                                                                  'person1_object2[0][0]',        
+                                                                  'person1_object13[0][0]',       
+                                                                  'person1_object2[0][0]',        
+                                                                  'person1_object14[0][0]',       
+                                                                  'person1_object3[0][0]',        
+                                                                  'person1_object4[0][0]',        
+                                                                  'person1_object3[0][0]',        
+                                                                  'person1_object5[0][0]',        
+                                                                  'person1_object3[0][0]',        
+                                                                  'person1_object6[0][0]',        
+                                                                  'person1_object3[0][0]',        
+                                                                  'person1_object7[0][0]',        
+                                                                  'person1_object3[0][0]',        
+                                                                  'person1_object8[0][0]',        
+                                                                  'person1_object3[0][0]',        
+                                                                  'person1_object9[0][0]',        
+                                                                  'person1_object3[0][0]',        
+                                                                  'person1_object10[0][0]',       
+                                                                  'person1_object3[0][0]',        
+                                                                  'person1_object11[0][0]',       
+                                                                  'person1_object3[0][0]',        
+                                                                  'person1_object12[0][0]',       
+                                                                  'person1_object3[0][0]',        
+                                                                  'person1_object13[0][0]',       
+                                                                  'person1_object3[0][0]',        
+                                                                  'person1_object14[0][0]',       
+                                                                  'person1_object4[0][0]',        
+                                                                  'person1_object5[0][0]',        
+                                                                  'person1_object4[0][0]',        
+                                                                  'person1_object6[0][0]',        
+                                                                  'person1_object4[0][0]',        
+                                                                  'person1_object7[0][0]',        
+                                                                  'person1_object4[0][0]',        
+                                                                  'person1_object8[0][0]',        
+                                                                  'person1_object4[0][0]',        
+                                                                  'person1_object9[0][0]',        
+                                                                  'person1_object4[0][0]',        
+                                                                  'person1_object10[0][0]',       
+                                                                  'person1_object4[0][0]',        
+                                                                  'person1_object11[0][0]',       
+                                                                  'person1_object4[0][0]',        
+                                                                  'person1_object12[0][0]',       
+                                                                  'person1_object4[0][0]',        
+                                                                  'person1_object13[0][0]',       
+                                                                  'person1_object4[0][0]',        
+                                                                  'person1_object14[0][0]',       
+                                                                  'person1_object5[0][0]',        
+                                                                  'person1_object6[0][0]',        
+                                                                  'person1_object5[0][0]',        
+                                                                  'person1_object7[0][0]',        
+                                                                  'person1_object5[0][0]',        
+                                                                  'person1_object8[0][0]',        
+                                                                  'person1_object5[0][0]',        
+                                                                  'person1_object9[0][0]',        
+                                                                  'person1_object5[0][0]',        
+                                                                  'person1_object10[0][0]',       
+                                                                  'person1_object5[0][0]',        
+                                                                  'person1_object11[0][0]',       
+                                                                  'person1_object5[0][0]',        
+                                                                  'person1_object12[0][0]',       
+                                                                  'person1_object5[0][0]',        
+                                                                  'person1_object13[0][0]',       
+                                                                  'person1_object5[0][0]',        
+                                                                  'person1_object14[0][0]',       
+                                                                  'person1_object6[0][0]',        
+                                                                  'person1_object7[0][0]',        
+                                                                  'person1_object6[0][0]',        
+                                                                  'person1_object8[0][0]',        
+                                                                  'person1_object6[0][0]',        
+                                                                  'person1_object9[0][0]',        
+                                                                  'person1_object6[0][0]',        
+                                                                  'person1_object10[0][0]',       
+                                                                  'person1_object6[0][0]',        
+                                                                  'person1_object11[0][0]',       
+                                                                  'person1_object6[0][0]',        
+                                                                  'person1_object12[0][0]',       
+                                                                  'person1_object6[0][0]',        
+                                                                  'person1_object13[0][0]',       
+                                                                  'person1_object6[0][0]',        
+                                                                  'person1_object14[0][0]',       
+                                                                  'person1_object7[0][0]',        
+                                                                  'person1_object8[0][0]',        
+                                                                  'person1_object7[0][0]',        
+                                                                  'person1_object9[0][0]',        
+                                                                  'person1_object7[0][0]',        
+                                                                  'person1_object10[0][0]',       
+                                                                  'person1_object7[0][0]',        
+                                                                  'person1_object11[0][0]',       
+                                                                  'person1_object7[0][0]',        
+                                                                  'person1_object12[0][0]',       
+                                                                  'person1_object7[0][0]',        
+                                                                  'person1_object13[0][0]',       
+                                                                  'person1_object7[0][0]',        
+                                                                  'person1_object14[0][0]',       
+                                                                  'person1_object8[0][0]',        
+                                                                  'person1_object9[0][0]',        
+                                                                  'person1_object8[0][0]',        
+                                                                  'person1_object10[0][0]',       
+                                                                  'person1_object8[0][0]',        
+                                                                  'person1_object11[0][0]',       
+                                                                  'person1_object8[0][0]',        
+                                                                  'person1_object12[0][0]',       
+                                                                  'person1_object8[0][0]',        
+                                                                  'person1_object13[0][0]',       
+                                                                  'person1_object8[0][0]',        
+                                                                  'person1_object14[0][0]',       
+                                                                  'person1_object9[0][0]',        
+                                                                  'person1_object10[0][0]',       
+                                                                  'person1_object9[0][0]',        
+                                                                  'person1_object11[0][0]',       
+                                                                  'person1_object9[0][0]',        
+                                                                  'person1_object12[0][0]',       
+                                                                  'person1_object9[0][0]',        
+                                                                  'person1_object13[0][0]',       
+                                                                  'person1_object9[0][0]',        
+                                                                  'person1_object14[0][0]',       
+                                                                  'person1_object10[0][0]',       
+                                                                  'person1_object11[0][0]',       
+                                                                  'person1_object10[0][0]',       
+                                                                  'person1_object12[0][0]',       
+                                                                  'person1_object10[0][0]',       
+                                                                  'person1_object13[0][0]',       
+                                                                  'person1_object10[0][0]',       
+                                                                  'person1_object14[0][0]',       
+                                                                  'person1_object11[0][0]',       
+                                                                  'person1_object12[0][0]',       
+                                                                  'person1_object11[0][0]',       
+                                                                  'person1_object13[0][0]',       
+                                                                  'person1_object11[0][0]',       
+                                                                  'person1_object14[0][0]',       
+                                                                  'person1_object12[0][0]',       
+                                                                  'person1_object13[0][0]',       
+                                                                  'person1_object12[0][0]',       
+                                                                  'person1_object14[0][0]',       
+                                                                  'person1_object13[0][0]',       
+                                                                  'person1_object14[0][0]',       
+                                                                  'person2_object0[0][0]',        
+                                                                  'person2_object1[0][0]',        
+                                                                  'person2_object0[0][0]',        
+                                                                  'person2_object2[0][0]',        
+                                                                  'person2_object0[0][0]',        
+                                                                  'person2_object3[0][0]',        
+                                                                  'person2_object0[0][0]',        
+                                                                  'person2_object4[0][0]',        
+                                                                  'person2_object0[0][0]',        
+                                                                  'person2_object5[0][0]',        
+                                                                  'person2_object0[0][0]',        
+                                                                  'person2_object6[0][0]',        
+                                                                  'person2_object0[0][0]',        
+                                                                  'person2_object7[0][0]',        
+                                                                  'person2_object0[0][0]',        
+                                                                  'person2_object8[0][0]',        
+                                                                  'person2_object0[0][0]',        
+                                                                  'person2_object9[0][0]',        
+                                                                  'person2_object0[0][0]',        
+                                                                  'person2_object10[0][0]',       
+                                                                  'person2_object0[0][0]',        
+                                                                  'person2_object11[0][0]',       
+                                                                  'person2_object0[0][0]',        
+                                                                  'person2_object12[0][0]',       
+                                                                  'person2_object0[0][0]',        
+                                                                  'person2_object13[0][0]',       
+                                                                  'person2_object0[0][0]',        
+                                                                  'person2_object14[0][0]',       
+                                                                  'person2_object1[0][0]',        
+                                                                  'person2_object2[0][0]',        
+                                                                  'person2_object1[0][0]',        
+                                                                  'person2_object3[0][0]',        
+                                                                  'person2_object1[0][0]',        
+                                                                  'person2_object4[0][0]',        
+                                                                  'person2_object1[0][0]',        
+                                                                  'person2_object5[0][0]',        
+                                                                  'person2_object1[0][0]',        
+                                                                  'person2_object6[0][0]',        
+                                                                  'person2_object1[0][0]',        
+                                                                  'person2_object7[0][0]',        
+                                                                  'person2_object1[0][0]',        
+                                                                  'person2_object8[0][0]',        
+                                                                  'person2_object1[0][0]',        
+                                                                  'person2_object9[0][0]',        
+                                                                  'person2_object1[0][0]',        
+                                                                  'person2_object10[0][0]',       
+                                                                  'person2_object1[0][0]',        
+                                                                  'person2_object11[0][0]',       
+                                                                  'person2_object1[0][0]',        
+                                                                  'person2_object12[0][0]',       
+                                                                  'person2_object1[0][0]',        
+                                                                  'person2_object13[0][0]',       
+                                                                  'person2_object1[0][0]',        
+                                                                  'person2_object14[0][0]',       
+                                                                  'person2_object2[0][0]',        
+                                                                  'person2_object3[0][0]',        
+                                                                  'person2_object2[0][0]',        
+                                                                  'person2_object4[0][0]',        
+                                                                  'person2_object2[0][0]',        
+                                                                  'person2_object5[0][0]',        
+                                                                  'person2_object2[0][0]',        
+                                                                  'person2_object6[0][0]',        
+                                                                  'person2_object2[0][0]',        
+                                                                  'person2_object7[0][0]',        
+                                                                  'person2_object2[0][0]',        
+                                                                  'person2_object8[0][0]',        
+                                                                  'person2_object2[0][0]',        
+                                                                  'person2_object9[0][0]',        
+                                                                  'person2_object2[0][0]',        
+                                                                  'person2_object10[0][0]',       
+                                                                  'person2_object2[0][0]',        
+                                                                  'person2_object11[0][0]',       
+                                                                  'person2_object2[0][0]',        
+                                                                  'person2_object12[0][0]',       
+                                                                  'person2_object2[0][0]',        
+                                                                  'person2_object13[0][0]',       
+                                                                  'person2_object2[0][0]',        
+                                                                  'person2_object14[0][0]',       
+                                                                  'person2_object3[0][0]',        
+                                                                  'person2_object4[0][0]',        
+                                                                  'person2_object3[0][0]',        
+                                                                  'person2_object5[0][0]',        
+                                                                  'person2_object3[0][0]',        
+                                                                  'person2_object6[0][0]',        
+                                                                  'person2_object3[0][0]',        
+                                                                  'person2_object7[0][0]',        
+                                                                  'person2_object3[0][0]',        
+                                                                  'person2_object8[0][0]',        
+                                                                  'person2_object3[0][0]',        
+                                                                  'person2_object9[0][0]',        
+                                                                  'person2_object3[0][0]',        
+                                                                  'person2_object10[0][0]',       
+                                                                  'person2_object3[0][0]',        
+                                                                  'person2_object11[0][0]',       
+                                                                  'person2_object3[0][0]',        
+                                                                  'person2_object12[0][0]',       
+                                                                  'person2_object3[0][0]',        
+                                                                  'person2_object13[0][0]',       
+                                                                  'person2_object3[0][0]',        
+                                                                  'person2_object14[0][0]',       
+                                                                  'person2_object4[0][0]',        
+                                                                  'person2_object5[0][0]',        
+                                                                  'person2_object4[0][0]',        
+                                                                  'person2_object6[0][0]',        
+                                                                  'person2_object4[0][0]',        
+                                                                  'person2_object7[0][0]',        
+                                                                  'person2_object4[0][0]',        
+                                                                  'person2_object8[0][0]',        
+                                                                  'person2_object4[0][0]',        
+                                                                  'person2_object9[0][0]',        
+                                                                  'person2_object4[0][0]',        
+                                                                  'person2_object10[0][0]',       
+                                                                  'person2_object4[0][0]',        
+                                                                  'person2_object11[0][0]',       
+                                                                  'person2_object4[0][0]',        
+                                                                  'person2_object12[0][0]',       
+                                                                  'person2_object4[0][0]',        
+                                                                  'person2_object13[0][0]',       
+                                                                  'person2_object4[0][0]',        
+                                                                  'person2_object14[0][0]',       
+                                                                  'person2_object5[0][0]',        
+                                                                  'person2_object6[0][0]',        
+                                                                  'person2_object5[0][0]',        
+                                                                  'person2_object7[0][0]',        
+                                                                  'person2_object5[0][0]',        
+                                                                  'person2_object8[0][0]',        
+                                                                  'person2_object5[0][0]',        
+                                                                  'person2_object9[0][0]',        
+                                                                  'person2_object5[0][0]',        
+                                                                  'person2_object10[0][0]',       
+                                                                  'person2_object5[0][0]',        
+                                                                  'person2_object11[0][0]',       
+                                                                  'person2_object5[0][0]',        
+                                                                  'person2_object12[0][0]',       
+                                                                  'person2_object5[0][0]',        
+                                                                  'person2_object13[0][0]',       
+                                                                  'person2_object5[0][0]',        
+                                                                  'person2_object14[0][0]',       
+                                                                  'person2_object6[0][0]',        
+                                                                  'person2_object7[0][0]',        
+                                                                  'person2_object6[0][0]',        
+                                                                  'person2_object8[0][0]',        
+                                                                  'person2_object6[0][0]',        
+                                                                  'person2_object9[0][0]',        
+                                                                  'person2_object6[0][0]',        
+                                                                  'person2_object10[0][0]',       
+                                                                  'person2_object6[0][0]',        
+                                                                  'person2_object11[0][0]',       
+                                                                  'person2_object6[0][0]',        
+                                                                  'person2_object12[0][0]',       
+                                                                  'person2_object6[0][0]',        
+                                                                  'person2_object13[0][0]',       
+                                                                  'person2_object6[0][0]',        
+                                                                  'person2_object14[0][0]',       
+                                                                  'person2_object7[0][0]',        
+                                                                  'person2_object8[0][0]',        
+                                                                  'person2_object7[0][0]',        
+                                                                  'person2_object9[0][0]',        
+                                                                  'person2_object7[0][0]',        
+                                                                  'person2_object10[0][0]',       
+                                                                  'person2_object7[0][0]',        
+                                                                  'person2_object11[0][0]',       
+                                                                  'person2_object7[0][0]',        
+                                                                  'person2_object12[0][0]',       
+                                                                  'person2_object7[0][0]',        
+                                                                  'person2_object13[0][0]',       
+                                                                  'person2_object7[0][0]',        
+                                                                  'person2_object14[0][0]',       
+                                                                  'person2_object8[0][0]',        
+                                                                  'person2_object9[0][0]',        
+                                                                  'person2_object8[0][0]',        
+                                                                  'person2_object10[0][0]',       
+                                                                  'person2_object8[0][0]',        
+                                                                  'person2_object11[0][0]',       
+                                                                  'person2_object8[0][0]',        
+                                                                  'person2_object12[0][0]',       
+                                                                  'person2_object8[0][0]',        
+                                                                  'person2_object13[0][0]',       
+                                                                  'person2_object8[0][0]',        
+                                                                  'person2_object14[0][0]',       
+                                                                  'person2_object9[0][0]',        
+                                                                  'person2_object10[0][0]',       
+                                                                  'person2_object9[0][0]',        
+                                                                  'person2_object11[0][0]',       
+                                                                  'person2_object9[0][0]',        
+                                                                  'person2_object12[0][0]',       
+                                                                  'person2_object9[0][0]',        
+                                                                  'person2_object13[0][0]',       
+                                                                  'person2_object9[0][0]',        
+                                                                  'person2_object14[0][0]',       
+                                                                  'person2_object10[0][0]',       
+                                                                  'person2_object11[0][0]',       
+                                                                  'person2_object10[0][0]',       
+                                                                  'person2_object12[0][0]',       
+                                                                  'person2_object10[0][0]',       
+                                                                  'person2_object13[0][0]',       
+                                                                  'person2_object10[0][0]',       
+                                                                  'person2_object14[0][0]',       
+                                                                  'person2_object11[0][0]',       
+                                                                  'person2_object12[0][0]',       
+                                                                  'person2_object11[0][0]',       
+                                                                  'person2_object13[0][0]',       
+                                                                  'person2_object11[0][0]',       
+                                                                  'person2_object14[0][0]',       
+                                                                  'person2_object12[0][0]',       
+                                                                  'person2_object13[0][0]',       
+                                                                  'person2_object12[0][0]',       
+                                                                  'person2_object14[0][0]',       
+                                                                  'person2_object13[0][0]',       
+                                                                  'person2_object14[0][0]']       
+                                                                                                  
+ average_2 (Average)            (None, 500)          0           ['g_theta_indivs[0][0]',         
+                                                                  'g_theta_indivs[1][0]',         
+                                                                  'g_theta_indivs[2][0]',         
+                                                                  'g_theta_indivs[3][0]',         
+                                                                  'g_theta_indivs[4][0]',         
+                                                                  'g_theta_indivs[5][0]',         
+                                                                  'g_theta_indivs[6][0]',         
+                                                                  'g_theta_indivs[7][0]',         
+                                                                  'g_theta_indivs[8][0]',         
+                                                                  'g_theta_indivs[9][0]',         
+                                                                  'g_theta_indivs[10][0]',        
+                                                                  'g_theta_indivs[11][0]',        
+                                                                  'g_theta_indivs[12][0]',        
+                                                                  'g_theta_indivs[13][0]',        
+                                                                  'g_theta_indivs[14][0]',        
+                                                                  'g_theta_indivs[15][0]',        
+                                                                  'g_theta_indivs[16][0]',        
+                                                                  'g_theta_indivs[17][0]',        
+                                                                  'g_theta_indivs[18][0]',        
+                                                                  'g_theta_indivs[19][0]',        
+                                                                  'g_theta_indivs[20][0]',        
+                                                                  'g_theta_indivs[21][0]',        
+                                                                  'g_theta_indivs[22][0]',        
+                                                                  'g_theta_indivs[23][0]',        
+                                                                  'g_theta_indivs[24][0]',        
+                                                                  'g_theta_indivs[25][0]',        
+                                                                  'g_theta_indivs[26][0]',        
+                                                                  'g_theta_indivs[27][0]',        
+                                                                  'g_theta_indivs[28][0]',        
+                                                                  'g_theta_indivs[29][0]',        
+                                                                  'g_theta_indivs[30][0]',        
+                                                                  'g_theta_indivs[31][0]',        
+                                                                  'g_theta_indivs[32][0]',        
+                                                                  'g_theta_indivs[33][0]',        
+                                                                  'g_theta_indivs[34][0]',        
+                                                                  'g_theta_indivs[35][0]',        
+                                                                  'g_theta_indivs[36][0]',        
+                                                                  'g_theta_indivs[37][0]',        
+                                                                  'g_theta_indivs[38][0]',        
+                                                                  'g_theta_indivs[39][0]',        
+                                                                  'g_theta_indivs[40][0]',        
+                                                                  'g_theta_indivs[41][0]',        
+                                                                  'g_theta_indivs[42][0]',        
+                                                                  'g_theta_indivs[43][0]',        
+                                                                  'g_theta_indivs[44][0]',        
+                                                                  'g_theta_indivs[45][0]',        
+                                                                  'g_theta_indivs[46][0]',        
+                                                                  'g_theta_indivs[47][0]',        
+                                                                  'g_theta_indivs[48][0]',        
+                                                                  'g_theta_indivs[49][0]',        
+                                                                  'g_theta_indivs[50][0]',        
+                                                                  'g_theta_indivs[51][0]',        
+                                                                  'g_theta_indivs[52][0]',        
+                                                                  'g_theta_indivs[53][0]',        
+                                                                  'g_theta_indivs[54][0]',        
+                                                                  'g_theta_indivs[55][0]',        
+                                                                  'g_theta_indivs[56][0]',        
+                                                                  'g_theta_indivs[57][0]',        
+                                                                  'g_theta_indivs[58][0]',        
+                                                                  'g_theta_indivs[59][0]',        
+                                                                  'g_theta_indivs[60][0]',        
+                                                                  'g_theta_indivs[61][0]',        
+                                                                  'g_theta_indivs[62][0]',        
+                                                                  'g_theta_indivs[63][0]',        
+                                                                  'g_theta_indivs[64][0]',        
+                                                                  'g_theta_indivs[65][0]',        
+                                                                  'g_theta_indivs[66][0]',        
+                                                                  'g_theta_indivs[67][0]',        
+                                                                  'g_theta_indivs[68][0]',        
+                                                                  'g_theta_indivs[69][0]',        
+                                                                  'g_theta_indivs[70][0]',        
+                                                                  'g_theta_indivs[71][0]',        
+                                                                  'g_theta_indivs[72][0]',        
+                                                                  'g_theta_indivs[73][0]',        
+                                                                  'g_theta_indivs[74][0]',        
+                                                                  'g_theta_indivs[75][0]',        
+                                                                  'g_theta_indivs[76][0]',        
+                                                                  'g_theta_indivs[77][0]',        
+                                                                  'g_theta_indivs[78][0]',        
+                                                                  'g_theta_indivs[79][0]',        
+                                                                  'g_theta_indivs[80][0]',        
+                                                                  'g_theta_indivs[81][0]',        
+                                                                  'g_theta_indivs[82][0]',        
+                                                                  'g_theta_indivs[83][0]',        
+                                                                  'g_theta_indivs[84][0]',        
+                                                                  'g_theta_indivs[85][0]',        
+                                                                  'g_theta_indivs[86][0]',        
+                                                                  'g_theta_indivs[87][0]',        
+                                                                  'g_theta_indivs[88][0]',        
+                                                                  'g_theta_indivs[89][0]',        
+                                                                  'g_theta_indivs[90][0]',        
+                                                                  'g_theta_indivs[91][0]',        
+                                                                  'g_theta_indivs[92][0]',        
+                                                                  'g_theta_indivs[93][0]',        
+                                                                  'g_theta_indivs[94][0]',        
+                                                                  'g_theta_indivs[95][0]',        
+                                                                  'g_theta_indivs[96][0]',        
+                                                                  'g_theta_indivs[97][0]',        
+                                                                  'g_theta_indivs[98][0]',        
+                                                                  'g_theta_indivs[99][0]',        
+                                                                  'g_theta_indivs[100][0]',       
+                                                                  'g_theta_indivs[101][0]',       
+                                                                  'g_theta_indivs[102][0]',       
+                                                                  'g_theta_indivs[103][0]',       
+                                                                  'g_theta_indivs[104][0]']       
+                                                                                                  
+ average_3 (Average)            (None, 500)          0           ['g_theta_indivs[105][0]',       
+                                                                  'g_theta_indivs[106][0]',       
+                                                                  'g_theta_indivs[107][0]',       
+                                                                  'g_theta_indivs[108][0]',       
+                                                                  'g_theta_indivs[109][0]',       
+                                                                  'g_theta_indivs[110][0]',       
+                                                                  'g_theta_indivs[111][0]',       
+                                                                  'g_theta_indivs[112][0]',       
+                                                                  'g_theta_indivs[113][0]',       
+                                                                  'g_theta_indivs[114][0]',       
+                                                                  'g_theta_indivs[115][0]',       
+                                                                  'g_theta_indivs[116][0]',       
+                                                                  'g_theta_indivs[117][0]',       
+                                                                  'g_theta_indivs[118][0]',       
+                                                                  'g_theta_indivs[119][0]',       
+                                                                  'g_theta_indivs[120][0]',       
+                                                                  'g_theta_indivs[121][0]',       
+                                                                  'g_theta_indivs[122][0]',       
+                                                                  'g_theta_indivs[123][0]',       
+                                                                  'g_theta_indivs[124][0]',       
+                                                                  'g_theta_indivs[125][0]',       
+                                                                  'g_theta_indivs[126][0]',       
+                                                                  'g_theta_indivs[127][0]',       
+                                                                  'g_theta_indivs[128][0]',       
+                                                                  'g_theta_indivs[129][0]',       
+                                                                  'g_theta_indivs[130][0]',       
+                                                                  'g_theta_indivs[131][0]',       
+                                                                  'g_theta_indivs[132][0]',       
+                                                                  'g_theta_indivs[133][0]',       
+                                                                  'g_theta_indivs[134][0]',       
+                                                                  'g_theta_indivs[135][0]',       
+                                                                  'g_theta_indivs[136][0]',       
+                                                                  'g_theta_indivs[137][0]',       
+                                                                  'g_theta_indivs[138][0]',       
+                                                                  'g_theta_indivs[139][0]',       
+                                                                  'g_theta_indivs[140][0]',       
+                                                                  'g_theta_indivs[141][0]',       
+                                                                  'g_theta_indivs[142][0]',       
+                                                                  'g_theta_indivs[143][0]',       
+                                                                  'g_theta_indivs[144][0]',       
+                                                                  'g_theta_indivs[145][0]',       
+                                                                  'g_theta_indivs[146][0]',       
+                                                                  'g_theta_indivs[147][0]',       
+                                                                  'g_theta_indivs[148][0]',       
+                                                                  'g_theta_indivs[149][0]',       
+                                                                  'g_theta_indivs[150][0]',       
+                                                                  'g_theta_indivs[151][0]',       
+                                                                  'g_theta_indivs[152][0]',       
+                                                                  'g_theta_indivs[153][0]',       
+                                                                  'g_theta_indivs[154][0]',       
+                                                                  'g_theta_indivs[155][0]',       
+                                                                  'g_theta_indivs[156][0]',       
+                                                                  'g_theta_indivs[157][0]',       
+                                                                  'g_theta_indivs[158][0]',       
+                                                                  'g_theta_indivs[159][0]',       
+                                                                  'g_theta_indivs[160][0]',       
+                                                                  'g_theta_indivs[161][0]',       
+                                                                  'g_theta_indivs[162][0]',       
+                                                                  'g_theta_indivs[163][0]',       
+                                                                  'g_theta_indivs[164][0]',       
+                                                                  'g_theta_indivs[165][0]',       
+                                                                  'g_theta_indivs[166][0]',       
+                                                                  'g_theta_indivs[167][0]',       
+                                                                  'g_theta_indivs[168][0]',       
+                                                                  'g_theta_indivs[169][0]',       
+                                                                  'g_theta_indivs[170][0]',       
+                                                                  'g_theta_indivs[171][0]',       
+                                                                  'g_theta_indivs[172][0]',       
+                                                                  'g_theta_indivs[173][0]',       
+                                                                  'g_theta_indivs[174][0]',       
+                                                                  'g_theta_indivs[175][0]',       
+                                                                  'g_theta_indivs[176][0]',       
+                                                                  'g_theta_indivs[177][0]',       
+                                                                  'g_theta_indivs[178][0]',       
+                                                                  'g_theta_indivs[179][0]',       
+                                                                  'g_theta_indivs[180][0]',       
+                                                                  'g_theta_indivs[181][0]',       
+                                                                  'g_theta_indivs[182][0]',       
+                                                                  'g_theta_indivs[183][0]',       
+                                                                  'g_theta_indivs[184][0]',       
+                                                                  'g_theta_indivs[185][0]',       
+                                                                  'g_theta_indivs[186][0]',       
+                                                                  'g_theta_indivs[187][0]',       
+                                                                  'g_theta_indivs[188][0]',       
+                                                                  'g_theta_indivs[189][0]',       
+                                                                  'g_theta_indivs[190][0]',       
+                                                                  'g_theta_indivs[191][0]',       
+                                                                  'g_theta_indivs[192][0]',       
+                                                                  'g_theta_indivs[193][0]',       
+                                                                  'g_theta_indivs[194][0]',       
+                                                                  'g_theta_indivs[195][0]',       
+                                                                  'g_theta_indivs[196][0]',       
+                                                                  'g_theta_indivs[197][0]',       
+                                                                  'g_theta_indivs[198][0]',       
+                                                                  'g_theta_indivs[199][0]',       
+                                                                  'g_theta_indivs[200][0]',       
+                                                                  'g_theta_indivs[201][0]',       
+                                                                  'g_theta_indivs[202][0]',       
+                                                                  'g_theta_indivs[203][0]',       
+                                                                  'g_theta_indivs[204][0]',       
+                                                                  'g_theta_indivs[205][0]',       
+                                                                  'g_theta_indivs[206][0]',       
+                                                                  'g_theta_indivs[207][0]',       
+                                                                  'g_theta_indivs[208][0]',       
+                                                                  'g_theta_indivs[209][0]']       
+                                                                                                  
+ concatenate_3 (Concatenate)    (None, 1000)         0           ['average_2[0][0]',              
+                                                                  'average_3[0][0]']              
+                                                                                                  
+ dropout_1 (Dropout)            (None, 1000)         0           ['concatenate_3[0][0]']          
+                                                                                                  
+ f_phi_fc1 (Dense)              (None, 500)          500500      ['dropout_1[0][0]']              
+                                                                                                  
+ f_phi_fc2 (Dense)              (None, 100)          50100       ['f_phi_fc1[0][0]']              
+                                                                                                  
+ f_phi_fc3 (Dense)              (None, 100)          10100       ['f_phi_fc2[0][0]']              
+                                                                                                  
+ softmax (Dense)                (None, 60)           6060        ['f_phi_fc3[0][0]']              
+                                                                                                  
+==================================================================================================
+Total params: 3,329,260
+Trainable params: 3,329,260
+Non-trainable params: 0
+__________________________________________________________________________________________________
+WARNING:tensorflow:`period` argument is deprecated. Please use `save_freq` to specify the frequency in number of batches seen.
+WARNING:tensorflow:`batch_size` is no longer needed in the `TensorBoard` Callback and will be ignored in TensorFlow 2.0.
+WARNING:tensorflow:`period` argument is deprecated. Please use `save_freq` to specify the frequency in number of batches seen.
+Compiling model...
+Starting training...
+Epoch 1/200
+312/312 - 175s - loss: 2.1331 - accuracy: 0.3168 - recall_m: 0.1121 - precision_m: 0.6825 - f1_m: 0.1877 - val_loss: 1.6357 - val_accuracy: 0.4350 - val_recall_m: 0.1582 - val_precision_m: 0.8813 - val_f1_m: 0.2647 - 175s/epoch - 562ms/step
+Epoch 2/200
+312/312 - 163s - loss: 1.6112 - accuracy: 0.4414 - recall_m: 0.2250 - precision_m: 0.7720 - f1_m: 0.3455 - val_loss: 1.5032 - val_accuracy: 0.4624 - val_recall_m: 0.2844 - val_precision_m: 0.8172 - val_f1_m: 0.4196 - 163s/epoch - 521ms/step
+Epoch 3/200
+312/312 - 163s - loss: 1.4533 - accuracy: 0.4877 - recall_m: 0.2773 - precision_m: 0.7857 - f1_m: 0.4075 - val_loss: 1.4291 - val_accuracy: 0.4985 - val_recall_m: 0.2772 - val_precision_m: 0.8000 - val_f1_m: 0.4079 - 163s/epoch - 522ms/step
+Epoch 4/200
+312/312 - 162s - loss: 1.3519 - accuracy: 0.5187 - recall_m: 0.3138 - precision_m: 0.7906 - f1_m: 0.4469 - val_loss: 1.3570 - val_accuracy: 0.5178 - val_recall_m: 0.3417 - val_precision_m: 0.7848 - val_f1_m: 0.4736 - 162s/epoch - 520ms/step
+Epoch 5/200
+312/312 - 163s - loss: 1.2803 - accuracy: 0.5429 - recall_m: 0.3417 - precision_m: 0.8009 - f1_m: 0.4765 - val_loss: 1.3115 - val_accuracy: 0.5359 - val_recall_m: 0.3737 - val_precision_m: 0.7892 - val_f1_m: 0.5034 - 163s/epoch - 522ms/step
+Epoch 6/200
+312/312 - 162s - loss: 1.2038 - accuracy: 0.5666 - recall_m: 0.3730 - precision_m: 0.8106 - f1_m: 0.5083 - val_loss: 1.2661 - val_accuracy: 0.5469 - val_recall_m: 0.4068 - val_precision_m: 0.7496 - val_f1_m: 0.5244 - 162s/epoch - 520ms/step
+Epoch 7/200
+312/312 - 163s - loss: 1.1583 - accuracy: 0.5838 - recall_m: 0.3976 - precision_m: 0.8003 - f1_m: 0.5287 - val_loss: 1.1748 - val_accuracy: 0.5914 - val_recall_m: 0.4198 - val_precision_m: 0.7974 - val_f1_m: 0.5470 - 163s/epoch - 522ms/step
+Epoch 8/200
+312/312 - 162s - loss: 1.0941 - accuracy: 0.6058 - recall_m: 0.4280 - precision_m: 0.8100 - f1_m: 0.5580 - val_loss: 1.1752 - val_accuracy: 0.5798 - val_recall_m: 0.4177 - val_precision_m: 0.7698 - val_f1_m: 0.5390 - 162s/epoch - 519ms/step
+Epoch 9/200
+312/312 - 162s - loss: 1.0544 - accuracy: 0.6199 - recall_m: 0.4514 - precision_m: 0.8128 - f1_m: 0.5787 - val_loss: 1.1037 - val_accuracy: 0.6103 - val_recall_m: 0.4495 - val_precision_m: 0.7863 - val_f1_m: 0.5688 - 162s/epoch - 520ms/step
+Epoch 10/200
+312/312 - 162s - loss: 0.9974 - accuracy: 0.6418 - recall_m: 0.4847 - precision_m: 0.8114 - f1_m: 0.6051 - val_loss: 1.0354 - val_accuracy: 0.6360 - val_recall_m: 0.5067 - val_precision_m: 0.7733 - val_f1_m: 0.6098 - 162s/epoch - 520ms/step
+Epoch 11/200
+312/312 - 162s - loss: 0.9551 - accuracy: 0.6594 - recall_m: 0.5147 - precision_m: 0.8148 - f1_m: 0.6295 - val_loss: 0.9829 - val_accuracy: 0.6705 - val_recall_m: 0.5102 - val_precision_m: 0.8153 - val_f1_m: 0.6251 - 162s/epoch - 521ms/step
+Epoch 12/200
+312/312 - 163s - loss: 0.9145 - accuracy: 0.6746 - recall_m: 0.5424 - precision_m: 0.8203 - f1_m: 0.6517 - val_loss: 0.9971 - val_accuracy: 0.6541 - val_recall_m: 0.5371 - val_precision_m: 0.7699 - val_f1_m: 0.6308 - 163s/epoch - 521ms/step
+Epoch 13/200
+312/312 - 163s - loss: 0.8676 - accuracy: 0.6916 - recall_m: 0.5703 - precision_m: 0.8230 - f1_m: 0.6725 - val_loss: 0.9289 - val_accuracy: 0.6813 - val_recall_m: 0.5818 - val_precision_m: 0.7889 - val_f1_m: 0.6682 - 163s/epoch - 521ms/step
+Epoch 14/200
+312/312 - 163s - loss: 0.8251 - accuracy: 0.7034 - recall_m: 0.5923 - precision_m: 0.8247 - f1_m: 0.6883 - val_loss: 0.9460 - val_accuracy: 0.6697 - val_recall_m: 0.5813 - val_precision_m: 0.7624 - val_f1_m: 0.6581 - 163s/epoch - 522ms/step
+Epoch 15/200
+312/312 - 162s - loss: 0.7933 - accuracy: 0.7213 - recall_m: 0.6207 - precision_m: 0.8320 - f1_m: 0.7101 - val_loss: 0.8560 - val_accuracy: 0.7090 - val_recall_m: 0.6100 - val_precision_m: 0.8101 - val_f1_m: 0.6940 - 162s/epoch - 520ms/step
+Epoch 16/200
+312/312 - 163s - loss: 0.7647 - accuracy: 0.7274 - recall_m: 0.6341 - precision_m: 0.8316 - f1_m: 0.7187 - val_loss: 0.7975 - val_accuracy: 0.7286 - val_recall_m: 0.6544 - val_precision_m: 0.8080 - val_f1_m: 0.7219 - 163s/epoch - 521ms/step
+Epoch 17/200
+312/312 - 162s - loss: 0.7344 - accuracy: 0.7415 - recall_m: 0.6541 - precision_m: 0.8393 - f1_m: 0.7344 - val_loss: 0.7928 - val_accuracy: 0.7331 - val_recall_m: 0.6541 - val_precision_m: 0.8088 - val_f1_m: 0.7218 - 162s/epoch - 520ms/step
+Epoch 18/200
+312/312 - 162s - loss: 0.7055 - accuracy: 0.7519 - recall_m: 0.6707 - precision_m: 0.8399 - f1_m: 0.7451 - val_loss: 0.7881 - val_accuracy: 0.7381 - val_recall_m: 0.6633 - val_precision_m: 0.8105 - val_f1_m: 0.7283 - 162s/epoch - 521ms/step
+Epoch 19/200
+312/312 - 163s - loss: 0.6878 - accuracy: 0.7567 - recall_m: 0.6813 - precision_m: 0.8442 - f1_m: 0.7534 - val_loss: 0.8194 - val_accuracy: 0.7285 - val_recall_m: 0.6675 - val_precision_m: 0.8031 - val_f1_m: 0.7279 - 163s/epoch - 521ms/step
+Epoch 20/200
+312/312 - 162s - loss: 0.6657 - accuracy: 0.7645 - recall_m: 0.6931 - precision_m: 0.8441 - f1_m: 0.7606 - val_loss: 0.7830 - val_accuracy: 0.7406 - val_recall_m: 0.6816 - val_precision_m: 0.8067 - val_f1_m: 0.7379 - 162s/epoch - 519ms/step
+Epoch 21/200
+312/312 - 163s - loss: 0.6380 - accuracy: 0.7757 - recall_m: 0.7073 - precision_m: 0.8516 - f1_m: 0.7722 - val_loss: 0.7780 - val_accuracy: 0.7415 - val_recall_m: 0.6835 - val_precision_m: 0.8059 - val_f1_m: 0.7387 - 163s/epoch - 522ms/step
+Epoch 22/200
+312/312 - 162s - loss: 0.6202 - accuracy: 0.7807 - recall_m: 0.7179 - precision_m: 0.8512 - f1_m: 0.7783 - val_loss: 0.7658 - val_accuracy: 0.7434 - val_recall_m: 0.6852 - val_precision_m: 0.8090 - val_f1_m: 0.7410 - 162s/epoch - 521ms/step
+Epoch 23/200
+312/312 - 162s - loss: 0.6093 - accuracy: 0.7841 - recall_m: 0.7255 - precision_m: 0.8560 - f1_m: 0.7848 - val_loss: 0.7641 - val_accuracy: 0.7469 - val_recall_m: 0.6735 - val_precision_m: 0.8138 - val_f1_m: 0.7357 - 162s/epoch - 520ms/step
+Epoch 24/200
+312/312 - 162s - loss: 0.5822 - accuracy: 0.7965 - recall_m: 0.7371 - precision_m: 0.8624 - f1_m: 0.7943 - val_loss: 0.7636 - val_accuracy: 0.7543 - val_recall_m: 0.6935 - val_precision_m: 0.8122 - val_f1_m: 0.7471 - 162s/epoch - 519ms/step
+Epoch 25/200
+312/312 - 162s - loss: 0.5816 - accuracy: 0.7927 - recall_m: 0.7393 - precision_m: 0.8619 - f1_m: 0.7954 - val_loss: 0.8120 - val_accuracy: 0.7485 - val_recall_m: 0.6719 - val_precision_m: 0.8057 - val_f1_m: 0.7316 - 162s/epoch - 520ms/step
+Epoch 26/200
+312/312 - 163s - loss: 0.5489 - accuracy: 0.8066 - recall_m: 0.7544 - precision_m: 0.8658 - f1_m: 0.8058 - val_loss: 0.7032 - val_accuracy: 0.7730 - val_recall_m: 0.7169 - val_precision_m: 0.8324 - val_f1_m: 0.7692 - 163s/epoch - 521ms/step
+Epoch 27/200
+312/312 - 162s - loss: 0.5509 - accuracy: 0.8060 - recall_m: 0.7538 - precision_m: 0.8675 - f1_m: 0.8062 - val_loss: 0.7488 - val_accuracy: 0.7570 - val_recall_m: 0.7106 - val_precision_m: 0.8115 - val_f1_m: 0.7568 - 162s/epoch - 520ms/step
+Epoch 28/200
+312/312 - 162s - loss: 0.5333 - accuracy: 0.8083 - recall_m: 0.7599 - precision_m: 0.8721 - f1_m: 0.8117 - val_loss: 0.7325 - val_accuracy: 0.7661 - val_recall_m: 0.7187 - val_precision_m: 0.8161 - val_f1_m: 0.7636 - 162s/epoch - 520ms/step
+Epoch 29/200
+312/312 - 163s - loss: 0.5231 - accuracy: 0.8136 - recall_m: 0.7656 - precision_m: 0.8732 - f1_m: 0.8154 - val_loss: 0.7252 - val_accuracy: 0.7678 - val_recall_m: 0.7231 - val_precision_m: 0.8138 - val_f1_m: 0.7649 - 163s/epoch - 522ms/step
+Epoch 30/200
+312/312 - 163s - loss: 0.5099 - accuracy: 0.8181 - recall_m: 0.7709 - precision_m: 0.8707 - f1_m: 0.8173 - val_loss: 0.7194 - val_accuracy: 0.7701 - val_recall_m: 0.7366 - val_precision_m: 0.8082 - val_f1_m: 0.7702 - 163s/epoch - 521ms/step
+Epoch 31/200
+312/312 - 162s - loss: 0.5016 - accuracy: 0.8196 - recall_m: 0.7732 - precision_m: 0.8784 - f1_m: 0.8220 - val_loss: 0.7598 - val_accuracy: 0.7577 - val_recall_m: 0.7213 - val_precision_m: 0.8017 - val_f1_m: 0.7586 - 162s/epoch - 519ms/step
+Epoch 32/200
+312/312 - 163s - loss: 0.4850 - accuracy: 0.8248 - recall_m: 0.7811 - precision_m: 0.8799 - f1_m: 0.8271 - val_loss: 0.7070 - val_accuracy: 0.7796 - val_recall_m: 0.7393 - val_precision_m: 0.8227 - val_f1_m: 0.7780 - 163s/epoch - 522ms/step
+Epoch 33/200
+312/312 - 162s - loss: 0.4733 - accuracy: 0.8321 - recall_m: 0.7901 - precision_m: 0.8823 - f1_m: 0.8333 - val_loss: 0.7803 - val_accuracy: 0.7524 - val_recall_m: 0.7087 - val_precision_m: 0.7980 - val_f1_m: 0.7498 - 162s/epoch - 520ms/step
+Epoch 34/200
+312/312 - 162s - loss: 0.4678 - accuracy: 0.8347 - recall_m: 0.7916 - precision_m: 0.8834 - f1_m: 0.8346 - val_loss: 0.7309 - val_accuracy: 0.7668 - val_recall_m: 0.7275 - val_precision_m: 0.8121 - val_f1_m: 0.7667 - 162s/epoch - 521ms/step
+Epoch 35/200
+312/312 - 162s - loss: 0.4524 - accuracy: 0.8372 - recall_m: 0.7978 - precision_m: 0.8866 - f1_m: 0.8395 - val_loss: 0.7478 - val_accuracy: 0.7655 - val_recall_m: 0.7283 - val_precision_m: 0.8060 - val_f1_m: 0.7645 - 162s/epoch - 520ms/step
+Epoch 36/200
+312/312 - 162s - loss: 0.4421 - accuracy: 0.8417 - recall_m: 0.8026 - precision_m: 0.8886 - f1_m: 0.8431 - val_loss: 0.7034 - val_accuracy: 0.7859 - val_recall_m: 0.7500 - val_precision_m: 0.8240 - val_f1_m: 0.7845 - 162s/epoch - 520ms/step
+Epoch 37/200
+312/312 - 163s - loss: 0.4375 - accuracy: 0.8448 - recall_m: 0.8080 - precision_m: 0.8913 - f1_m: 0.8473 - val_loss: 0.7045 - val_accuracy: 0.7875 - val_recall_m: 0.7518 - val_precision_m: 0.8313 - val_f1_m: 0.7889 - 163s/epoch - 521ms/step
+Epoch 38/200
+312/312 - 163s - loss: 0.4282 - accuracy: 0.8441 - recall_m: 0.8064 - precision_m: 0.8882 - f1_m: 0.8450 - val_loss: 0.7129 - val_accuracy: 0.7821 - val_recall_m: 0.7488 - val_precision_m: 0.8195 - val_f1_m: 0.7820 - 163s/epoch - 522ms/step
+Epoch 39/200
+312/312 - 164s - loss: 0.4253 - accuracy: 0.8489 - recall_m: 0.8127 - precision_m: 0.8954 - f1_m: 0.8517 - val_loss: 0.6909 - val_accuracy: 0.7839 - val_recall_m: 0.7524 - val_precision_m: 0.8205 - val_f1_m: 0.7844 - 164s/epoch - 524ms/step
+Epoch 40/200
+312/312 - 163s - loss: 0.4080 - accuracy: 0.8538 - recall_m: 0.8204 - precision_m: 0.8947 - f1_m: 0.8556 - val_loss: 0.7115 - val_accuracy: 0.7822 - val_recall_m: 0.7536 - val_precision_m: 0.8174 - val_f1_m: 0.7836 - 163s/epoch - 521ms/step
+Epoch 41/200
+312/312 - 163s - loss: 0.4021 - accuracy: 0.8569 - recall_m: 0.8238 - precision_m: 0.8998 - f1_m: 0.8598 - val_loss: 0.6927 - val_accuracy: 0.7947 - val_recall_m: 0.7662 - val_precision_m: 0.8279 - val_f1_m: 0.7954 - 163s/epoch - 521ms/step
+Epoch 42/200
+312/312 - 163s - loss: 0.3927 - accuracy: 0.8605 - recall_m: 0.8288 - precision_m: 0.9012 - f1_m: 0.8632 - val_loss: 0.7099 - val_accuracy: 0.7889 - val_recall_m: 0.7588 - val_precision_m: 0.8210 - val_f1_m: 0.7882 - 163s/epoch - 521ms/step
+Epoch 43/200
+312/312 - 163s - loss: 0.3843 - accuracy: 0.8626 - recall_m: 0.8309 - precision_m: 0.9006 - f1_m: 0.8641 - val_loss: 0.6894 - val_accuracy: 0.7952 - val_recall_m: 0.7674 - val_precision_m: 0.8330 - val_f1_m: 0.7982 - 163s/epoch - 522ms/step
+Epoch 44/200
+312/312 - 163s - loss: 0.3731 - accuracy: 0.8654 - recall_m: 0.8338 - precision_m: 0.9027 - f1_m: 0.8666 - val_loss: 0.6929 - val_accuracy: 0.7984 - val_recall_m: 0.7719 - val_precision_m: 0.8305 - val_f1_m: 0.7996 - 163s/epoch - 521ms/step
+Epoch 45/200
+312/312 - 163s - loss: 0.3732 - accuracy: 0.8653 - recall_m: 0.8346 - precision_m: 0.9033 - f1_m: 0.8672 - val_loss: 0.7799 - val_accuracy: 0.7812 - val_recall_m: 0.7579 - val_precision_m: 0.8100 - val_f1_m: 0.7827 - 163s/epoch - 522ms/step
+Epoch 46/200
+312/312 - 163s - loss: 0.3635 - accuracy: 0.8694 - recall_m: 0.8401 - precision_m: 0.9054 - f1_m: 0.8713 - val_loss: 0.8169 - val_accuracy: 0.7714 - val_recall_m: 0.7454 - val_precision_m: 0.8053 - val_f1_m: 0.7737 - 163s/epoch - 522ms/step
+Epoch 47/200
+312/312 - 163s - loss: 0.3645 - accuracy: 0.8704 - recall_m: 0.8399 - precision_m: 0.9041 - f1_m: 0.8706 - val_loss: 0.7312 - val_accuracy: 0.7923 - val_recall_m: 0.7681 - val_precision_m: 0.8221 - val_f1_m: 0.7937 - 163s/epoch - 522ms/step
+Epoch 48/200
+312/312 - 163s - loss: 0.3423 - accuracy: 0.8791 - recall_m: 0.8491 - precision_m: 0.9123 - f1_m: 0.8793 - val_loss: 0.6699 - val_accuracy: 0.8071 - val_recall_m: 0.7791 - val_precision_m: 0.8406 - val_f1_m: 0.8081 - 163s/epoch - 522ms/step
+Epoch 49/200
+312/312 - 162s - loss: 0.3449 - accuracy: 0.8767 - recall_m: 0.8499 - precision_m: 0.9127 - f1_m: 0.8799 - val_loss: 0.6830 - val_accuracy: 0.8066 - val_recall_m: 0.7806 - val_precision_m: 0.8372 - val_f1_m: 0.8073 - 162s/epoch - 519ms/step
+Epoch 50/200
+312/312 - 164s - loss: 0.3315 - accuracy: 0.8808 - recall_m: 0.8543 - precision_m: 0.9135 - f1_m: 0.8827 - val_loss: 0.7501 - val_accuracy: 0.7949 - val_recall_m: 0.7679 - val_precision_m: 0.8249 - val_f1_m: 0.7948 - 164s/epoch - 525ms/step
+Epoch 51/200
+312/312 - 162s - loss: 0.3363 - accuracy: 0.8786 - recall_m: 0.8527 - precision_m: 0.9116 - f1_m: 0.8810 - val_loss: 0.7255 - val_accuracy: 0.7972 - val_recall_m: 0.7718 - val_precision_m: 0.8247 - val_f1_m: 0.7969 - 162s/epoch - 520ms/step
+Epoch 52/200
+312/312 - 163s - loss: 0.3217 - accuracy: 0.8842 - recall_m: 0.8585 - precision_m: 0.9155 - f1_m: 0.8858 - val_loss: 0.7057 - val_accuracy: 0.8084 - val_recall_m: 0.7844 - val_precision_m: 0.8363 - val_f1_m: 0.8091 - 163s/epoch - 521ms/step
+Epoch 53/200
+312/312 - 162s - loss: 0.3207 - accuracy: 0.8851 - recall_m: 0.8588 - precision_m: 0.9160 - f1_m: 0.8862 - val_loss: 0.7138 - val_accuracy: 0.8097 - val_recall_m: 0.7884 - val_precision_m: 0.8378 - val_f1_m: 0.8119 - 162s/epoch - 519ms/step
+Epoch 54/200
+312/312 - 163s - loss: 0.3096 - accuracy: 0.8908 - recall_m: 0.8669 - precision_m: 0.9196 - f1_m: 0.8922 - val_loss: 0.7397 - val_accuracy: 0.8005 - val_recall_m: 0.7813 - val_precision_m: 0.8239 - val_f1_m: 0.8017 - 163s/epoch - 521ms/step
+Epoch 55/200
+312/312 - 162s - loss: 0.3037 - accuracy: 0.8925 - recall_m: 0.8683 - precision_m: 0.9196 - f1_m: 0.8930 - val_loss: 0.7039 - val_accuracy: 0.8082 - val_recall_m: 0.7873 - val_precision_m: 0.8367 - val_f1_m: 0.8108 - 162s/epoch - 520ms/step
+Epoch 56/200
+312/312 - 163s - loss: 0.3042 - accuracy: 0.8895 - recall_m: 0.8676 - precision_m: 0.9188 - f1_m: 0.8922 - val_loss: 0.7343 - val_accuracy: 0.8048 - val_recall_m: 0.7827 - val_precision_m: 0.8313 - val_f1_m: 0.8058 - 163s/epoch - 522ms/step
+Epoch 57/200
+312/312 - 162s - loss: 0.2901 - accuracy: 0.8938 - recall_m: 0.8715 - precision_m: 0.9226 - f1_m: 0.8961 - val_loss: 0.7260 - val_accuracy: 0.8107 - val_recall_m: 0.7932 - val_precision_m: 0.8339 - val_f1_m: 0.8127 - 162s/epoch - 520ms/step
+Epoch 58/200
+312/312 - 163s - loss: 0.2848 - accuracy: 0.8973 - recall_m: 0.8758 - precision_m: 0.9237 - f1_m: 0.8989 - val_loss: 0.7423 - val_accuracy: 0.8081 - val_recall_m: 0.7900 - val_precision_m: 0.8323 - val_f1_m: 0.8103 - 163s/epoch - 522ms/step
+Epoch 59/200
+312/312 - 163s - loss: 0.2840 - accuracy: 0.9015 - recall_m: 0.8789 - precision_m: 0.9271 - f1_m: 0.9022 - val_loss: 0.7620 - val_accuracy: 0.8033 - val_recall_m: 0.7862 - val_precision_m: 0.8257 - val_f1_m: 0.8051 - 163s/epoch - 522ms/step
+Epoch 60/200
+312/312 - 162s - loss: 0.2750 - accuracy: 0.9026 - recall_m: 0.8791 - precision_m: 0.9288 - f1_m: 0.9030 - val_loss: 0.8085 - val_accuracy: 0.7980 - val_recall_m: 0.7824 - val_precision_m: 0.8219 - val_f1_m: 0.8012 - 162s/epoch - 519ms/step
+Epoch 61/200
+312/312 - 163s - loss: 0.2753 - accuracy: 0.8993 - recall_m: 0.8795 - precision_m: 0.9247 - f1_m: 0.9013 - val_loss: 0.7803 - val_accuracy: 0.8050 - val_recall_m: 0.7915 - val_precision_m: 0.8297 - val_f1_m: 0.8098 - 163s/epoch - 523ms/step
+Epoch 62/200
+312/312 - 163s - loss: 0.2713 - accuracy: 0.9029 - recall_m: 0.8830 - precision_m: 0.9273 - f1_m: 0.9044 - val_loss: 0.7047 - val_accuracy: 0.8164 - val_recall_m: 0.7972 - val_precision_m: 0.8363 - val_f1_m: 0.8160 - 163s/epoch - 521ms/step
+Epoch 63/200
+312/312 - 163s - loss: 0.2590 - accuracy: 0.9078 - recall_m: 0.8877 - precision_m: 0.9319 - f1_m: 0.9091 - val_loss: 0.7373 - val_accuracy: 0.8150 - val_recall_m: 0.8002 - val_precision_m: 0.8370 - val_f1_m: 0.8179 - 163s/epoch - 523ms/step
+Epoch 64/200
+312/312 - 163s - loss: 0.2514 - accuracy: 0.9100 - recall_m: 0.8922 - precision_m: 0.9322 - f1_m: 0.9116 - val_loss: 0.7713 - val_accuracy: 0.8101 - val_recall_m: 0.7939 - val_precision_m: 0.8322 - val_f1_m: 0.8123 - 163s/epoch - 521ms/step
+Epoch 65/200
+312/312 - 163s - loss: 0.2613 - accuracy: 0.9056 - recall_m: 0.8869 - precision_m: 0.9292 - f1_m: 0.9074 - val_loss: 0.7312 - val_accuracy: 0.8126 - val_recall_m: 0.7948 - val_precision_m: 0.8360 - val_f1_m: 0.8144 - 163s/epoch - 522ms/step
+Epoch 66/200
+312/312 - 162s - loss: 0.2448 - accuracy: 0.9128 - recall_m: 0.8955 - precision_m: 0.9350 - f1_m: 0.9147 - val_loss: 0.7292 - val_accuracy: 0.8141 - val_recall_m: 0.8015 - val_precision_m: 0.8359 - val_f1_m: 0.8181 - 162s/epoch - 520ms/step
+Epoch 67/200
+312/312 - 163s - loss: 0.2368 - accuracy: 0.9142 - recall_m: 0.8962 - precision_m: 0.9349 - f1_m: 0.9150 - val_loss: 0.7680 - val_accuracy: 0.8103 - val_recall_m: 0.7965 - val_precision_m: 0.8312 - val_f1_m: 0.8132 - 163s/epoch - 521ms/step
+Epoch 68/200
+312/312 - 163s - loss: 0.2450 - accuracy: 0.9125 - recall_m: 0.8951 - precision_m: 0.9324 - f1_m: 0.9132 - val_loss: 0.8228 - val_accuracy: 0.8057 - val_recall_m: 0.7913 - val_precision_m: 0.8286 - val_f1_m: 0.8092 - 163s/epoch - 521ms/step
+Epoch 69/200
+312/312 - 163s - loss: 0.2388 - accuracy: 0.9131 - recall_m: 0.8960 - precision_m: 0.9337 - f1_m: 0.9143 - val_loss: 0.8565 - val_accuracy: 0.8046 - val_recall_m: 0.7918 - val_precision_m: 0.8238 - val_f1_m: 0.8072 - 163s/epoch - 522ms/step
+Epoch 70/200
+312/312 - 163s - loss: 0.2324 - accuracy: 0.9178 - recall_m: 0.9023 - precision_m: 0.9384 - f1_m: 0.9198 - val_loss: 0.8424 - val_accuracy: 0.7985 - val_recall_m: 0.7840 - val_precision_m: 0.8180 - val_f1_m: 0.8004 - 163s/epoch - 523ms/step
+Epoch 71/200
+312/312 - 162s - loss: 0.2275 - accuracy: 0.9187 - recall_m: 0.9012 - precision_m: 0.9393 - f1_m: 0.9197 - val_loss: 0.8124 - val_accuracy: 0.8099 - val_recall_m: 0.7965 - val_precision_m: 0.8270 - val_f1_m: 0.8112 - 162s/epoch - 521ms/step
+Epoch 72/200
+312/312 - 163s - loss: 0.2178 - accuracy: 0.9222 - recall_m: 0.9059 - precision_m: 0.9414 - f1_m: 0.9231 - val_loss: 0.8475 - val_accuracy: 0.8073 - val_recall_m: 0.7941 - val_precision_m: 0.8269 - val_f1_m: 0.8099 - 163s/epoch - 521ms/step
+Epoch 73/200
+312/312 - 162s - loss: 0.2296 - accuracy: 0.9187 - recall_m: 0.9040 - precision_m: 0.9379 - f1_m: 0.9205 - val_loss: 0.7631 - val_accuracy: 0.8155 - val_recall_m: 0.8045 - val_precision_m: 0.8340 - val_f1_m: 0.8187 - 162s/epoch - 521ms/step
+Epoch 74/200
+312/312 - 163s - loss: 0.2272 - accuracy: 0.9177 - recall_m: 0.9021 - precision_m: 0.9374 - f1_m: 0.9193 - val_loss: 0.7557 - val_accuracy: 0.8104 - val_recall_m: 0.7963 - val_precision_m: 0.8319 - val_f1_m: 0.8134 - 163s/epoch - 523ms/step
+Epoch 75/200
+312/312 - 162s - loss: 0.2113 - accuracy: 0.9263 - recall_m: 0.9112 - precision_m: 0.9447 - f1_m: 0.9276 - val_loss: 0.8631 - val_accuracy: 0.8053 - val_recall_m: 0.7938 - val_precision_m: 0.8255 - val_f1_m: 0.8091 - 162s/epoch - 520ms/step
+Epoch 76/200
+312/312 - 163s - loss: 0.2080 - accuracy: 0.9244 - recall_m: 0.9093 - precision_m: 0.9416 - f1_m: 0.9250 - val_loss: 0.8128 - val_accuracy: 0.8072 - val_recall_m: 0.7952 - val_precision_m: 0.8251 - val_f1_m: 0.8096 - 163s/epoch - 522ms/step
+Epoch 77/200
+312/312 - 163s - loss: 0.2017 - accuracy: 0.9280 - recall_m: 0.9154 - precision_m: 0.9447 - f1_m: 0.9297 - val_loss: 0.7957 - val_accuracy: 0.8183 - val_recall_m: 0.8045 - val_precision_m: 0.8361 - val_f1_m: 0.8197 - 163s/epoch - 521ms/step
+Epoch 78/200
+312/312 - 163s - loss: 0.2039 - accuracy: 0.9264 - recall_m: 0.9135 - precision_m: 0.9439 - f1_m: 0.9283 - val_loss: 0.8721 - val_accuracy: 0.8100 - val_recall_m: 0.8001 - val_precision_m: 0.8239 - val_f1_m: 0.8116 - 163s/epoch - 521ms/step
+Epoch 79/200
+312/312 - 163s - loss: 0.1937 - accuracy: 0.9315 - recall_m: 0.9183 - precision_m: 0.9478 - f1_m: 0.9327 - val_loss: 0.8237 - val_accuracy: 0.8098 - val_recall_m: 0.7947 - val_precision_m: 0.8254 - val_f1_m: 0.8095 - 163s/epoch - 521ms/step
+Epoch 80/200
+312/312 - 163s - loss: 0.1987 - accuracy: 0.9295 - recall_m: 0.9165 - precision_m: 0.9460 - f1_m: 0.9309 - val_loss: 0.8402 - val_accuracy: 0.8134 - val_recall_m: 0.8022 - val_precision_m: 0.8275 - val_f1_m: 0.8144 - 163s/epoch - 522ms/step
+Epoch 81/200
+312/312 - 162s - loss: 0.1896 - accuracy: 0.9312 - recall_m: 0.9186 - precision_m: 0.9468 - f1_m: 0.9324 - val_loss: 0.8837 - val_accuracy: 0.8137 - val_recall_m: 0.8040 - val_precision_m: 0.8291 - val_f1_m: 0.8162 - 162s/epoch - 520ms/step
+Epoch 82/200
+312/312 - 163s - loss: 0.2019 - accuracy: 0.9287 - recall_m: 0.9161 - precision_m: 0.9455 - f1_m: 0.9304 - val_loss: 0.7651 - val_accuracy: 0.8211 - val_recall_m: 0.8097 - val_precision_m: 0.8385 - val_f1_m: 0.8235 - 163s/epoch - 521ms/step
+Epoch 83/200
+312/312 - 163s - loss: 0.1790 - accuracy: 0.9359 - recall_m: 0.9229 - precision_m: 0.9505 - f1_m: 0.9364 - val_loss: 0.8310 - val_accuracy: 0.8212 - val_recall_m: 0.8125 - val_precision_m: 0.8344 - val_f1_m: 0.8232 - 163s/epoch - 523ms/step
+Epoch 84/200
+312/312 - 162s - loss: 0.1786 - accuracy: 0.9353 - recall_m: 0.9239 - precision_m: 0.9506 - f1_m: 0.9370 - val_loss: 0.8827 - val_accuracy: 0.8150 - val_recall_m: 0.8043 - val_precision_m: 0.8294 - val_f1_m: 0.8164 - 162s/epoch - 521ms/step
+Epoch 85/200
+312/312 - 163s - loss: 0.1802 - accuracy: 0.9358 - recall_m: 0.9237 - precision_m: 0.9508 - f1_m: 0.9370 - val_loss: 0.8272 - val_accuracy: 0.8213 - val_recall_m: 0.8108 - val_precision_m: 0.8375 - val_f1_m: 0.8237 - 163s/epoch - 523ms/step
+Epoch 86/200
+312/312 - 162s - loss: 0.1794 - accuracy: 0.9364 - recall_m: 0.9247 - precision_m: 0.9501 - f1_m: 0.9371 - val_loss: 0.9116 - val_accuracy: 0.8076 - val_recall_m: 0.7969 - val_precision_m: 0.8232 - val_f1_m: 0.8096 - 162s/epoch - 521ms/step
+Epoch 87/200
+312/312 - 164s - loss: 0.1746 - accuracy: 0.9380 - recall_m: 0.9275 - precision_m: 0.9515 - f1_m: 0.9393 - val_loss: 0.8437 - val_accuracy: 0.8148 - val_recall_m: 0.8022 - val_precision_m: 0.8320 - val_f1_m: 0.8166 - 164s/epoch - 526ms/step
+Epoch 88/200
+312/312 - 163s - loss: 0.1680 - accuracy: 0.9409 - recall_m: 0.9305 - precision_m: 0.9543 - f1_m: 0.9421 - val_loss: 0.9126 - val_accuracy: 0.8106 - val_recall_m: 0.8015 - val_precision_m: 0.8242 - val_f1_m: 0.8125 - 163s/epoch - 523ms/step
+Epoch 89/200
+312/312 - 162s - loss: 0.1748 - accuracy: 0.9379 - recall_m: 0.9272 - precision_m: 0.9518 - f1_m: 0.9393 - val_loss: 0.8606 - val_accuracy: 0.8180 - val_recall_m: 0.8061 - val_precision_m: 0.8319 - val_f1_m: 0.8186 - 162s/epoch - 520ms/step
+Epoch 90/200
+312/312 - 163s - loss: 0.1785 - accuracy: 0.9400 - recall_m: 0.9292 - precision_m: 0.9526 - f1_m: 0.9407 - val_loss: 0.8358 - val_accuracy: 0.8235 - val_recall_m: 0.8142 - val_precision_m: 0.8359 - val_f1_m: 0.8247 - 163s/epoch - 522ms/step
+Epoch 91/200
+312/312 - 162s - loss: 0.1664 - accuracy: 0.9412 - recall_m: 0.9299 - precision_m: 0.9534 - f1_m: 0.9414 - val_loss: 0.9682 - val_accuracy: 0.8012 - val_recall_m: 0.7934 - val_precision_m: 0.8131 - val_f1_m: 0.8030 - 162s/epoch - 521ms/step
+Epoch 92/200
+312/312 - 163s - loss: 0.1581 - accuracy: 0.9441 - recall_m: 0.9337 - precision_m: 0.9550 - f1_m: 0.9442 - val_loss: 0.8686 - val_accuracy: 0.8103 - val_recall_m: 0.7970 - val_precision_m: 0.8279 - val_f1_m: 0.8119 - 163s/epoch - 521ms/step
+Epoch 93/200
+312/312 - 163s - loss: 0.1574 - accuracy: 0.9445 - recall_m: 0.9340 - precision_m: 0.9558 - f1_m: 0.9447 - val_loss: 0.8419 - val_accuracy: 0.8226 - val_recall_m: 0.8123 - val_precision_m: 0.8364 - val_f1_m: 0.8240 - 163s/epoch - 522ms/step
+Epoch 94/200
+312/312 - 163s - loss: 0.1516 - accuracy: 0.9469 - recall_m: 0.9369 - precision_m: 0.9582 - f1_m: 0.9473 - val_loss: 0.8826 - val_accuracy: 0.8159 - val_recall_m: 0.8095 - val_precision_m: 0.8294 - val_f1_m: 0.8192 - 163s/epoch - 522ms/step
+Epoch 95/200
+312/312 - 163s - loss: 0.1475 - accuracy: 0.9481 - recall_m: 0.9390 - precision_m: 0.9588 - f1_m: 0.9487 - val_loss: 0.8817 - val_accuracy: 0.8199 - val_recall_m: 0.8112 - val_precision_m: 0.8338 - val_f1_m: 0.8221 - 163s/epoch - 522ms/step
+Epoch 96/200
+312/312 - 163s - loss: 0.1551 - accuracy: 0.9453 - recall_m: 0.9360 - precision_m: 0.9562 - f1_m: 0.9459 - val_loss: 0.9555 - val_accuracy: 0.8119 - val_recall_m: 0.8048 - val_precision_m: 0.8239 - val_f1_m: 0.8141 - 163s/epoch - 521ms/step
+Epoch 97/200
+312/312 - 163s - loss: 0.1536 - accuracy: 0.9453 - recall_m: 0.9352 - precision_m: 0.9569 - f1_m: 0.9458 - val_loss: 0.9845 - val_accuracy: 0.8082 - val_recall_m: 0.7997 - val_precision_m: 0.8189 - val_f1_m: 0.8090 - 163s/epoch - 522ms/step
+Epoch 98/200
+312/312 - 163s - loss: 0.1402 - accuracy: 0.9510 - recall_m: 0.9428 - precision_m: 0.9617 - f1_m: 0.9521 - val_loss: 0.9546 - val_accuracy: 0.8188 - val_recall_m: 0.8109 - val_precision_m: 0.8322 - val_f1_m: 0.8213 - 163s/epoch - 522ms/step
+Epoch 99/200
+312/312 - 163s - loss: 0.1351 - accuracy: 0.9535 - recall_m: 0.9440 - precision_m: 0.9626 - f1_m: 0.9531 - val_loss: 0.9793 - val_accuracy: 0.8120 - val_recall_m: 0.8045 - val_precision_m: 0.8237 - val_f1_m: 0.8138 - 163s/epoch - 523ms/step
+Epoch 100/200
+312/312 - 163s - loss: 0.1408 - accuracy: 0.9501 - recall_m: 0.9426 - precision_m: 0.9600 - f1_m: 0.9511 - val_loss: 0.9679 - val_accuracy: 0.8046 - val_recall_m: 0.7963 - val_precision_m: 0.8172 - val_f1_m: 0.8064 - 163s/epoch - 522ms/step
+Epoch 101/200
+312/312 - 164s - loss: 0.1443 - accuracy: 0.9482 - recall_m: 0.9402 - precision_m: 0.9581 - f1_m: 0.9490 - val_loss: 0.9153 - val_accuracy: 0.8184 - val_recall_m: 0.8047 - val_precision_m: 0.8343 - val_f1_m: 0.8190 - 164s/epoch - 526ms/step
+Epoch 102/200
+312/312 - 163s - loss: 0.1348 - accuracy: 0.9515 - recall_m: 0.9435 - precision_m: 0.9612 - f1_m: 0.9522 - val_loss: 0.9219 - val_accuracy: 0.8199 - val_recall_m: 0.8092 - val_precision_m: 0.8351 - val_f1_m: 0.8217 - 163s/epoch - 522ms/step
+Epoch 103/200
+312/312 - 163s - loss: 0.1389 - accuracy: 0.9517 - recall_m: 0.9431 - precision_m: 0.9610 - f1_m: 0.9519 - val_loss: 0.9603 - val_accuracy: 0.8188 - val_recall_m: 0.8106 - val_precision_m: 0.8300 - val_f1_m: 0.8200 - 163s/epoch - 523ms/step
+Epoch 104/200
+312/312 - 162s - loss: 0.1435 - accuracy: 0.9518 - recall_m: 0.9429 - precision_m: 0.9601 - f1_m: 0.9513 - val_loss: 0.9122 - val_accuracy: 0.8182 - val_recall_m: 0.8112 - val_precision_m: 0.8308 - val_f1_m: 0.8207 - 162s/epoch - 521ms/step
+Epoch 105/200
+312/312 - 163s - loss: 0.1317 - accuracy: 0.9542 - recall_m: 0.9472 - precision_m: 0.9631 - f1_m: 0.9550 - val_loss: 1.0248 - val_accuracy: 0.8028 - val_recall_m: 0.7930 - val_precision_m: 0.8161 - val_f1_m: 0.8042 - 163s/epoch - 523ms/step
+Epoch 106/200
+312/312 - 163s - loss: 0.1291 - accuracy: 0.9557 - recall_m: 0.9477 - precision_m: 0.9647 - f1_m: 0.9560 - val_loss: 0.9762 - val_accuracy: 0.8191 - val_recall_m: 0.8135 - val_precision_m: 0.8317 - val_f1_m: 0.8223 - 163s/epoch - 522ms/step
+Epoch 107/200
+312/312 - 163s - loss: 0.1237 - accuracy: 0.9571 - recall_m: 0.9492 - precision_m: 0.9648 - f1_m: 0.9569 - val_loss: 1.0152 - val_accuracy: 0.8192 - val_recall_m: 0.8136 - val_precision_m: 0.8299 - val_f1_m: 0.8216 - 163s/epoch - 521ms/step
+Epoch 108/200
+312/312 - 163s - loss: 0.1318 - accuracy: 0.9515 - recall_m: 0.9438 - precision_m: 0.9606 - f1_m: 0.9520 - val_loss: 0.9500 - val_accuracy: 0.8141 - val_recall_m: 0.8054 - val_precision_m: 0.8277 - val_f1_m: 0.8163 - 163s/epoch - 522ms/step
+Epoch 109/200
+312/312 - 163s - loss: 0.1281 - accuracy: 0.9552 - recall_m: 0.9479 - precision_m: 0.9638 - f1_m: 0.9557 - val_loss: 0.9271 - val_accuracy: 0.8256 - val_recall_m: 0.8191 - val_precision_m: 0.8368 - val_f1_m: 0.8277 - 163s/epoch - 521ms/step
+Epoch 110/200
+312/312 - 163s - loss: 0.1258 - accuracy: 0.9547 - recall_m: 0.9481 - precision_m: 0.9629 - f1_m: 0.9554 - val_loss: 1.0102 - val_accuracy: 0.8170 - val_recall_m: 0.8094 - val_precision_m: 0.8280 - val_f1_m: 0.8185 - 163s/epoch - 521ms/step
+Epoch 111/200
+312/312 - 163s - loss: 0.1184 - accuracy: 0.9587 - recall_m: 0.9520 - precision_m: 0.9669 - f1_m: 0.9593 - val_loss: 0.9354 - val_accuracy: 0.8256 - val_recall_m: 0.8193 - val_precision_m: 0.8359 - val_f1_m: 0.8274 - 163s/epoch - 521ms/step
+Epoch 112/200
+312/312 - 163s - loss: 0.1182 - accuracy: 0.9590 - recall_m: 0.9521 - precision_m: 0.9672 - f1_m: 0.9595 - val_loss: 1.0220 - val_accuracy: 0.8175 - val_recall_m: 0.8139 - val_precision_m: 0.8257 - val_f1_m: 0.8197 - 163s/epoch - 522ms/step
+Epoch 113/200
+312/312 - 163s - loss: 0.1268 - accuracy: 0.9560 - recall_m: 0.9494 - precision_m: 0.9645 - f1_m: 0.9568 - val_loss: 0.9852 - val_accuracy: 0.8210 - val_recall_m: 0.8135 - val_precision_m: 0.8322 - val_f1_m: 0.8226 - 163s/epoch - 522ms/step
+Epoch 114/200
+312/312 - 163s - loss: 0.1225 - accuracy: 0.9588 - recall_m: 0.9517 - precision_m: 0.9663 - f1_m: 0.9589 - val_loss: 1.0309 - val_accuracy: 0.8160 - val_recall_m: 0.8096 - val_precision_m: 0.8252 - val_f1_m: 0.8172 - 163s/epoch - 521ms/step
+Epoch 115/200
+312/312 - 163s - loss: 0.1151 - accuracy: 0.9605 - recall_m: 0.9542 - precision_m: 0.9682 - f1_m: 0.9611 - val_loss: 1.0734 - val_accuracy: 0.8163 - val_recall_m: 0.8103 - val_precision_m: 0.8273 - val_f1_m: 0.8186 - 163s/epoch - 523ms/step
+Epoch 116/200
+312/312 - 163s - loss: 0.1196 - accuracy: 0.9574 - recall_m: 0.9509 - precision_m: 0.9659 - f1_m: 0.9583 - val_loss: 0.9850 - val_accuracy: 0.8194 - val_recall_m: 0.8111 - val_precision_m: 0.8309 - val_f1_m: 0.8208 - 163s/epoch - 521ms/step
+Epoch 117/200
+312/312 - 163s - loss: 0.1139 - accuracy: 0.9599 - recall_m: 0.9533 - precision_m: 0.9673 - f1_m: 0.9602 - val_loss: 0.9771 - val_accuracy: 0.8243 - val_recall_m: 0.8165 - val_precision_m: 0.8331 - val_f1_m: 0.8246 - 163s/epoch - 522ms/step
+Epoch 118/200
+312/312 - 163s - loss: 0.1091 - accuracy: 0.9640 - recall_m: 0.9576 - precision_m: 0.9708 - f1_m: 0.9641 - val_loss: 1.0148 - val_accuracy: 0.8246 - val_recall_m: 0.8205 - val_precision_m: 0.8335 - val_f1_m: 0.8269 - 163s/epoch - 521ms/step
+Epoch 119/200
+312/312 - 163s - loss: 0.1140 - accuracy: 0.9612 - recall_m: 0.9554 - precision_m: 0.9680 - f1_m: 0.9616 - val_loss: 0.9961 - val_accuracy: 0.8217 - val_recall_m: 0.8151 - val_precision_m: 0.8307 - val_f1_m: 0.8227 - 163s/epoch - 523ms/step
+Epoch 120/200
+312/312 - 162s - loss: 0.1076 - accuracy: 0.9635 - recall_m: 0.9578 - precision_m: 0.9695 - f1_m: 0.9636 - val_loss: 0.9920 - val_accuracy: 0.8267 - val_recall_m: 0.8206 - val_precision_m: 0.8358 - val_f1_m: 0.8280 - 162s/epoch - 521ms/step
+Epoch 121/200
+312/312 - 163s - loss: 0.1080 - accuracy: 0.9616 - recall_m: 0.9546 - precision_m: 0.9682 - f1_m: 0.9613 - val_loss: 1.0377 - val_accuracy: 0.8233 - val_recall_m: 0.8190 - val_precision_m: 0.8315 - val_f1_m: 0.8251 - 163s/epoch - 522ms/step
+Epoch 122/200
+312/312 - 163s - loss: 0.1047 - accuracy: 0.9639 - recall_m: 0.9577 - precision_m: 0.9714 - f1_m: 0.9645 - val_loss: 1.0189 - val_accuracy: 0.8243 - val_recall_m: 0.8190 - val_precision_m: 0.8316 - val_f1_m: 0.8252 - 163s/epoch - 521ms/step
+Epoch 123/200
+312/312 - 163s - loss: 0.0991 - accuracy: 0.9646 - recall_m: 0.9589 - precision_m: 0.9713 - f1_m: 0.9650 - val_loss: 1.1402 - val_accuracy: 0.8105 - val_recall_m: 0.8061 - val_precision_m: 0.8188 - val_f1_m: 0.8123 - 163s/epoch - 523ms/step
+Epoch 124/200
+312/312 - 163s - loss: 0.1012 - accuracy: 0.9648 - recall_m: 0.9588 - precision_m: 0.9709 - f1_m: 0.9648 - val_loss: 1.0626 - val_accuracy: 0.8234 - val_recall_m: 0.8168 - val_precision_m: 0.8312 - val_f1_m: 0.8238 - 163s/epoch - 524ms/step
+Epoch 125/200
+312/312 - 162s - loss: 0.1066 - accuracy: 0.9629 - recall_m: 0.9576 - precision_m: 0.9689 - f1_m: 0.9631 - val_loss: 1.1207 - val_accuracy: 0.8164 - val_recall_m: 0.8115 - val_precision_m: 0.8249 - val_f1_m: 0.8180 - 162s/epoch - 521ms/step
+Epoch 126/200
+312/312 - 163s - loss: 0.1011 - accuracy: 0.9648 - recall_m: 0.9603 - precision_m: 0.9713 - f1_m: 0.9657 - val_loss: 1.0784 - val_accuracy: 0.8212 - val_recall_m: 0.8157 - val_precision_m: 0.8291 - val_f1_m: 0.8223 - 163s/epoch - 523ms/step
+Epoch 127/200
+312/312 - 163s - loss: 0.1099 - accuracy: 0.9624 - recall_m: 0.9567 - precision_m: 0.9683 - f1_m: 0.9624 - val_loss: 1.0202 - val_accuracy: 0.8158 - val_recall_m: 0.8086 - val_precision_m: 0.8267 - val_f1_m: 0.8174 - 163s/epoch - 521ms/step
+Epoch 128/200
+312/312 - 163s - loss: 0.0914 - accuracy: 0.9679 - recall_m: 0.9630 - precision_m: 0.9741 - f1_m: 0.9685 - val_loss: 1.0863 - val_accuracy: 0.8159 - val_recall_m: 0.8113 - val_precision_m: 0.8248 - val_f1_m: 0.8179 - 163s/epoch - 522ms/step
+Epoch 129/200
+312/312 - 163s - loss: 0.0973 - accuracy: 0.9652 - recall_m: 0.9602 - precision_m: 0.9710 - f1_m: 0.9655 - val_loss: 1.0453 - val_accuracy: 0.8191 - val_recall_m: 0.8120 - val_precision_m: 0.8280 - val_f1_m: 0.8198 - 163s/epoch - 521ms/step
+Epoch 130/200
+312/312 - 163s - loss: 0.0929 - accuracy: 0.9686 - recall_m: 0.9636 - precision_m: 0.9734 - f1_m: 0.9684 - val_loss: 1.0839 - val_accuracy: 0.8256 - val_recall_m: 0.8222 - val_precision_m: 0.8337 - val_f1_m: 0.8278 - 163s/epoch - 523ms/step
+Epoch 131/200
+312/312 - 163s - loss: 0.1082 - accuracy: 0.9618 - recall_m: 0.9556 - precision_m: 0.9682 - f1_m: 0.9618 - val_loss: 1.0787 - val_accuracy: 0.8223 - val_recall_m: 0.8176 - val_precision_m: 0.8312 - val_f1_m: 0.8243 - 163s/epoch - 521ms/step
+Epoch 132/200
+312/312 - 163s - loss: 0.0818 - accuracy: 0.9734 - recall_m: 0.9687 - precision_m: 0.9778 - f1_m: 0.9732 - val_loss: 1.0591 - val_accuracy: 0.8301 - val_recall_m: 0.8241 - val_precision_m: 0.8372 - val_f1_m: 0.8305 - 163s/epoch - 523ms/step
+Epoch 133/200
+312/312 - 163s - loss: 0.0815 - accuracy: 0.9718 - recall_m: 0.9675 - precision_m: 0.9761 - f1_m: 0.9718 - val_loss: 1.0695 - val_accuracy: 0.8341 - val_recall_m: 0.8295 - val_precision_m: 0.8413 - val_f1_m: 0.8353 - 163s/epoch - 522ms/step
+Epoch 134/200
+312/312 - 163s - loss: 0.0885 - accuracy: 0.9674 - recall_m: 0.9630 - precision_m: 0.9729 - f1_m: 0.9679 - val_loss: 1.2022 - val_accuracy: 0.8127 - val_recall_m: 0.8083 - val_precision_m: 0.8187 - val_f1_m: 0.8134 - 163s/epoch - 523ms/step
+Epoch 135/200
+312/312 - 163s - loss: 0.0862 - accuracy: 0.9705 - recall_m: 0.9658 - precision_m: 0.9751 - f1_m: 0.9704 - val_loss: 1.1740 - val_accuracy: 0.8216 - val_recall_m: 0.8169 - val_precision_m: 0.8289 - val_f1_m: 0.8228 - 163s/epoch - 522ms/step
+Epoch 136/200
+312/312 - 163s - loss: 0.1065 - accuracy: 0.9630 - recall_m: 0.9582 - precision_m: 0.9690 - f1_m: 0.9635 - val_loss: 1.0474 - val_accuracy: 0.8220 - val_recall_m: 0.8186 - val_precision_m: 0.8287 - val_f1_m: 0.8236 - 163s/epoch - 521ms/step
+Epoch 137/200
+312/312 - 163s - loss: 0.0907 - accuracy: 0.9694 - recall_m: 0.9647 - precision_m: 0.9742 - f1_m: 0.9694 - val_loss: 1.0277 - val_accuracy: 0.8247 - val_recall_m: 0.8160 - val_precision_m: 0.8357 - val_f1_m: 0.8256 - 163s/epoch - 524ms/step
+Epoch 138/200
+312/312 - 163s - loss: 0.0917 - accuracy: 0.9685 - recall_m: 0.9638 - precision_m: 0.9743 - f1_m: 0.9690 - val_loss: 1.1131 - val_accuracy: 0.8226 - val_recall_m: 0.8140 - val_precision_m: 0.8313 - val_f1_m: 0.8225 - 163s/epoch - 523ms/step
+Epoch 139/200
+312/312 - 163s - loss: 0.0818 - accuracy: 0.9716 - recall_m: 0.9673 - precision_m: 0.9761 - f1_m: 0.9717 - val_loss: 1.0769 - val_accuracy: 0.8256 - val_recall_m: 0.8207 - val_precision_m: 0.8331 - val_f1_m: 0.8268 - 163s/epoch - 523ms/step
+Epoch 140/200
+312/312 - 163s - loss: 0.0789 - accuracy: 0.9723 - recall_m: 0.9682 - precision_m: 0.9768 - f1_m: 0.9725 - val_loss: 1.1099 - val_accuracy: 0.8232 - val_recall_m: 0.8197 - val_precision_m: 0.8303 - val_f1_m: 0.8249 - 163s/epoch - 521ms/step
+Epoch 141/200
+312/312 - 163s - loss: 0.0916 - accuracy: 0.9686 - recall_m: 0.9642 - precision_m: 0.9742 - f1_m: 0.9691 - val_loss: 1.1039 - val_accuracy: 0.8255 - val_recall_m: 0.8191 - val_precision_m: 0.8313 - val_f1_m: 0.8251 - 163s/epoch - 522ms/step
+Epoch 142/200
+312/312 - 163s - loss: 0.0906 - accuracy: 0.9684 - recall_m: 0.9637 - precision_m: 0.9740 - f1_m: 0.9688 - val_loss: 1.1124 - val_accuracy: 0.8205 - val_recall_m: 0.8164 - val_precision_m: 0.8273 - val_f1_m: 0.8217 - 163s/epoch - 521ms/step
+Epoch 143/200
+312/312 - 163s - loss: 0.0784 - accuracy: 0.9741 - recall_m: 0.9697 - precision_m: 0.9783 - f1_m: 0.9740 - val_loss: 1.0924 - val_accuracy: 0.8222 - val_recall_m: 0.8161 - val_precision_m: 0.8294 - val_f1_m: 0.8226 - 163s/epoch - 522ms/step
+Epoch 144/200
+312/312 - 163s - loss: 0.0789 - accuracy: 0.9734 - recall_m: 0.9696 - precision_m: 0.9776 - f1_m: 0.9736 - val_loss: 1.1665 - val_accuracy: 0.8047 - val_recall_m: 0.7991 - val_precision_m: 0.8136 - val_f1_m: 0.8062 - 163s/epoch - 523ms/step
+Epoch 145/200
+312/312 - 162s - loss: 0.0897 - accuracy: 0.9691 - recall_m: 0.9647 - precision_m: 0.9737 - f1_m: 0.9691 - val_loss: 1.1143 - val_accuracy: 0.8280 - val_recall_m: 0.8236 - val_precision_m: 0.8353 - val_f1_m: 0.8293 - 162s/epoch - 519ms/step
+Epoch 146/200
+312/312 - 163s - loss: 0.0781 - accuracy: 0.9726 - recall_m: 0.9678 - precision_m: 0.9765 - f1_m: 0.9721 - val_loss: 1.0972 - val_accuracy: 0.8320 - val_recall_m: 0.8278 - val_precision_m: 0.8377 - val_f1_m: 0.8327 - 163s/epoch - 522ms/step
+Epoch 147/200
+312/312 - 162s - loss: 0.0726 - accuracy: 0.9752 - recall_m: 0.9716 - precision_m: 0.9789 - f1_m: 0.9752 - val_loss: 1.2450 - val_accuracy: 0.8122 - val_recall_m: 0.8071 - val_precision_m: 0.8191 - val_f1_m: 0.8130 - 162s/epoch - 521ms/step
+Epoch 148/200
+312/312 - 163s - loss: 0.0836 - accuracy: 0.9717 - recall_m: 0.9677 - precision_m: 0.9760 - f1_m: 0.9718 - val_loss: 1.1023 - val_accuracy: 0.8262 - val_recall_m: 0.8199 - val_precision_m: 0.8323 - val_f1_m: 0.8260 - 163s/epoch - 521ms/step
+Epoch 149/200
+312/312 - 163s - loss: 0.0759 - accuracy: 0.9740 - recall_m: 0.9703 - precision_m: 0.9782 - f1_m: 0.9742 - val_loss: 1.1860 - val_accuracy: 0.8290 - val_recall_m: 0.8243 - val_precision_m: 0.8349 - val_f1_m: 0.8295 - 163s/epoch - 522ms/step
+Epoch 150/200
+312/312 - 163s - loss: 0.0710 - accuracy: 0.9766 - recall_m: 0.9728 - precision_m: 0.9807 - f1_m: 0.9767 - val_loss: 1.0975 - val_accuracy: 0.8257 - val_recall_m: 0.8208 - val_precision_m: 0.8330 - val_f1_m: 0.8268 - 163s/epoch - 522ms/step
+Epoch 151/200
+312/312 - 162s - loss: 0.0695 - accuracy: 0.9765 - recall_m: 0.9730 - precision_m: 0.9805 - f1_m: 0.9767 - val_loss: 1.1614 - val_accuracy: 0.8193 - val_recall_m: 0.8153 - val_precision_m: 0.8265 - val_f1_m: 0.8208 - 162s/epoch - 520ms/step
+Epoch 152/200
+312/312 - 163s - loss: 0.0697 - accuracy: 0.9756 - recall_m: 0.9727 - precision_m: 0.9795 - f1_m: 0.9760 - val_loss: 1.1803 - val_accuracy: 0.8252 - val_recall_m: 0.8207 - val_precision_m: 0.8323 - val_f1_m: 0.8264 - 163s/epoch - 522ms/step
+Epoch 153/200
+312/312 - 163s - loss: 0.0895 - accuracy: 0.9702 - recall_m: 0.9666 - precision_m: 0.9736 - f1_m: 0.9701 - val_loss: 1.1837 - val_accuracy: 0.8187 - val_recall_m: 0.8128 - val_precision_m: 0.8268 - val_f1_m: 0.8197 - 163s/epoch - 521ms/step
+Epoch 154/200
+312/312 - 163s - loss: 0.0807 - accuracy: 0.9720 - recall_m: 0.9684 - precision_m: 0.9761 - f1_m: 0.9722 - val_loss: 1.1637 - val_accuracy: 0.8280 - val_recall_m: 0.8237 - val_precision_m: 0.8340 - val_f1_m: 0.8287 - 163s/epoch - 521ms/step
+Epoch 155/200
+312/312 - 163s - loss: 0.0634 - accuracy: 0.9787 - recall_m: 0.9750 - precision_m: 0.9825 - f1_m: 0.9787 - val_loss: 1.2197 - val_accuracy: 0.8261 - val_recall_m: 0.8221 - val_precision_m: 0.8320 - val_f1_m: 0.8270 - 163s/epoch - 522ms/step
+Epoch 156/200
+312/312 - 162s - loss: 0.0588 - accuracy: 0.9803 - recall_m: 0.9774 - precision_m: 0.9839 - f1_m: 0.9806 - val_loss: 1.2306 - val_accuracy: 0.8266 - val_recall_m: 0.8234 - val_precision_m: 0.8304 - val_f1_m: 0.8268 - 162s/epoch - 521ms/step
+Epoch 157/200
+312/312 - 163s - loss: 0.0727 - accuracy: 0.9752 - recall_m: 0.9715 - precision_m: 0.9783 - f1_m: 0.9749 - val_loss: 1.1726 - val_accuracy: 0.8226 - val_recall_m: 0.8185 - val_precision_m: 0.8312 - val_f1_m: 0.8248 - 163s/epoch - 523ms/step
+Epoch 158/200
+312/312 - 163s - loss: 0.0714 - accuracy: 0.9755 - recall_m: 0.9722 - precision_m: 0.9793 - f1_m: 0.9757 - val_loss: 1.1186 - val_accuracy: 0.8285 - val_recall_m: 0.8248 - val_precision_m: 0.8354 - val_f1_m: 0.8300 - 163s/epoch - 521ms/step
+Epoch 159/200
+312/312 - 163s - loss: 0.0667 - accuracy: 0.9770 - recall_m: 0.9746 - precision_m: 0.9801 - f1_m: 0.9773 - val_loss: 1.3158 - val_accuracy: 0.8129 - val_recall_m: 0.8089 - val_precision_m: 0.8206 - val_f1_m: 0.8146 - 163s/epoch - 524ms/step
+Epoch 160/200
+312/312 - 163s - loss: 0.0784 - accuracy: 0.9733 - recall_m: 0.9700 - precision_m: 0.9764 - f1_m: 0.9732 - val_loss: 1.1505 - val_accuracy: 0.8185 - val_recall_m: 0.8144 - val_precision_m: 0.8265 - val_f1_m: 0.8203 - 163s/epoch - 523ms/step
+Epoch 161/200
+312/312 - 162s - loss: 0.0671 - accuracy: 0.9775 - recall_m: 0.9743 - precision_m: 0.9809 - f1_m: 0.9776 - val_loss: 1.1303 - val_accuracy: 0.8273 - val_recall_m: 0.8220 - val_precision_m: 0.8348 - val_f1_m: 0.8283 - 162s/epoch - 521ms/step
+Epoch 162/200
+312/312 - 163s - loss: 0.0791 - accuracy: 0.9752 - recall_m: 0.9718 - precision_m: 0.9792 - f1_m: 0.9755 - val_loss: 1.1255 - val_accuracy: 0.8269 - val_recall_m: 0.8229 - val_precision_m: 0.8339 - val_f1_m: 0.8283 - 163s/epoch - 522ms/step
+Epoch 163/200
+312/312 - 163s - loss: 0.0712 - accuracy: 0.9764 - recall_m: 0.9735 - precision_m: 0.9798 - f1_m: 0.9766 - val_loss: 1.3134 - val_accuracy: 0.8217 - val_recall_m: 0.8182 - val_precision_m: 0.8279 - val_f1_m: 0.8230 - 163s/epoch - 522ms/step
+Epoch 164/200
+312/312 - 163s - loss: 0.0605 - accuracy: 0.9805 - recall_m: 0.9775 - precision_m: 0.9834 - f1_m: 0.9804 - val_loss: 1.1581 - val_accuracy: 0.8266 - val_recall_m: 0.8226 - val_precision_m: 0.8341 - val_f1_m: 0.8282 - 163s/epoch - 522ms/step
+Epoch 165/200
+312/312 - 163s - loss: 0.0577 - accuracy: 0.9807 - recall_m: 0.9782 - precision_m: 0.9835 - f1_m: 0.9808 - val_loss: 1.2258 - val_accuracy: 0.8252 - val_recall_m: 0.8214 - val_precision_m: 0.8305 - val_f1_m: 0.8259 - 163s/epoch - 521ms/step
+Epoch 166/200
+312/312 - 163s - loss: 0.0599 - accuracy: 0.9789 - recall_m: 0.9761 - precision_m: 0.9815 - f1_m: 0.9788 - val_loss: 1.1569 - val_accuracy: 0.8344 - val_recall_m: 0.8318 - val_precision_m: 0.8402 - val_f1_m: 0.8359 - 163s/epoch - 524ms/step
+Epoch 167/200
+312/312 - 162s - loss: 0.0718 - accuracy: 0.9775 - recall_m: 0.9745 - precision_m: 0.9798 - f1_m: 0.9771 - val_loss: 1.1659 - val_accuracy: 0.8354 - val_recall_m: 0.8323 - val_precision_m: 0.8408 - val_f1_m: 0.8365 - 162s/epoch - 520ms/step
+Epoch 168/200
+312/312 - 163s - loss: 0.0525 - accuracy: 0.9828 - recall_m: 0.9803 - precision_m: 0.9850 - f1_m: 0.9827 - val_loss: 1.3146 - val_accuracy: 0.8167 - val_recall_m: 0.8130 - val_precision_m: 0.8237 - val_f1_m: 0.8182 - 163s/epoch - 522ms/step
+Epoch 169/200
+312/312 - 163s - loss: 0.0529 - accuracy: 0.9816 - recall_m: 0.9788 - precision_m: 0.9838 - f1_m: 0.9813 - val_loss: 1.3025 - val_accuracy: 0.8232 - val_recall_m: 0.8204 - val_precision_m: 0.8290 - val_f1_m: 0.8246 - 163s/epoch - 522ms/step
+Epoch 170/200
+312/312 - 162s - loss: 0.0677 - accuracy: 0.9774 - recall_m: 0.9751 - precision_m: 0.9808 - f1_m: 0.9780 - val_loss: 1.2469 - val_accuracy: 0.8163 - val_recall_m: 0.8122 - val_precision_m: 0.8227 - val_f1_m: 0.8174 - 162s/epoch - 520ms/step
+Epoch 171/200
+312/312 - 162s - loss: 0.0792 - accuracy: 0.9736 - recall_m: 0.9707 - precision_m: 0.9771 - f1_m: 0.9739 - val_loss: 1.1948 - val_accuracy: 0.8221 - val_recall_m: 0.8191 - val_precision_m: 0.8298 - val_f1_m: 0.8243 - 162s/epoch - 521ms/step
+Epoch 172/200
+312/312 - 163s - loss: 0.0589 - accuracy: 0.9801 - recall_m: 0.9769 - precision_m: 0.9822 - f1_m: 0.9795 - val_loss: 1.1798 - val_accuracy: 0.8271 - val_recall_m: 0.8234 - val_precision_m: 0.8345 - val_f1_m: 0.8288 - 163s/epoch - 522ms/step
+Epoch 173/200
+312/312 - 163s - loss: 0.0558 - accuracy: 0.9814 - recall_m: 0.9791 - precision_m: 0.9842 - f1_m: 0.9816 - val_loss: 1.3193 - val_accuracy: 0.8231 - val_recall_m: 0.8193 - val_precision_m: 0.8298 - val_f1_m: 0.8245 - 163s/epoch - 523ms/step
+Epoch 174/200
+312/312 - 163s - loss: 0.0528 - accuracy: 0.9822 - recall_m: 0.9797 - precision_m: 0.9845 - f1_m: 0.9821 - val_loss: 1.2211 - val_accuracy: 0.8302 - val_recall_m: 0.8263 - val_precision_m: 0.8357 - val_f1_m: 0.8309 - 163s/epoch - 522ms/step
+Epoch 175/200
+312/312 - 163s - loss: 0.0534 - accuracy: 0.9815 - recall_m: 0.9793 - precision_m: 0.9835 - f1_m: 0.9814 - val_loss: 1.3193 - val_accuracy: 0.8125 - val_recall_m: 0.8087 - val_precision_m: 0.8202 - val_f1_m: 0.8143 - 163s/epoch - 522ms/step
+Epoch 176/200
+312/312 - 163s - loss: 0.0622 - accuracy: 0.9791 - recall_m: 0.9766 - precision_m: 0.9818 - f1_m: 0.9792 - val_loss: 1.2500 - val_accuracy: 0.8250 - val_recall_m: 0.8208 - val_precision_m: 0.8317 - val_f1_m: 0.8262 - 163s/epoch - 522ms/step
+Epoch 177/200
+312/312 - 164s - loss: 0.0597 - accuracy: 0.9796 - recall_m: 0.9769 - precision_m: 0.9817 - f1_m: 0.9793 - val_loss: 1.3290 - val_accuracy: 0.8123 - val_recall_m: 0.8087 - val_precision_m: 0.8181 - val_f1_m: 0.8133 - 164s/epoch - 524ms/step
+Epoch 178/200
+312/312 - 163s - loss: 0.0567 - accuracy: 0.9801 - recall_m: 0.9774 - precision_m: 0.9833 - f1_m: 0.9803 - val_loss: 1.3514 - val_accuracy: 0.8171 - val_recall_m: 0.8137 - val_precision_m: 0.8224 - val_f1_m: 0.8180 - 163s/epoch - 522ms/step
+Epoch 179/200
+312/312 - 163s - loss: 0.0677 - accuracy: 0.9771 - recall_m: 0.9751 - precision_m: 0.9801 - f1_m: 0.9776 - val_loss: 1.1795 - val_accuracy: 0.8312 - val_recall_m: 0.8264 - val_precision_m: 0.8383 - val_f1_m: 0.8322 - 163s/epoch - 522ms/step
+Epoch 180/200
+312/312 - 163s - loss: 0.0528 - accuracy: 0.9836 - recall_m: 0.9813 - precision_m: 0.9861 - f1_m: 0.9836 - val_loss: 1.4343 - val_accuracy: 0.8150 - val_recall_m: 0.8115 - val_precision_m: 0.8196 - val_f1_m: 0.8155 - 163s/epoch - 523ms/step
+Epoch 181/200
+312/312 - 163s - loss: 0.0584 - accuracy: 0.9809 - recall_m: 0.9782 - precision_m: 0.9834 - f1_m: 0.9807 - val_loss: 1.2546 - val_accuracy: 0.8339 - val_recall_m: 0.8302 - val_precision_m: 0.8384 - val_f1_m: 0.8342 - 163s/epoch - 522ms/step
+Epoch 182/200
+312/312 - 163s - loss: 0.0500 - accuracy: 0.9835 - recall_m: 0.9816 - precision_m: 0.9857 - f1_m: 0.9836 - val_loss: 1.1876 - val_accuracy: 0.8311 - val_recall_m: 0.8285 - val_precision_m: 0.8370 - val_f1_m: 0.8327 - 163s/epoch - 523ms/step
+Epoch 183/200
+312/312 - 163s - loss: 0.0576 - accuracy: 0.9798 - recall_m: 0.9777 - precision_m: 0.9823 - f1_m: 0.9800 - val_loss: 1.1726 - val_accuracy: 0.8269 - val_recall_m: 0.8236 - val_precision_m: 0.8337 - val_f1_m: 0.8286 - 163s/epoch - 523ms/step
+Epoch 184/200
+312/312 - 163s - loss: 0.0491 - accuracy: 0.9838 - recall_m: 0.9818 - precision_m: 0.9857 - f1_m: 0.9837 - val_loss: 1.3544 - val_accuracy: 0.8191 - val_recall_m: 0.8164 - val_precision_m: 0.8254 - val_f1_m: 0.8208 - 163s/epoch - 522ms/step
+Epoch 185/200
+312/312 - 162s - loss: 0.0585 - accuracy: 0.9808 - recall_m: 0.9781 - precision_m: 0.9829 - f1_m: 0.9805 - val_loss: 1.3063 - val_accuracy: 0.8265 - val_recall_m: 0.8229 - val_precision_m: 0.8310 - val_f1_m: 0.8269 - 162s/epoch - 521ms/step
+Epoch 186/200
+312/312 - 163s - loss: 0.0487 - accuracy: 0.9835 - recall_m: 0.9815 - precision_m: 0.9851 - f1_m: 0.9833 - val_loss: 1.3426 - val_accuracy: 0.8214 - val_recall_m: 0.8176 - val_precision_m: 0.8256 - val_f1_m: 0.8215 - 163s/epoch - 523ms/step
+Epoch 187/200
+312/312 - 163s - loss: 0.0535 - accuracy: 0.9817 - recall_m: 0.9795 - precision_m: 0.9838 - f1_m: 0.9816 - val_loss: 1.2678 - val_accuracy: 0.8277 - val_recall_m: 0.8251 - val_precision_m: 0.8334 - val_f1_m: 0.8292 - 163s/epoch - 522ms/step
+Epoch 188/200
+312/312 - 163s - loss: 0.0523 - accuracy: 0.9833 - recall_m: 0.9807 - precision_m: 0.9852 - f1_m: 0.9829 - val_loss: 1.2628 - val_accuracy: 0.8238 - val_recall_m: 0.8202 - val_precision_m: 0.8295 - val_f1_m: 0.8248 - 163s/epoch - 521ms/step
+Epoch 189/200
+312/312 - 163s - loss: 0.0506 - accuracy: 0.9829 - recall_m: 0.9812 - precision_m: 0.9849 - f1_m: 0.9830 - val_loss: 1.2599 - val_accuracy: 0.8298 - val_recall_m: 0.8273 - val_precision_m: 0.8343 - val_f1_m: 0.8308 - 163s/epoch - 521ms/step
+Epoch 190/200
+312/312 - 163s - loss: 0.0575 - accuracy: 0.9805 - recall_m: 0.9790 - precision_m: 0.9825 - f1_m: 0.9807 - val_loss: 1.3814 - val_accuracy: 0.8119 - val_recall_m: 0.8085 - val_precision_m: 0.8175 - val_f1_m: 0.8129 - 163s/epoch - 522ms/step
+Epoch 191/200
+312/312 - 163s - loss: 0.0528 - accuracy: 0.9817 - recall_m: 0.9800 - precision_m: 0.9842 - f1_m: 0.9821 - val_loss: 1.3309 - val_accuracy: 0.8247 - val_recall_m: 0.8218 - val_precision_m: 0.8298 - val_f1_m: 0.8257 - 163s/epoch - 522ms/step
+Epoch 192/200
+312/312 - 162s - loss: 0.0338 - accuracy: 0.9883 - recall_m: 0.9869 - precision_m: 0.9900 - f1_m: 0.9884 - val_loss: 1.2946 - val_accuracy: 0.8350 - val_recall_m: 0.8315 - val_precision_m: 0.8388 - val_f1_m: 0.8351 - 162s/epoch - 520ms/step
+Epoch 193/200
+312/312 - 162s - loss: 0.0561 - accuracy: 0.9818 - recall_m: 0.9795 - precision_m: 0.9840 - f1_m: 0.9817 - val_loss: 1.5037 - val_accuracy: 0.8112 - val_recall_m: 0.8085 - val_precision_m: 0.8160 - val_f1_m: 0.8122 - 162s/epoch - 521ms/step
+Epoch 194/200
+312/312 - 163s - loss: 0.0561 - accuracy: 0.9809 - recall_m: 0.9787 - precision_m: 0.9834 - f1_m: 0.9810 - val_loss: 1.2612 - val_accuracy: 0.8251 - val_recall_m: 0.8224 - val_precision_m: 0.8290 - val_f1_m: 0.8256 - 163s/epoch - 522ms/step
+Epoch 195/200
+312/312 - 163s - loss: 0.0546 - accuracy: 0.9818 - recall_m: 0.9804 - precision_m: 0.9836 - f1_m: 0.9819 - val_loss: 1.4369 - val_accuracy: 0.8229 - val_recall_m: 0.8199 - val_precision_m: 0.8278 - val_f1_m: 0.8238 - 163s/epoch - 524ms/step
+Epoch 196/200
+312/312 - 163s - loss: 0.0488 - accuracy: 0.9830 - recall_m: 0.9814 - precision_m: 0.9845 - f1_m: 0.9829 - val_loss: 1.2905 - val_accuracy: 0.8293 - val_recall_m: 0.8264 - val_precision_m: 0.8338 - val_f1_m: 0.8300 - 163s/epoch - 521ms/step
+Epoch 197/200
+312/312 - 162s - loss: 0.0442 - accuracy: 0.9854 - recall_m: 0.9842 - precision_m: 0.9876 - f1_m: 0.9859 - val_loss: 1.2683 - val_accuracy: 0.8356 - val_recall_m: 0.8333 - val_precision_m: 0.8393 - val_f1_m: 0.8362 - 162s/epoch - 520ms/step
+Epoch 198/200
+312/312 - 163s - loss: 0.0413 - accuracy: 0.9869 - recall_m: 0.9853 - precision_m: 0.9886 - f1_m: 0.9869 - val_loss: 1.3371 - val_accuracy: 0.8236 - val_recall_m: 0.8203 - val_precision_m: 0.8279 - val_f1_m: 0.8241 - 163s/epoch - 523ms/step
+Epoch 199/200
+312/312 - 163s - loss: 0.0461 - accuracy: 0.9841 - recall_m: 0.9825 - precision_m: 0.9859 - f1_m: 0.9841 - val_loss: 1.3697 - val_accuracy: 0.8208 - val_recall_m: 0.8174 - val_precision_m: 0.8251 - val_f1_m: 0.8212 - 163s/epoch - 522ms/step
+Epoch 200/200
+312/312 - 163s - loss: 0.0531 - accuracy: 0.9813 - recall_m: 0.9794 - precision_m: 0.9826 - f1_m: 0.9810 - val_loss: 1.3565 - val_accuracy: 0.8167 - val_recall_m: 0.8133 - val_precision_m: 0.8220 - val_f1_m: 0.8175 - 163s/epoch - 522ms/step
+156/156 - 14s - 14s/epoch - 92ms/step
+Train - Max ACC: 98.83% Min loss: 0.0338
+Valid - Max ACC: 83.56% Min loss: 0.6699
+> 0: ACC: 98.54% Loss: 0.0442 - MAX val_ACC: 83.56% val_Loss: 1.2683
++++++ Summarized results:
+
+Summary for Dataset, Folds, Experiment:
+> NTU | ['cross_subject', 'cross_view'] | ARN-LSTM_outward
+     accuracy   loss val_accuracy val_loss epoch
+0      97.71% 0.0657       80.37%   1.3007   161
+1      98.54% 0.0442       83.56%   1.2683   197
+mean   98.12% 0.0549       81.96%   1.2845   179
+std     0.59% 0.0152        2.26%   0.0229    25
+Val ACC Mean: 81.96% Std: 0.0226
+
+> Finished Run Protocol - Wed Aug  7 08:45:48 2024
+ntu_runs.sh: line 100: 2: command not found
+> Starting Run Protocol -  Wed Aug  7 08:45:50 2024
+Traceback (most recent call last):
+  File "src/run_protocol.py", line 294, in <module>
+    run_protocol(**args)
+  File "src/run_protocol.py", line 82, in run_protocol
+    fusion_kwargs, train_kwargs = read_config(config_filepath, fusion=True)
+  File "/demo/ARN-LSTM/src/misc/utils.py", line 51, in read_config
+    with open(config_filepath) as config_file:
+FileNotFoundError: [Errno 2] No such file or directory: 'configs/NTU-V1/ARN-LSTM_inward+outward.cfg'
+2024-08-07 08:45:53.544886: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:936] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2024-08-07 08:45:53.558359: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:936] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2024-08-07 08:45:53.558435: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:936] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2024-08-07 08:45:53.558619: I tensorflow/core/platform/cpu_feature_guard.cc:151] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2024-08-07 08:45:53.560329: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:936] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2024-08-07 08:45:53.560593: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:936] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2024-08-07 08:45:53.560685: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:936] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2024-08-07 08:45:53.807482: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:936] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2024-08-07 08:45:53.807574: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:936] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2024-08-07 08:45:53.807627: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:936] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2024-08-07 08:45:53.807681: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1525] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 22135 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 4090, pci bus id: 0000:01:00.0, compute capability: 8.9
+WARNING:tensorflow:`period` argument is deprecated. Please use `save_freq` to specify the frequency in number of batches seen.
+WARNING:tensorflow:`batch_size` is no longer needed in the `TensorBoard` Callback and will be ignored in TensorFlow 2.0.
+WARNING:tensorflow:`period` argument is deprecated. Please use `save_freq` to specify the frequency in number of batches seen.
+> Starting Run Protocol -  Wed Aug  7 08:45:51 2024
+Running for dataset: NTU
+Running for folds: ['cross_subject', 'cross_view']
+Experiment name: ARN-LSTM-fc1_inward+outward
+Experiment folder: /demo/ARN-LSTM/runs/models/NTU/ARN-LSTM-fc1_inward+outward
+Number of reruns per dataset fold: 1
+***** Experiment parameters *****
+Configuration file: configs/NTU-V1/ARN-LSTM-fc1_inward+outward.cfg
+	 Skeleton info
+	 > selected_joints: ['Nose', 'Neck', 'MidHip', 'LShoulder', 'LElbow', 'LWrist', 'RShoulder', 'RElbow', 'RWrist', 'LHip', 'LKnee', 'LAnkle', 'RHip', 'RKnee', 'RAnkle']
+	 > add_joint_idx: True
+	 > add_body_part: True
+	 > timesteps: 32
+	 > skip_timesteps: None
+	 > normalization: NTU
+	 > sample_method: all
+	 > seq_step: 16
+	 Fusion info
+	 > fusion mode: middle
+	 > config_filepaths: ['configs/NTU-V1/ARN-LSTM_inward.cfg', 'configs/NTU-V1/ARN-LSTM_outward.cfg']
+	 > freeze_g_theta: False
+	 > fuse_at_fc1: True
+	 > Criteria for weights: val_loss
+	 > Using Temporal RN: False
+	 Training options
+	 > drop_rate: 0.1
+	 > epochs: 200
+	 > learning_rate: 0.0001
+	 > checkpoint_period: 1
+	 > Batch Size: 64
+	 Evaluation options
+	 > Pool average from videos sequences: True
+	 > Step between sequences: 16
+Running for fold: cross_subject
+> fold weights filepaths: ['runs/models/NTU/ARN-LSTM_inward/fold_cross_subject/rerun_0/relnet_weights.hdf5', 'runs/models/NTU/ARN-LSTM_outward/fold_cross_subject/rerun_0/relnet_weights.hdf5']
+***** Training parameters *****
+	 Output path: /demo/ARN-LSTM/runs/models/NTU/ARN-LSTM-fc1_inward+outward/fold_cross_subject//rerun_0
+	 Dataset: NTU
+	 Dataset fold: cross_subject
+	 Fusion info
+	 > config_filepaths: ['configs/NTU-V1/ARN-LSTM_inward.cfg', 'configs/NTU-V1/ARN-LSTM_outward.cfg']
+	 > weights_filepaths: ['runs/models/NTU/ARN-LSTM_inward/fold_cross_subject/rerun_0/relnet_weights.hdf5', 'runs/models/NTU/ARN-LSTM_outward/fold_cross_subject/rerun_0/relnet_weights.hdf5']
+	 > freeze_g_theta: False
+	 > fuse_at_fc1: True
+	 > New architecture: False
+	 Training options
+	 > Batch Size: 64
+	 > Epochs: 200
+	 > Checkpoint Period: 1
+	 > Learning Rate: 0.0001
+	 > Dropout rate: 0.1
+	 > Training Subsample Ratio: None
+	 GPUs: 1
+	 Skeleton info
+	 > selected_joints: ['Nose', 'Neck', 'MidHip', 'LShoulder', 'LElbow', 'LWrist', 'RShoulder', 'RElbow', 'RWrist', 'LHip', 'LKnee', 'LAnkle', 'RHip', 'RKnee', 'RAnkle']
+	 > add_joint_idx: True
+	 > add_body_part: True
+	 > timesteps: 32
+	 > skip_timesteps: None
+	 > normalization: NTU
+	 > sample_method: all
+	 > seq_step: 16
+Reading data...
+Creating model...
+Compiling model...
+Starting training...
+Epoch 1/200
+2024-08-07 08:46:39.532951: I tensorflow/stream_executor/cuda/cuda_blas.cc:1786] TensorFloat-32 will be used for the matrix multiplication. This will only be logged once.
+324/324 - 257s - loss: 0.9929 - accuracy: 0.6961 - recall_m: 0.5974 - precision_m: 0.8337 - f1_m: 0.6786 - val_loss: 0.7460 - val_accuracy: 0.7689 - val_recall_m: 0.7181 - val_precision_m: 0.8261 - val_f1_m: 0.7673 - 257s/epoch - 793ms/step
+Epoch 2/200
+324/324 - 210s - loss: 0.5284 - accuracy: 0.8194 - recall_m: 0.7702 - precision_m: 0.8747 - f1_m: 0.8187 - val_loss: 0.7119 - val_accuracy: 0.7752 - val_recall_m: 0.7382 - val_precision_m: 0.8237 - val_f1_m: 0.7777 - 210s/epoch - 648ms/step
+Epoch 3/200
+324/324 - 210s - loss: 0.4576 - accuracy: 0.8409 - recall_m: 0.8007 - precision_m: 0.8842 - f1_m: 0.8400 - val_loss: 0.6806 - val_accuracy: 0.7857 - val_recall_m: 0.7512 - val_precision_m: 0.8297 - val_f1_m: 0.7876 - 210s/epoch - 649ms/step
+Epoch 4/200
+324/324 - 209s - loss: 0.4320 - accuracy: 0.8484 - recall_m: 0.8134 - precision_m: 0.8874 - f1_m: 0.8485 - val_loss: 0.6418 - val_accuracy: 0.7965 - val_recall_m: 0.7700 - val_precision_m: 0.8372 - val_f1_m: 0.8014 - 209s/epoch - 645ms/step
+Epoch 5/200
+324/324 - 209s - loss: 0.3925 - accuracy: 0.8623 - recall_m: 0.8311 - precision_m: 0.8971 - f1_m: 0.8626 - val_loss: 0.6762 - val_accuracy: 0.7932 - val_recall_m: 0.7691 - val_precision_m: 0.8286 - val_f1_m: 0.7972 - 209s/epoch - 645ms/step
+Epoch 6/200
+324/324 - 209s - loss: 0.3660 - accuracy: 0.8691 - recall_m: 0.8428 - precision_m: 0.9017 - f1_m: 0.8710 - val_loss: 0.6782 - val_accuracy: 0.7934 - val_recall_m: 0.7713 - val_precision_m: 0.8294 - val_f1_m: 0.7986 - 209s/epoch - 645ms/step
+Epoch 7/200
+324/324 - 208s - loss: 0.3440 - accuracy: 0.8778 - recall_m: 0.8530 - precision_m: 0.9083 - f1_m: 0.8795 - val_loss: 0.7307 - val_accuracy: 0.7776 - val_recall_m: 0.7570 - val_precision_m: 0.8058 - val_f1_m: 0.7802 - 208s/epoch - 643ms/step
+Epoch 8/200
+324/324 - 208s - loss: 0.3241 - accuracy: 0.8873 - recall_m: 0.8631 - precision_m: 0.9163 - f1_m: 0.8887 - val_loss: 0.7401 - val_accuracy: 0.7856 - val_recall_m: 0.7641 - val_precision_m: 0.8189 - val_f1_m: 0.7898 - 208s/epoch - 643ms/step
+Epoch 9/200
+324/324 - 210s - loss: 0.3239 - accuracy: 0.8853 - recall_m: 0.8622 - precision_m: 0.9129 - f1_m: 0.8866 - val_loss: 0.6743 - val_accuracy: 0.8029 - val_recall_m: 0.7725 - val_precision_m: 0.8402 - val_f1_m: 0.8038 - 210s/epoch - 648ms/step
+Epoch 10/200
+324/324 - 210s - loss: 0.3057 - accuracy: 0.8910 - recall_m: 0.8699 - precision_m: 0.9170 - f1_m: 0.8926 - val_loss: 0.6930 - val_accuracy: 0.7947 - val_recall_m: 0.7740 - val_precision_m: 0.8259 - val_f1_m: 0.7985 - 210s/epoch - 647ms/step
+Epoch 11/200
+324/324 - 210s - loss: 0.2947 - accuracy: 0.8952 - recall_m: 0.8744 - precision_m: 0.9185 - f1_m: 0.8957 - val_loss: 0.6736 - val_accuracy: 0.8005 - val_recall_m: 0.7818 - val_precision_m: 0.8281 - val_f1_m: 0.8038 - 210s/epoch - 648ms/step
+Epoch 12/200
+324/324 - 210s - loss: 0.2881 - accuracy: 0.8978 - recall_m: 0.8775 - precision_m: 0.9211 - f1_m: 0.8986 - val_loss: 0.7198 - val_accuracy: 0.7993 - val_recall_m: 0.7869 - val_precision_m: 0.8233 - val_f1_m: 0.8043 - 210s/epoch - 647ms/step
+Epoch 13/200
+324/324 - 210s - loss: 0.2693 - accuracy: 0.9029 - recall_m: 0.8852 - precision_m: 0.9251 - f1_m: 0.9045 - val_loss: 0.6731 - val_accuracy: 0.8071 - val_recall_m: 0.7883 - val_precision_m: 0.8355 - val_f1_m: 0.8106 - 210s/epoch - 649ms/step
+Epoch 14/200
+324/324 - 208s - loss: 0.2596 - accuracy: 0.9069 - recall_m: 0.8900 - precision_m: 0.9287 - f1_m: 0.9088 - val_loss: 0.7395 - val_accuracy: 0.7934 - val_recall_m: 0.7769 - val_precision_m: 0.8195 - val_f1_m: 0.7971 - 208s/epoch - 642ms/step
+Epoch 15/200
+324/324 - 210s - loss: 0.2497 - accuracy: 0.9100 - recall_m: 0.8942 - precision_m: 0.9304 - f1_m: 0.9118 - val_loss: 0.6982 - val_accuracy: 0.8126 - val_recall_m: 0.7988 - val_precision_m: 0.8342 - val_f1_m: 0.8156 - 210s/epoch - 647ms/step
+Epoch 16/200
+324/324 - 208s - loss: 0.2566 - accuracy: 0.9091 - recall_m: 0.8919 - precision_m: 0.9293 - f1_m: 0.9101 - val_loss: 0.6801 - val_accuracy: 0.8081 - val_recall_m: 0.7894 - val_precision_m: 0.8339 - val_f1_m: 0.8106 - 208s/epoch - 642ms/step
+Epoch 17/200
+324/324 - 208s - loss: 0.2506 - accuracy: 0.9102 - recall_m: 0.8927 - precision_m: 0.9286 - f1_m: 0.9101 - val_loss: 0.6813 - val_accuracy: 0.8118 - val_recall_m: 0.7978 - val_precision_m: 0.8354 - val_f1_m: 0.8157 - 208s/epoch - 643ms/step
+Epoch 18/200
+324/324 - 210s - loss: 0.2307 - accuracy: 0.9172 - recall_m: 0.9020 - precision_m: 0.9349 - f1_m: 0.9180 - val_loss: 0.6918 - val_accuracy: 0.8116 - val_recall_m: 0.7988 - val_precision_m: 0.8359 - val_f1_m: 0.8165 - 210s/epoch - 649ms/step
+Epoch 19/200
+324/324 - 210s - loss: 0.2212 - accuracy: 0.9199 - recall_m: 0.9064 - precision_m: 0.9365 - f1_m: 0.9211 - val_loss: 0.7029 - val_accuracy: 0.8082 - val_recall_m: 0.7966 - val_precision_m: 0.8288 - val_f1_m: 0.8120 - 210s/epoch - 649ms/step
+Epoch 20/200
+324/324 - 209s - loss: 0.2113 - accuracy: 0.9222 - recall_m: 0.9104 - precision_m: 0.9387 - f1_m: 0.9242 - val_loss: 0.6889 - val_accuracy: 0.8137 - val_recall_m: 0.8031 - val_precision_m: 0.8390 - val_f1_m: 0.8202 - 209s/epoch - 645ms/step
+Epoch 21/200
+324/324 - 209s - loss: 0.2002 - accuracy: 0.9292 - recall_m: 0.9159 - precision_m: 0.9433 - f1_m: 0.9293 - val_loss: 0.7615 - val_accuracy: 0.8086 - val_recall_m: 0.8008 - val_precision_m: 0.8280 - val_f1_m: 0.8139 - 209s/epoch - 644ms/step
+Epoch 22/200
+324/324 - 210s - loss: 0.1935 - accuracy: 0.9294 - recall_m: 0.9187 - precision_m: 0.9427 - f1_m: 0.9305 - val_loss: 0.7664 - val_accuracy: 0.8066 - val_recall_m: 0.7915 - val_precision_m: 0.8265 - val_f1_m: 0.8081 - 210s/epoch - 647ms/step
+Epoch 23/200
+324/324 - 210s - loss: 0.2091 - accuracy: 0.9258 - recall_m: 0.9124 - precision_m: 0.9395 - f1_m: 0.9256 - val_loss: 0.8085 - val_accuracy: 0.8000 - val_recall_m: 0.7907 - val_precision_m: 0.8160 - val_f1_m: 0.8029 - 210s/epoch - 648ms/step
+Epoch 24/200
+324/324 - 211s - loss: 0.1899 - accuracy: 0.9327 - recall_m: 0.9210 - precision_m: 0.9455 - f1_m: 0.9330 - val_loss: 0.8399 - val_accuracy: 0.7968 - val_recall_m: 0.7865 - val_precision_m: 0.8153 - val_f1_m: 0.8004 - 211s/epoch - 650ms/step
+Epoch 25/200
+324/324 - 209s - loss: 0.1842 - accuracy: 0.9325 - recall_m: 0.9221 - precision_m: 0.9443 - f1_m: 0.9330 - val_loss: 0.7292 - val_accuracy: 0.8178 - val_recall_m: 0.8054 - val_precision_m: 0.8352 - val_f1_m: 0.8197 - 209s/epoch - 645ms/step
+Epoch 26/200

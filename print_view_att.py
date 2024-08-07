@@ -1,7 +1,7 @@
 import csv
 import sys
 
-AVG_BASED_ON_ACTUAL = True # Either base average on actual results or predicted results
+AVG_BASED_ON_ACTUAL = True #根据实际结果或预测结果计算平均值
 
 if __name__ == "__main__":
     if (len(sys.argv) < 2):
