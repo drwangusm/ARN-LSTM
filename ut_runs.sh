@@ -83,8 +83,8 @@
 # ARN-LSTM fusion inward+outward
 python3 src/run_protocol.py ARN-LSTM_inward configs/UT/set_1/ARN-LSTM_inward.cfg UT-1 -n 5 -v 2
 python3 src/run_protocol.py ARN-LSTM_outward configs/UT/set_1/ARN-LSTM_outward.cfg UT-1 -n 5 -v 2
-python3 src/run_protocol.py ARN-LSTM-fc1_inward+outward configs/UT/set_1/ARN-LSTM-fc1_inward+outward.cfg UT-1 -F -v 2 middle -n 5
+python3 src/run_protocol.py ARN-LSTM-fc1_inward+outward configs/UT/set_1/ARN-LSTM-fc1_inward+outward.cfg UT-1 -v 2 middle -n 5
 
 python3 src/run_protocol.py ARN-LSTM_inward configs/UT/set_2/ARN-LSTM_inward.cfg UT-2 -n 5 -v 2
 python3 src/run_protocol.py ARN-LSTM_outward configs/UT/set_2/ARN-LSTM_outward.cfg UT-2 -n 5 -v 2
-python3 src/run_protocol.py ARN-LSTM-fc1_inward+outward configs/UT/set_2/ARN-LSTM-fc1_inward+outward.cfg UT-2 -F -v 2 middle -n 5
+python3 src/run_protocol.py ARN-LSTM-fc1_inward+outward configs/UT/set_2/ARN-LSTM-fc1_inward+outward.cfg UT-2 -v 2 middle -n 5
