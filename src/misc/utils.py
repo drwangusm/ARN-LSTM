@@ -3,6 +3,7 @@ from ast import literal_eval
 import pandas as pd
 
 def find_best_weights(base_path, criteria='val_loss', verbose=0):
+    print("base_path:",base_path)
     from misc.print_train_stats import pretty_print_stats
     rerun_paths = glob.glob(base_path+'/rerun_*/')
     rerun_paths += glob.glob(base_path+'/fold_*/')
@@ -12,7 +13,12 @@ def find_best_weights(base_path, criteria='val_loss', verbose=0):
     for rerun_path in rerun_paths:
         rerun_df = pd.read_csv(rerun_path + 'fit_history.csv')
         rerun_df['path'] = rerun_path
-        
+
+        if criteria not in rerun_df.columns:
+            print(f"Criteria '{criteria}' not found in {rerun_path} fit_history.csv")
+            continue
+
+        best_epoch = None  # 初始化 best_epoch
         if criteria.endswith('loss'):
             best_epoch = rerun_df.loc[rerun_df[criteria].idxmin()]
         elif criteria.endswith('acc'):
@@ -20,8 +26,14 @@ def find_best_weights(base_path, criteria='val_loss', verbose=0):
                 ascending=[False, True])
             best_epoch = sorted_rerun_df.iloc[0]
         
-        best_epochs.append(best_epoch)
+        # best_epochs.append(best_epoch)
+
+        if best_epoch is not None:  # 确保best_epoch已经被正确赋值
+            best_epochs.append(best_epoch)
     
+    if len(best_epochs) == 0:
+        raise ValueError("No valid epochs found. Please check your criteria and paths.")
+
     summary_df = pd.concat(best_epochs, axis=1).T.reset_index(drop=True)
     summary_df = summary_df.astype({criteria: 'float'})
     
