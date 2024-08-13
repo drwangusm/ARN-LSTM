@@ -204,10 +204,10 @@ def predict_rn_seq(weights_path, dataset_name, model_kwargs, data_kwargs,
             sample_method=sample_method, seq_step=seq_step, flat_seqs=flat_seqs,
             )
     
-        if flat_seqs: # Accuracy in this case will be per sequence and not per video
+        if flat_seqs: # 在这种情况下，精确度是按序列而不是按视频计算的
             num_joints = len(X_val)//2
             object_shape = (len(X_val[0][0]),)
-        else:  # Accuracy in this case will be per video, after averaging the seqs
+        else:  # 在这种情况下，精确度将以每段视频为单位，在对序列进行平均处理后得出
             num_joints = len(X_val[0][0])//2
             object_shape = (len(X_val[0][0][0]),)
             ## Flatten X_val at axis = 1 (num_seqs), and swap axis (1,0,2)

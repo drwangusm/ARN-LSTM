@@ -14,7 +14,7 @@ from tensorflow.keras.optimizers import SGD #noqa
 from tensorflow.keras.optimizers import Adam
 from tensorflow.keras.callbacks import ModelCheckpoint, TensorBoard, EarlyStopping, CSVLogger, Callback
 from tensorflow.keras import backend as K
-
+import datetime
 from datasets import UT, NTU, NTU_V2, SBU
 from datasets.data_generator import DataGenerator
 from models.rn import get_model, fuse_rn
@@ -163,7 +163,7 @@ def train_model(model, verbose, learning_rate, output_path, checkpoint_period,
         use_earlyStopping=True, data_len = None, return_attention=False):
     if verbose > 0:
         print ("Compiling model...")
-    #todo check here
+    #编译模型
     if return_attention:
         model.compile(loss=['categorical_crossentropy', None], # Don't train attention
                 optimizer=Adam(lr=learning_rate),
@@ -175,13 +175,26 @@ def train_model(model, verbose, learning_rate, output_path, checkpoint_period,
                 metrics=['accuracy',recall_m, precision_m, f1_m],
                 )
     
-    # Setting up Callbacks
+    # 设置回调函数
     callbacks_list = set_callbacks(output_path, checkpoint_period, batch_size,
-        use_earlyStopping=use_earlyStopping, return_attention=return_attention)
+        use_earlyStopping=use_earlyStopping, 
+        return_attention=return_attention)
+    
+    # 添加 ClassAccuracyCallback,在训练过程中记录每个类别的准确率，并在训练结束后查看每个类别的表现
+    X_val, Y_val = val_data if not use_data_gen else val_data[0]
+    class_acc_callback = ClassAccuracyCallback((X_val, Y_val), output_path)
+    callbacks_list.append(class_acc_callback)
+
+    # 添加 TensorBoard 回调
+    log_dir = os.path.join(output_path, "logs", datetime.datetime.now().strftime("%Y%m%d-%H%M%S"))
+    tensorboard_callback = TensorBoard(log_dir=log_dir, histogram_freq=1)
+    callbacks_list.append(tensorboard_callback)
+
 
     if verbose > 0:
         print("Starting training...")
-        
+   
+    #开始训练  
     if use_data_gen:
         train_generator = train_data
         val_generator = val_data
@@ -465,12 +478,12 @@ def train_fused_rn(output_path, dataset_name, dataset_fold,
             data_kwargs, model_kwargs, train_kwargs = read_config(config_filepath)
             check_configs.append(model_kwargs)
 
-        # Ensure that temporal stream and joint stream both included. Reorder if necessary so that joint stream first.
+        # 确保同时包含时间流和联合流。必要时重新排序，将联合流放在首位。
         if(len(check_configs) != 2):
             print("Error: Expecting Joint Stream and Temporal Stream")
             exit(0)
         
-        # Should reorder both weights and config.
+        # 重新排列权重和配置
         if(check_configs[0]['rel_type'] == 'temp_stream'):
             config_filepaths.reverse()
             weights_filepaths.reverse()
@@ -547,6 +560,45 @@ def train_fused_rn(output_path, dataset_name, dataset_fold,
         train_data=train_data, val_data=val_data, subsample_ratio=subsample_ratio, data_len=data_len)
     
     return fit_history
+
+class ClassAccuracyCallback(Callback):
+    def __init__(self, val_data, output_path, log_dir):
+        super(ClassAccuracyCallback, self).__init__()
+        self.val_data = val_data
+        self.output_path = output_path
+        self.log_dir = log_dir
+        self.class_accuracy = []
+        self.file_writer = tf.summary.create_file_writer(log_dir)
+
+    def on_epoch_end(self, epoch, logs=None):
+        X_val, Y_val = self.val_data
+        Y_pred = self.model.predict(X_val)
+        Y_pred_classes = np.argmax(Y_pred, axis=1)
+        Y_true_classes = np.argmax(Y_val, axis=1)
+
+        num_classes = Y_val.shape[1]
+        class_acc = []
+
+        for i in range(num_classes):
+            idxs = np.where(Y_true_classes == i)[0]
+            correct = np.sum(Y_pred_classes[idxs] == i)
+            acc = correct / len(idxs) if len(idxs) > 0 else 0
+            class_acc.append(acc)
+
+        self.class_accuracy.append(class_acc)
+
+        with self.file_writer.as_default():
+            for i, acc in enumerate(class_acc):
+                tf.summary.scalar(f'Class_{i}_Accuracy', acc, step=epoch)
+            self.file_writer.flush()
+
+        with open(os.path.join(self.output_path, 'class_accuracy.log'), 'a') as f:
+            f.write(f"Epoch {epoch + 1}\n")
+            for i, acc in enumerate(class_acc):
+                f.write(f"Class {i} Accuracy: {acc:.4f}\n")
+            f.write("\n")
+
+
     
 #%% Main
 if __name__ == '__main__':
