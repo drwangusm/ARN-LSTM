@@ -265,7 +265,7 @@ def train_model(model, verbose, learning_rate, output_path, checkpoint_period,
             validation_steps=validation_steps,
             callbacks=callbacks_list,
             shuffle=True)
-    
+    # 输出每个epoch的混淆矩阵数据，保存到class_accuracies.csv文件中
     for epoch in range(epochs):
             # Get actual Y values for validation fold
             Y_val = []

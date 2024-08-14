@@ -1,7 +1,7 @@
 import matplotlib.pyplot as plt
 import numpy as np
 
-#基于模型训练结果，绘制数据集的各类表标签的性能
+#基于模型训练结果，绘制数据集的各类表标签的性能,柱状图显示
 
 # 类别标签
 labels = ['Punch/slapping', 'Kicking', 'Pushing', 'PattingOnBack', 'PointingFinger', 'Hugging', 'GiveSomething', 
