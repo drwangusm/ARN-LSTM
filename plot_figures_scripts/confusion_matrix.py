@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # 步骤 1：解析 .tfevents 文件
-event_file = '/demo/ARN-LSTM/runs/models/SBU/ARN_inward/fold_0/rerun_0/logs/train/events.out.tfevents.1723098158.gzgs-Default-string.762469.0.v2'
+event_file = '/demo/ARN-LSTM/runs/models/UT-1/ARN-LSTM_inward+outward/fold_0/rerun_0/class_accuracy_logs/events.out.tfevents.1723596127.gzgs-Default-string.2162162.0.v2'
 
 def parse_tfevents(file):
     data = {}

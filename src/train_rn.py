@@ -182,7 +182,8 @@ def train_model(model, verbose, learning_rate, output_path, checkpoint_period,
     
     # 添加 ClassAccuracyCallback,在训练过程中记录每个类别的准确率，并在训练结束后查看每个类别的表现
     X_val, Y_val = val_data if not use_data_gen else val_data[0]
-    class_acc_callback = ClassAccuracyCallback((X_val, Y_val), output_path)
+    log_dir = os.path.join(output_path, "class_accuracy_logs")
+    class_acc_callback = ClassAccuracyCallback((X_val, Y_val), output_path,log_dir)
     callbacks_list.append(class_acc_callback)
 
     # 添加 TensorBoard 回调
