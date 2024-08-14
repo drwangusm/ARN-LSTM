@@ -67,7 +67,7 @@ python3 src/run_protocol.py ARN_joint_stream_att configs/SBU/ARN_joint_stream_at
 python3 src/run_protocol.py ARN_temporal_stream_att configs/SBU/ARN_temporal_stream_att.cfg SBU -n 5 -v 2 # x
 python3 src/run_protocol.py ARN_two_stream_att configs/SBU/ARN_two_stream_att.cfg SBU -F middle -n 5 -v 2 # x
 # ARN two stream fusion att_avg
-python3 src/run_protocol.py ARN_two_stream_att_avg configs/SBU/ARN_two_stream_att_avg.cfg SBU -F middle -n 5 -v 2 
+python3 src/run_protocol.py ARN_two_stream_att_avg configs/SBU/ARN_two_stream_att_avg.cfg SBU -F middle -n 5 -v 2 # x 
 
 # ARN two stream fusion att + projection_size2000
 python3 src/run_protocol.py ARN_joint_stream_att_proj_2000 configs/SBU/ARN_joint_stream_att_proj_2000.cfg SBU -n 5 -v 2

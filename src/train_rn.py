@@ -158,6 +158,11 @@ def f1_m(y_true, y_pred):
     recall = recall_m(y_true, y_pred)
     return 2*((precision*recall)/(precision+recall+K.epsilon()))
 
+def calculate_class_accuracies(y_true, y_pred):
+    cm = confusion_matrix(y_true, y_pred)
+    class_accuracies = cm.diagonal() / cm.sum(axis=1)
+    return class_accuracies, cm
+
 def train_model(model, verbose, learning_rate, output_path, checkpoint_period, 
         batch_size, epochs, use_data_gen, train_data, val_data, subsample_ratio,
         use_earlyStopping=True, data_len = None, return_attention=False):
@@ -261,6 +266,38 @@ def train_model(model, verbose, learning_rate, output_path, checkpoint_period,
             callbacks=callbacks_list,
             shuffle=True)
     
+    for epoch in range(epochs):
+            # Get actual Y values for validation fold
+            Y_val = []
+            for batch_idx in range(len(val_generator)):
+                _, y_val = val_generator[batch_idx]
+                Y_val += y_val.tolist()
+
+            Y_pred = model.predict(val_generator, max_queue_size=10, workers=5, 
+                use_multiprocessing=True, verbose=verbose)
+
+            if return_attention: # Unpack output if necessary
+                Y_pred, attention = Y_pred
+
+            # 转换为类别索引
+            Y_pred = np.argmax(Y_pred, axis=1, out=None).tolist() # Validation predicted data for current fold
+            Y_val = np.argmax(Y_val, axis=1, out=None).tolist() # Validation actual data for current fold
+
+            # 计算每个类别的准确率
+            class_accuracies, cm = calculate_class_accuracies(Y_val, Y_pred)
+        
+            # 输出混淆矩阵和每个类别的准确率
+            print(f"Epoch {epoch + 1}/{epochs}")
+            print("Confusion Matrix:\n", cm)
+            print("Class Accuracies:\n", class_accuracies)
+
+            # 可以选择将这些信息保存到文件
+            with open(os.path.join(output_path, 'class_accuracies.csv'), 'a') as f:
+                f.write(f"Epoch {epoch + 1}\n")
+                f.write("Class Accuracies: " + ','.join(map(str, class_accuracies)) + "\n")
+                f.write("Confusion Matrix:\n")
+                np.savetxt(f, cm, fmt='%d')
+
     # In case of multiple outputs, will print metric name with model output that want to remove
     new_fit_history = {}
     for metric in fit_history.history:
