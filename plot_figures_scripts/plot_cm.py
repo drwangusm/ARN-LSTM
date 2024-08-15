@@ -5,14 +5,8 @@ import seaborn as sns
 
 # 绘制对比混淆矩阵
 
-# 示例数据，替换为你的实际混淆矩阵数据
-classes = [
-    'Punch/slapping', 'Kicking', 'Pushing', 'PattingOnBack', 'PointingFinger',
-    'Hugging', 'GiveSomething', 'TouchingPocket', 'Handshaking', 'WalkingTowards',
-    'WalkingApart', 'HitWithObject', 'WieldKnife', 'KnockOver', 'GrabStuff',
-    'ShootWithGun', 'StepOnFoot', 'High-five', 'CheersAndDrink', 'CarryObject',
-    'TakePhoto', 'Follow', 'Whisper', 'ExchangeThings', 'SupportSomebody',
-    'RockPaperScissors'
+# SBU dataset 
+classes = ['Approaching','Departing','Kicking','Punching','Pushing','Hugging','ShakingHands','Exchanging'
 ]
 
 # 构造随机数据作为混淆矩阵的例子
