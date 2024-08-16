@@ -7127,3 +7127,17 @@ Epoch 166/200
 Epoch 167/200
 312/312 - 187s - loss: 0.0877 - accuracy: 0.9706 - recall_m: 0.9666 - precision_m: 0.9743 - f1_m: 0.9704 - val_loss: 0.8967 - val_accuracy: 0.8439 - val_recall_m: 0.8398 - val_precision_m: 0.8509 - val_f1_m: 0.8452 - 187s/epoch - 600ms/step
 Epoch 168/200
+312/312 - 185s - loss: 0.0774 - accuracy: 0.9732 - recall_m: 0.9702 - precision_m: 0.9765 - f1_m: 0.9733 - val_loss: 0.9229 - val_accuracy: 0.8303 - val_recall_m: 0.8218 - val_precision_m: 0.8401 - val_f1_m: 0.8307 - 185s/epoch - 593ms/step
+Epoch 169/200
+312/312 - 186s - loss: 0.0710 - accuracy: 0.9764 - recall_m: 0.9731 - precision_m: 0.9802 - f1_m: 0.9766 - val_loss: 0.9438 - val_accuracy: 0.8354 - val_recall_m: 0.8299 - val_precision_m: 0.8431 - val_f1_m: 0.8364 - 186s/epoch - 595ms/step
+Epoch 170/200
+312/312 - 186s - loss: 0.0777 - accuracy: 0.9734 - recall_m: 0.9698 - precision_m: 0.9773 - f1_m: 0.9735 - val_loss: 1.0093 - val_accuracy: 0.8340 - val_recall_m: 0.8299 - val_precision_m: 0.8406 - val_f1_m: 0.8351 - 186s/epoch - 596ms/step
+Epoch 171/200
+312/312 - 186s - loss: 0.0899 - accuracy: 0.9700 - recall_m: 0.9664 - precision_m: 0.9734 - f1_m: 0.9699 - val_loss: 0.9557 - val_accuracy: 0.8310 - val_recall_m: 0.8267 - val_precision_m: 0.8382 - val_f1_m: 0.8323 - 186s/epoch - 596ms/step
+Epoch 172/200
+312/312 - 185s - loss: 0.0917 - accuracy: 0.9694 - recall_m: 0.9657 - precision_m: 0.9743 - f1_m: 0.9699 - val_loss: 0.8841 - val_accuracy: 0.8391 - val_recall_m: 0.8350 - val_precision_m: 0.8467 - val_f1_m: 0.8407 - 185s/epoch - 595ms/step
+Epoch 173/200
+312/312 - 186s - loss: 0.0764 - accuracy: 0.9730 - recall_m: 0.9698 - precision_m: 0.9765 - f1_m: 0.9731 - val_loss: 0.9227 - val_accuracy: 0.8418 - val_recall_m: 0.8358 - val_precision_m: 0.8483 - val_f1_m: 0.8419 - 186s/epoch - 595ms/step
+Epoch 174/200
+312/312 - 186s - loss: 0.0804 - accuracy: 0.9719 - recall_m: 0.9684 - precision_m: 0.9756 - f1_m: 0.9719 - val_loss: 0.9596 - val_accuracy: 0.8355 - val_recall_m: 0.8324 - val_precision_m: 0.8421 - val_f1_m: 0.8372 - 186s/epoch - 596ms/step
+Epoch 175/200
