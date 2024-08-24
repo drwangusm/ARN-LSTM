@@ -239,7 +239,7 @@ def train_model(model, verbose, learning_rate, output_path, checkpoint_period,
         # Convert back from to_categorical
         Y_pred = np.argmax(Y_pred, axis=1, out=None).tolist() # Validation predicted data for current fold
         Y_val = np.argmax(Y_val, axis=1, out=None).tolist() # Validation actual data for current fold
-        
+
         # Write attention info to file
         # Format of row - (Actual, Predicted, Object_0, Object_1, Object_2, ...)
         if return_attention:
@@ -265,47 +265,49 @@ def train_model(model, verbose, learning_rate, output_path, checkpoint_period,
             validation_steps=validation_steps,
             callbacks=callbacks_list,
             shuffle=True)
-    # 输出每个epoch的混淆矩阵数据，保存到class_accuracies.csv文件中
-    for epoch in range(epochs):
-            # Get actual Y values for validation fold
-            Y_val = []
-            for batch_idx in range(len(val_generator)):
-                _, y_val = val_generator[batch_idx]
-                Y_val += y_val.tolist()
-
-            Y_pred = model.predict(val_generator, max_queue_size=10, workers=5, 
-                use_multiprocessing=True, verbose=verbose)
-
-            if return_attention: # Unpack output if necessary
-                Y_pred, attention = Y_pred
-
-            # 转换为类别索引
-            Y_pred = np.argmax(Y_pred, axis=1, out=None).tolist() # Validation predicted data for current fold
-            Y_val = np.argmax(Y_val, axis=1, out=None).tolist() # Validation actual data for current fold
-
-            # 计算每个类别的准确率
-            class_accuracies, cm = calculate_class_accuracies(Y_val, Y_pred)
         
-            # 输出混淆矩阵和每个类别的准确率
-            print(f"Epoch {epoch + 1}/{epochs}")
-            print("Confusion Matrix:\n", cm)
-            print("Class Accuracies:\n", class_accuracies)
+    # 选择最佳epoch并保存混淆矩阵
+    best_epoch = np.argmax(fit_history.history['val_accuracy'])
+    if use_data_gen:
+        Y_val_true = []
+        for _, y_val in val_generator:
+            Y_val_true += y_val.tolist()
+        
+        Y_pred = model.predict(val_generator, max_queue_size=10, workers=5, 
+                               use_multiprocessing=True, verbose=verbose)
+    else:
+        Y_val_true = Y_val
+        Y_pred = model.predict(X_val, batch_size=batch_size, verbose=verbose)
+    
+    if return_attention:
+        Y_pred, attention = Y_pred
+    
+    Y_val_true = np.argmax(Y_val_true, axis=1).tolist()
+    Y_pred = np.argmax(Y_pred, axis=1).tolist()
+    
+    class_accuracies, cm = calculate_class_accuracies(Y_val_true, Y_pred)
+    csv_format_cm = "\n".join([",".join(map(str, row)) for row in cm])
+    
+    if verbose > 0:
+        print(f"Best Epoch: {best_epoch + 1}")
+        print("Class Accuracies:", class_accuracies)
+        print("Confusion Matrix (CSV format):")
+        print(csv_format_cm)
+    
+    with open(os.path.join(output_path, 'class_accuracies.csv'), 'w') as f:
+        f.write(f"Best Epoch: {best_epoch + 1}\n")
+        f.write("Class Accuracies: " + ','.join(map(str, class_accuracies)) + "\n")
+        f.write("Confusion Matrix:\n")
+        np.savetxt(f, cm, fmt='%d', delimiter=',')
 
-            # 可以选择将这些信息保存到文件
-            with open(os.path.join(output_path, 'class_accuracies.csv'), 'a') as f:
-                f.write(f"Epoch {epoch + 1}\n")
-                f.write("Class Accuracies: " + ','.join(map(str, class_accuracies)) + "\n")
-                f.write("Confusion Matrix:\n")
-                np.savetxt(f, cm, fmt='%d')
-
-    # In case of multiple outputs, will print metric name with model output that want to remove
+    # 调整日志文件中的指标名称
     new_fit_history = {}
     for metric in fit_history.history:
         new_metric = metric.replace("model_", "")
         new_fit_history[new_metric] = fit_history.history[metric]
     fit_history.history = new_fit_history
 
-    # Rewrite training.log with correct names, see readme.md for explanation.
+    # 重写 training.log 文件，确保名称正确
     with open(output_path + '/training.log', 'r+') as csvfile:
         csv_reader = csv.reader(csvfile, delimiter=',')
         rows = []
@@ -630,11 +632,11 @@ class ClassAccuracyCallback(Callback):
                 tf.summary.scalar(f'Class_{i}_Accuracy', acc, step=epoch)
             self.file_writer.flush()
 
-        with open(os.path.join(self.output_path, 'class_accuracy.log'), 'a') as f:
-            f.write(f"Epoch {epoch + 1}\n")
-            for i, acc in enumerate(class_acc):
-                f.write(f"Class {i} Accuracy: {acc:.4f}\n")
-            f.write("\n")
+        # with open(os.path.join(self.output_path, 'class_accuracy.log'), 'a') as f:
+        #     f.write(f"Epoch {epoch + 1}\n")
+        #     for i, acc in enumerate(class_acc):
+        #         f.write(f"Class {i} Accuracy: {acc:.4f}\n")
+        #     f.write("\n")
 
 
     

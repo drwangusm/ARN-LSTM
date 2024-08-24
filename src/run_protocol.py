@@ -108,7 +108,7 @@ def run_protocol(experiment_name, config_filepath, dataset_name, num_reruns=1,
         else:
             dataset_folds = list(map(int, folds))
     
-    base_path = '/demo/ARN-LSTM/runs/models/{}/{}'.format(dataset_name, experiment_name)
+    base_path = '/demo/ARN-LSTM/runs/{}/{}'.format(dataset_name, experiment_name)
     print("Running for dataset:", dataset_name)
     print("Running for folds:", dataset_folds)
     print("Experiment name:", experiment_name)

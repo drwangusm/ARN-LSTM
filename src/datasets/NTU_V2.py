@@ -33,7 +33,7 @@ DATA_DIR = '/usr/local/inter-rel-net-hockey/data02/ntu-rgbd-v2'
             ...
 """
 
-### Summarized names
+###  120 种动作，是 NTU RGB+D 60 的扩展版本。总序列数: 114,480 个序列.每个动作类型的平均序列数: 约 954 个序列
 ACTIONS = NTU.ACTIONS + [
     'put on headphone','take off headphone','shoot at basket','bounce ball',
     'tennis bat swing','juggle table tennis ball','hush','flick hair',
