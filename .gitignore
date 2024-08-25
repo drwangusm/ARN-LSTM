@@ -15,14 +15,13 @@ data/
 #weight
 models/
 
-<<<<<<< HEAD
 final_runs.log
 
-=======
->>>>>>> f999c1ff507ef1cdef7ed63706da8a0e14eb0b1f
 runs/
 
 figure/
+
+plot_figures_results/
 
 src/__pycache__/
 src/datasets/__pycache__/

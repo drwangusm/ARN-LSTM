@@ -40,9 +40,9 @@ python3 src/run_protocol.py ARN_joint configs/SBU/no-lstm/ARN_joint.cfg SBU -n 5
 # ARN_temp
 python3 src/run_protocol.py ARN_temp configs/SBU/no-lstm/ARN_temp.cfg SBU -n 5 -v 2
 # ARN_joint+temp
-python3 src/run_protocol.py ARN_joint+temp configs/SBU/no-lstm/ARN_joint+temp.cfg SBU -F middle -n 5 -v 2
+python3 src/run_protocol.py ARN_joint+temp configs/SBU/no-lstm/ARN_joint+temp.cfg SBU -F middle -n 5 -v 2  # x
 # ARN-fc1_joint+temp
-python3 src/run_protocol.py ARN-fc1_joint+temp configs/SBU/no-lstm/ARN-fc1_joint+temp.cfg SBU -F middle -n 5 -v 2
+python3 src/run_protocol.py ARN-fc1_joint+temp configs/SBU/no-lstm/ARN-fc1_joint+temp.cfg SBU -F middle -n 5 -v 2  # x
 
 # UT
 # ARN_joints
@@ -52,11 +52,11 @@ python3 src/run_protocol.py ARN_joint configs/UT/set_2ARN_joint.cfg UT-2 -n 5 -v
 python3 src/run_protocol.py ARN_temp configs/UT/set_1/ARN_temp.cfg UT-1 -n 5 -v 2
 python3 src/run_protocol.py ARN_temp configs/UT/set_2/ARN_temp.cfg UT-2 -n 5 -v 2
 # ARN_joint+temp (ARN_two_stream)
-python3 src/run_protocol.py ARN_joint+temp configs/UT/set_1/ARN_joint+temp.cfg UT-1 -F middle -n 5 -v 2
-python3 src/run_protocol.py ARN_joint+temp configs/UT/set_2/ARN_joint+temp.cfg UT-2 -F middle -n 5 -v 2
+python3 src/run_protocol.py ARN_joint+temp configs/UT/set_1/ARN_joint+temp.cfg UT-1 -F middle -n 5 -v 2  # x
+python3 src/run_protocol.py ARN_joint+temp configs/UT/set_2/ARN_joint+temp.cfg UT-2 -F middle -n 5 -v 2  # x
 # ARN-fc1_joint+temp
-python3 src/run_protocol.py ARN-fc1_joint+temp configs/UT/set_1/ARN-fc1_joint+temp.cfg UT-1 -F middle -n 5 -v 2
-python3 src/run_protocol.py ARN-fc1_joint+temp configs/UT/set_2/ARN-fc1_joint+temp.cfg UT-2 -F middle -n 5 -v 2
+python3 src/run_protocol.py ARN-fc1_joint+temp configs/UT/set_1/ARN-fc1_joint+temp.cfg UT-1 -F middle -n 5 -v 2  # x
+python3 src/run_protocol.py ARN-fc1_joint+temp configs/UT/set_2/ARN-fc1_joint+temp.cfg UT-2 -F middle -n 5 -v 2  # x
 
 # NTU-V1/V2
 # ARN_joint

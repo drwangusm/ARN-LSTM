@@ -108,7 +108,7 @@ def set_callbacks(output_path, checkpoint_period, batch_size, use_earlyStopping=
         monitor_acc = 'val_model_acc'
     else:
         monitor_acc = 'val_accuracy'
-
+    #保存checkpoint
     checkpoint_filename = ("relnet_weights-temp.hdf5")
     filepath = os.path.join(output_path, checkpoint_filename)
     modelCheckpoint = ModelCheckpoint(filepath, verbose=0,
