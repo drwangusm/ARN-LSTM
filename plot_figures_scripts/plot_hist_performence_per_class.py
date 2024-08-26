@@ -3,7 +3,7 @@ import numpy as np
 
 #基于模型训练结果，绘制数据集的各类表标签的性能,柱状图显示
 
-# 类别标签
+# 类别标签 NTU RGB+D 120
 labels = ['Punch/slapping', 'Kicking', 'Pushing', 'PattingOnBack', 'PointingFinger', 'Hugging', 'GiveSomething', 
           'TouchingPocket', 'Handshaking', 'WalkingTowards', 'WalkingApart', 'HitWithObject', 'WieldKnife', 
           'KnockOver', 'GrabStuff', 'ShootWithGun', 'StepOnFoot', 'High-five', 'CheersAndDrink', 
@@ -34,6 +34,6 @@ ax.legend()
 # 调整布局
 fig.tight_layout()
 
-plt.savefig(r'/demo/ARN-LSTM/plot_figures_results/performence_per_class.png',dpi=300,bbox_inches='tight')
+plt.savefig(r'/demo/ARN-LSTM/plot_figures_results/NTU-V2/performence_per_class.png',dpi=300,bbox_inches='tight')
 # 显示图像
 plt.show()
