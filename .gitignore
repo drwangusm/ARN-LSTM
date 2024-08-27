@@ -19,6 +19,8 @@ final_runs.log
 
 runs/
 
+visualize/results/
+
 figure/
 
 plot_figures_results/

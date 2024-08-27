@@ -4,7 +4,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 from mpl_toolkits.mplot3d import Axes3D
 import sys
- 
+import nturgbd_labels
  
 ## 读取关节数据
 def read_skeleton(file):
@@ -66,8 +66,7 @@ def read_xyz(file, max_body=2, num_joint=25):
  
  
 ## 2D展示
-def Print2D(num_frame, point, arms, rightHand, leftHand, legs, body):
-    
+def Print2D(num_frame, point, arms, rightHand, leftHand, legs, body,filename,action_label):
     # 求坐标最大值
     xmax = np.max(point[0, :, :, :])
     xmin = np.min(point[0, :, :, :]) 
@@ -100,19 +99,18 @@ def Print2D(num_frame, point, arms, rightHand, leftHand, legs, body):
         plt.plot(point[0, i, legs, 1], point[1, i, legs, 1], c='green', lw=2.0)
         plt.plot(point[0, i, body, 1], point[1, i, body, 1], c='green', lw=2.0)
  
-        plt.text(xmax, ymax+0.2, 'frame: {}/{}'.format(i, num_frame-1)) # 文字说明
+        plt.text(xmax, ymax+0.2, f'frame: {i}/{num_frame-1} | Action:{action_label}') # 文字说明,添加动作类别标签
         plt.xlim(xmin-0.5, xmax+0.5) # x坐标范围
         plt.ylim(ymin-0.3, ymax+0.3) # y坐标范围
         plt.pause(0.001) # 停顿延时
  
     plt.ioff() 
-    plt.savefig(r"/demo/ARN-LSTM/visualize/results/1_2d.png")
+    plt.savefig(f"/demo/ARN-LSTM/visualize/results/nturgbd001-017/{filename}_2d.png")
     plt.show()
  
  
 ## 3D展示    
-def Print3D(num_frame, point, arms, rightHand, leftHand, legs, body):
- 
+def Print3D(num_frame, point, arms, rightHand, leftHand, legs, body,filename,action_label):
     # 求坐标最大值
     xmax = np.max(point[0, :, :, :])
     xmin = np.min(point[0, :, :, :]) 
@@ -150,23 +148,19 @@ def Print3D(num_frame, point, arms, rightHand, leftHand, legs, body):
         plot3D.plot(point[0, i, legs, 1]*Expan_Multiple, point[1, i, legs, 1]*Expan_Multiple, point[2, i, legs, 1], c='green', lw=2.0)
         plot3D.plot(point[0, i, body, 1]*Expan_Multiple, point[1, i, body, 1]*Expan_Multiple, point[2, i, body, 1], c='green', lw=2.0)
  
-        plot3D.text(xmax-0.3, ymax+1.1, zmax+0.3, 'frame: {}/{}'.format(i, num_frame-1)) # 文字说明
+        plot3D.text(xmax-0.3, ymax+1.1, zmax+0.3, f'frame: {i}/{num_frame-1} | Action:{action_label}') # 文字说明,添加动作类别标签
         plot3D.set_xlim3d(xmin-0.5, xmax+0.5) # x坐标范围
         plot3D.set_ylim3d(ymin-0.3, ymax+0.3) # y坐标范围
         plot3D.set_zlim3d(zmin-0.3, zmax+0.3) # z坐标范围
         plt.pause(0.001) # 停顿延时
  
     plt.ioff() 
-    plt.savefig(r"/demo/ARN-LSTM/visualize/results/1_3d.png")
+    plt.savefig(fr"/demo/ARN-LSTM/visualize/results/nturgbd001-017/{filename}_3d.png")
     plt.show() 
     
  
-## main函数
-def main():
-    sys.path.extend(['../'])  # 扩展路径
-    data_path = '/usr/local/inter-rel-net-hockey/data02/ntu-rgbd/nturgb+d_skeletons/S001C001P001R001A001.skeleton' # 拍手skeleton文件名
-    #data_path = 'S001C001P001R001A058.skeleton' # 握手skeleton文件名，two body
-    point = read_xyz(data_path)   # 读取 x,y,z三个坐标
+def print_2d_3d(file_path,filename,action_label):
+    point = read_xyz(file_path)   # 读取 x,y,z三个坐标
     print('Read Data Done!') # 数据读取完毕
  
     num_frame = point.shape[1] # 帧数
@@ -179,7 +173,32 @@ def main():
     legs = [19, 18, 17, 16, 0, 12, 13, 14, 15] # 19 <-> 18 <-> 17 ...
     body = [3, 2, 20, 1, 0]  # 3 <-> 2 <-> 20 ...
     
-    # Print2D(num_frame, point, arms, rightHand, leftHand, legs, body)  # 2D可视化
-    Print3D(num_frame, point, arms, rightHand, leftHand, legs, body) # 3D可视化
- 
-main()
+    Print2D(num_frame, point, arms, rightHand, leftHand, legs, body,filename,action_label)  # 2D可视化
+    Print3D(num_frame, point, arms, rightHand, leftHand, legs, body,filename,action_label) # 3D可视化
+
+## main函数
+def main():
+    sys.path.extend(['../'])  # 扩展路径
+    ## 一次性遍历数据集目录下所有骨骼数据 ##
+    directory_path = r"/usr/local/inter-rel-net-hockey/data02/ntu-rgbd/nturgb+d_skeletons/"  
+    # 遍历文件夹中的所有文件
+    for filename in os.listdir(directory_path):
+        # 拼接文件的完整路径
+        file_path = os.path.join(directory_path, filename)
+        
+        # 检查是否是文件（而不是目录），并且不在需要忽略的文件列表中
+        if os.path.isfile(file_path) and filename not in nturgbd_labels.NTU60_IGNORE_LIST_302:# 如果是ntu rgb+d 120 改为 NTU120_IGNORE_LIST_535
+            # print(filename)
+             # 从文件名中提取动作类别
+            action_code = filename.split('A')[1].split('.')[0]  # 获取动作编号
+
+            # 将动作编号映射为英文动作类别名
+            action_label = nturgbd_labels.action_labels.get(action_code, "Unknown Action")  # 如果编号不存在，则返回 "Unknown Action"
+
+            print_2d_3d(file_path,filename,action_label)
+        else:
+            print(f"Skipping file: {filename} (excluded or not a file)")
+
+#%% Main
+if __name__ == '__main__':
+    main()
