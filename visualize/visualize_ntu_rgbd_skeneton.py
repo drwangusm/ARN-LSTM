@@ -1,3 +1,12 @@
+#运行一个脚本并将输出重定向到默认的 nohup.out 文件
+# cmd: nohup python visualize_ntu_rgbd_skeneton.py &  
+ 
+#运行一个命令并将输出重定向到指定的文件
+# cmd: nohup python visualize_ntu_rgbd_skeneton.py > output.log 2>&1 &
+
+#运行一个程序，但不生成输出文件
+# cmd: nohup python visualize_ntu_rgbd_skeneton.py > /dev/null 2>&1 &
+
 ## 导入第三方库
 import os
 import numpy as np
@@ -99,13 +108,13 @@ def Print2D(num_frame, point, arms, rightHand, leftHand, legs, body,filename,act
         plt.plot(point[0, i, legs, 1], point[1, i, legs, 1], c='green', lw=2.0)
         plt.plot(point[0, i, body, 1], point[1, i, body, 1], c='green', lw=2.0)
  
-        plt.text(xmax, ymax+0.2, f'frame: {i}/{num_frame-1} | Action:{action_label}') # 文字说明,添加动作类别标签
+        plt.text(xmax, ymax+0.2, f'frame: {i}/{num_frame-1} | Action:{action_label}',fontsize=10, ha='right', va='top') # 文字说明,添加动作类别标签
         plt.xlim(xmin-0.5, xmax+0.5) # x坐标范围
         plt.ylim(ymin-0.3, ymax+0.3) # y坐标范围
         plt.pause(0.001) # 停顿延时
  
     plt.ioff() 
-    plt.savefig(f"/demo/ARN-LSTM/visualize/results/nturgbd001-017/{filename}_2d.png")
+    plt.savefig(f"/demo/ARN-LSTM/visualize/results/Mutual_Actions_2P/{filename}_2d.png") #注意修改路径
     plt.show()
  
  
@@ -148,14 +157,14 @@ def Print3D(num_frame, point, arms, rightHand, leftHand, legs, body,filename,act
         plot3D.plot(point[0, i, legs, 1]*Expan_Multiple, point[1, i, legs, 1]*Expan_Multiple, point[2, i, legs, 1], c='green', lw=2.0)
         plot3D.plot(point[0, i, body, 1]*Expan_Multiple, point[1, i, body, 1]*Expan_Multiple, point[2, i, body, 1], c='green', lw=2.0)
  
-        plot3D.text(xmax-0.3, ymax+1.1, zmax+0.3, f'frame: {i}/{num_frame-1} | Action:{action_label}') # 文字说明,添加动作类别标签
+        plot3D.text(xmax, ymax+1.5, zmax+0.3, f'frame: {i}/{num_frame-1} | Action:{action_label}',fontsize=10, ha='right', va='top') # 文字说明,添加动作类别标签
         plot3D.set_xlim3d(xmin-0.5, xmax+0.5) # x坐标范围
         plot3D.set_ylim3d(ymin-0.3, ymax+0.3) # y坐标范围
         plot3D.set_zlim3d(zmin-0.3, zmax+0.3) # z坐标范围
         plt.pause(0.001) # 停顿延时
  
     plt.ioff() 
-    plt.savefig(fr"/demo/ARN-LSTM/visualize/results/nturgbd001-017/{filename}_3d.png")
+    plt.savefig(fr"/demo/ARN-LSTM/visualize/results/Mutual_Actions_2P/{filename}_3d.png") #注意修改路径
     plt.show() 
     
  
@@ -180,20 +189,24 @@ def print_2d_3d(file_path,filename,action_label):
 def main():
     sys.path.extend(['../'])  # 扩展路径
     ## 一次性遍历数据集目录下所有骨骼数据 ##
-    directory_path = r"/usr/local/inter-rel-net-hockey/data02/ntu-rgbd/nturgb+d_skeletons/"  
+    # directory_path = r"/usr/local/inter-rel-net-hockey/data02/ntu-rgbd/nturgb+d_skeletons/"  #ntu rgb+d 60骨骼数据集路径
+    directory_path = r"/usr/local/inter-rel-net-hockey/data02/ntu-rgbd-v2/nturgb+d_skeletons/"  #ntu rgb+d 1200骨骼数据集路径
     # 遍历文件夹中的所有文件
     for filename in os.listdir(directory_path):
         # 拼接文件的完整路径
         file_path = os.path.join(directory_path, filename)
         
         # 检查是否是文件（而不是目录），并且不在需要忽略的文件列表中
-        if os.path.isfile(file_path) and filename not in nturgbd_labels.NTU60_IGNORE_LIST_302:# 如果是ntu rgb+d 120 改为 NTU120_IGNORE_LIST_535
+        if os.path.isfile(file_path) and filename not in nturgbd_labels.NTU120_IGNORE_LIST_535:# 如果是ntu rgb+d 120 改为 NTU120_IGNORE_LIST_535
             # print(filename)
              # 从文件名中提取动作类别
             action_code = filename.split('A')[1].split('.')[0]  # 获取动作编号
-
-            # 将动作编号映射为英文动作类别名
-            action_label = nturgbd_labels.action_labels.get(action_code, "Unknown Action")  # 如果编号不存在，则返回 "Unknown Action"
+            print("action_code:",action_code)
+            # 将动作编号映射为英文动作类别名,如果是ntu rgb+d 120,则为 action_labels_120
+            action_label = nturgbd_labels.mutual_actions_2P_26.get(action_code) 
+             # 如果编号不存在于映射中，跳过该文件
+            if action_label is None:
+                continue
 
             print_2d_3d(file_path,filename,action_label)
         else:
