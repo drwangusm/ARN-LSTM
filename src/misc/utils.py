@@ -11,9 +11,17 @@ def find_best_weights(base_path, criteria='val_loss', verbose=0):
     
     best_epochs = []
     for rerun_path in rerun_paths:
-        rerun_df = pd.read_csv(rerun_path + 'fit_history.csv')
-        rerun_df['path'] = rerun_path
+        print(f"Checking path: {rerun_path}")
+        # rerun_df = pd.read_csv(rerun_path + 'fit_history.csv')
+        try:
+            rerun_df = pd.read_csv(rerun_path + 'fit_history.csv')
+        except FileNotFoundError:
+            print(f"fit_history.csv not found in {rerun_path}")
+            continue
 
+        print("Available columns:", rerun_df.columns)
+        rerun_df['path'] = rerun_path
+       
         if criteria not in rerun_df.columns:
             print(f"Criteria '{criteria}' not found in {rerun_path} fit_history.csv")
             continue
@@ -30,8 +38,11 @@ def find_best_weights(base_path, criteria='val_loss', verbose=0):
 
         if best_epoch is not None:  # 确保best_epoch已经被正确赋值
             best_epochs.append(best_epoch)
+        else:
+            print(f"No valid epoch found for criteria '{criteria}' in {rerun_path}")
     
     if len(best_epochs) == 0:
+        print(f"Best epochs: {best_epochs}")
         raise ValueError("No valid epochs found. Please check your criteria and paths.")
 
     summary_df = pd.concat(best_epochs, axis=1).T.reset_index(drop=True)
