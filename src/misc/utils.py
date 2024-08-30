@@ -3,7 +3,7 @@ from ast import literal_eval
 import pandas as pd
 
 def find_best_weights(base_path, criteria='val_loss', verbose=0):
-    print("base_path:",base_path)
+    # print("base_path:",base_path)
     from misc.print_train_stats import pretty_print_stats
     rerun_paths = glob.glob(base_path+'/rerun_*/')
     rerun_paths += glob.glob(base_path+'/fold_*/')
@@ -11,7 +11,7 @@ def find_best_weights(base_path, criteria='val_loss', verbose=0):
     
     best_epochs = []
     for rerun_path in rerun_paths:
-        print(f"Checking path: {rerun_path}")
+        # print(f"Checking path: {rerun_path}")
         # rerun_df = pd.read_csv(rerun_path + 'fit_history.csv')
         try:
             rerun_df = pd.read_csv(rerun_path + 'fit_history.csv')
@@ -19,7 +19,7 @@ def find_best_weights(base_path, criteria='val_loss', verbose=0):
             print(f"fit_history.csv not found in {rerun_path}")
             continue
 
-        print("Available columns:", rerun_df.columns)
+        # print("Available columns:", rerun_df.columns)
         rerun_df['path'] = rerun_path
        
         if criteria not in rerun_df.columns:
@@ -42,7 +42,7 @@ def find_best_weights(base_path, criteria='val_loss', verbose=0):
             print(f"No valid epoch found for criteria '{criteria}' in {rerun_path}")
     
     if len(best_epochs) == 0:
-        print(f"Best epochs: {best_epochs}")
+        # print(f"Best epochs: {best_epochs}")
         raise ValueError("No valid epochs found. Please check your criteria and paths.")
 
     summary_df = pd.concat(best_epochs, axis=1).T.reset_index(drop=True)
@@ -58,7 +58,7 @@ def find_best_weights(base_path, criteria='val_loss', verbose=0):
         weights_path = best_rerun.path + 'relnet_weights-val_acc.hdf5'
     
     if verbose > 0:
-        print("Best weights stats:")
+        # print("Best weights stats:")
         best_rerun_df = best_rerun.to_frame().transpose()
         best_rerun_df = best_rerun_df.astype(
             {'accuracy': 'float', 'loss': 'float', 'val_accuracy': 'float', 'val_loss': 'float'})
@@ -86,6 +86,4 @@ def read_config(config_filepath, fusion=False):
     kwargs.append(train_kwargs)
     
     return tuple(kwargs)
-
-#TODO绘制消融矩阵，loss,val_accuracy等
-# 
+ 
