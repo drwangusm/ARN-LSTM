@@ -1,0 +1,2 @@
+model,val_acc_mean,val_acc_std,val_recall_mean,val_recall_std,val_precision_mean,val_precision_std,val_f1_mean,val_f1_std
+runs,82.39,5.18,64.37,12.03,86.84,10.34,71.57,10.29

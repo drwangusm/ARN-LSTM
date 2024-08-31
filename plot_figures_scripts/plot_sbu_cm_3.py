@@ -42,7 +42,7 @@ conf_matrix3 = [[8,0,0,0,0,0,0,0],
 ]
 
 # 设置画布
-fig, axes = plt.subplots(1, 3, figsize=(12, 8))
+fig, axes = plt.subplots(1, 3, figsize=(22, 7))
 sns.set(font_scale=1.2)
 
 # 绘制第1个混淆矩阵
@@ -64,9 +64,9 @@ axes[2].set_xticklabels(classes, rotation=45,ha="right",fontsize=16)
 axes[2].set_yticklabels(classes, rotation=0,fontsize=16)
 
 # 添加下方标签
-axes[0].text(0.5, -0.2, '(a) RN_joint ', fontsize=18, fontweight='bold', ha='center', transform=axes[0].transAxes)
-axes[1].text(0.5, -0.2, '(b) RN_temp ', fontsize=18, fontweight='bold', ha='center', transform=axes[1].transAxes)
-axes[2].text(0.5, -0.2, '(b) RN_joint+temp ', fontsize=18, fontweight='bold', ha='center', transform=axes[2].transAxes)
+axes[0].text(0.5, -0.55, '(a) RN_joint ', fontsize=18, fontweight='bold', ha='center', transform=axes[0].transAxes)
+axes[1].text(0.5, -0.55, '(b) RN_temp ', fontsize=18, fontweight='bold', ha='center', transform=axes[1].transAxes)
+axes[2].text(0.5, -0.55, '(b) RN_joint+temp ', fontsize=18, fontweight='bold', ha='center', transform=axes[2].transAxes)
 
 # 调整布局
 plt.tight_layout()
