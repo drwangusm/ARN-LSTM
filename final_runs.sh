@@ -66,7 +66,7 @@ python3 src/run_protocol.py ARN_joint configs/NTU-V2/no-lstm/ARN_joint.cfg NTU-V
 python3 src/run_protocol.py ARN_temp configs/NTU-V1/no-lstm/ARN_temp.cfg NTU -n 1 -v 2
 python3 src/run_protocol.py ARN_temp configs/NTU-V2/no-lstm/ARN_temp.cfg NTU-V2 -n 1 -v 2
 # ARN_joint+temp
-python3 src/run_protocol.py ARN_joint+temp configs/NTU-V1/no-lstm/ARN_joint+temp.cfg NTU -F middle -n 1 -v 2 # x -
+python3 src/run_protocol.py ARN_joint+temp configs/NTU-V1/no-lstm/ARN_joint+temp.cfg NTU -F middle -n 1 -v 2
 python3 src/run_protocol.py ARN_joint+temp configs/NTU-V2/no-lstm/ARN_joint+temp.cfg NTU-V2 -F middle -n 1 -v 2 # x -
 # ARN-fc1_joint+temp
 python3 src/run_protocol.py ARN-fc1_joint+temp configs/NTU-V1/no-lstm/ARN-fc1_joint+temp.cfg NTU -F middle -n 1 -v 2 # x -

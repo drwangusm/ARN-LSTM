@@ -17,7 +17,7 @@ labels = [
 # plt.plot(accuracy_RN_temp, 'g^', label='RN_temp', linestyle='--')
 # plt.plot(accuracy_RN_joint_temp, 'bo', label='RN_joint_temp', linestyle='--')
 
-## RN 系列 Chapter 4## (使用fold_0/return_0)
+## RN 系列 Chapter 4## (使用5个fold的return,共25个return中分类识别的准确率的均值)
 accuracy_ARN_joint = [0.978667,0.934556, 0.775000,0.815444,0.706667,0.950000,0.795429,0.630159]
 accuracy_ARN_temp = [0.975000,0.957000,0.940000,0.886556,0.778667, 0.940000,0.821857,0.751111]
 accuracy_ARN_joint_temp= []
