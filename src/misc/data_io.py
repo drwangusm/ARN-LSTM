@@ -271,7 +271,6 @@ def parse_ntu_skl(row_start, row_end, normalized=False,
     return video_poses
 
 def parse_ntu_skeleton(skl_filepath):
-    """ Based on ReadBodyFile.m from Liu Jun """
     with open(skl_filepath) as skl_file:
         frame_num = int(skl_file.readline().strip())
         video_poses = []
