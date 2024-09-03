@@ -4,7 +4,7 @@ import numpy as np
 #基于模型训练结果，绘制数据集的各fold数据集的平均识别率性能,竖直柱状图显示
 
 # 类别标签
-# SBU fold标签
+# UT fold标签
 labels = ['fold_0','fold_1','fold_2','fold_3','fold_4','fold_5','fold_6','fold_7','fold_8','fold_9']
 
 # ARN-LSTM_inward,ARN-LSTM_outward,ARN-LSTM_inward+outward 和 ARN-LSTM-fc1_inward+outward 的准确率数据 (将数据乘以 100 转换为百分比)

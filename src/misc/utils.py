@@ -3,7 +3,6 @@ from ast import literal_eval
 import pandas as pd
 
 def find_best_weights(base_path, criteria='val_loss', verbose=0):
-    # print("base_path:",base_path)
     from misc.print_train_stats import pretty_print_stats
     rerun_paths = glob.glob(base_path+'/rerun_*/')
     rerun_paths += glob.glob(base_path+'/fold_*/')
@@ -12,7 +11,7 @@ def find_best_weights(base_path, criteria='val_loss', verbose=0):
     best_epochs = []
     for rerun_path in rerun_paths:
         # print(f"Checking path: {rerun_path}")
-        # rerun_df = pd.read_csv(rerun_path + 'fit_history.csv')
+        rerun_df = pd.read_csv(rerun_path + 'fit_history.csv')
         try:
             rerun_df = pd.read_csv(rerun_path + 'fit_history.csv')
         except FileNotFoundError:
@@ -40,7 +39,6 @@ def find_best_weights(base_path, criteria='val_loss', verbose=0):
             best_epochs.append(best_epoch)
         else:
             print(f"No valid epoch found for criteria '{criteria}' in {rerun_path}")
-    
     if len(best_epochs) == 0:
         # print(f"Best epochs: {best_epochs}")
         raise ValueError("No valid epochs found. Please check your criteria and paths.")

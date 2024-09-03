@@ -158,7 +158,7 @@ def run_protocol(experiment_name, config_filepath, dataset_name, num_reruns=1,
     for dataset_fold in dataset_folds:
         print("Running for fold:", dataset_fold)
         fold_path = base_path+'/fold_{}/'.format(dataset_fold)
-        
+        print("fold_path::",fold_path)
         if fusion_mode == 'middle':  
             fold_weights_filepaths = [ 
                 find_best_weights(weights_base_path+'/fold_{}/'.format(dataset_fold), criteria=criteria) 
