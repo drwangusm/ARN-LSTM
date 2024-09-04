@@ -5,13 +5,12 @@ import numpy as np
 labels =  ['Hand Shaking','Hugging','Kicking','Pointing','Punching','Pushing']
 
 # #ut-1
-# accuracy_ARN_LSTM_inward = [1.0,1.0,0.0,1.0,1.0,1.0]
-# accuracy_ARN_LSTM_outward = [1.0,1.0,0.0,1.0,1.0,0.0]
-# accuracy_ARN_LSTM_inward_outward= [ 1.0,1.0,0.0,1.0,1.0,1.0]
-# ARN_LSTM_fc1_inward_outward = [1.0,1.0,1.0,1.0,1.0,1.0]
+# accuracy_ARN_LSTM_inward = [0.680000,0.99,0.240000,0.99,0.315217, 0.734694]
+# accuracy_ARN_LSTM_outward = [0.70,0.98,0.32,0.90,0.377551,0.608696]
+# accuracy_ARN_LSTM_inward_outward= [0.820000,1.0,0.36,0.92,0.357143,0.760870]
+# ARN_LSTM_fc1_inward_outward = [0.76,1.0,0.420000,0.900000,0.285714,0.760870]
 
-
-# #ut-2
+#ut-2
 accuracy_ARN_LSTM_inward = []
 accuracy_ARN_LSTM_outward = []
 accuracy_ARN_LSTM_inward_outward= []
@@ -43,5 +42,5 @@ plt.grid(True, linestyle='--', alpha=0.6)
 
 # 显示图表
 plt.tight_layout()
-plt.savefig(r'/demo/ARN-LSTM/plot_figures_results/UT-2/ARN-LSTM(set_2)_acc_vs.png',dpi=300,bbox_inches='tight')
+plt.savefig(r'/demo/ARN-LSTM/plot_figures_results/UT-1/ARN-LSTM-all(set_2)_acc_vs.png',dpi=300,bbox_inches='tight')
 plt.show()
