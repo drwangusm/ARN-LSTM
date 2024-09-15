@@ -85,7 +85,7 @@ def predict_temp_rn(weights_path, dataset_name, model_kwargs, data_kwargs,
         seq_len=seq_len, **model_kwargs)
     
     #计算模型参数量
-    model.summary()
+    # model.summary()
 
     if verbose > 0:
         print("Loading weights...")
