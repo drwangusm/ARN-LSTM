@@ -195,7 +195,7 @@ def load_args():
     ap.add_argument('-d','--dataset-name',
         help="dataset to be used for predicting",
         default='UT',
-        choices=['UT', 'SBU', 'NTU', 'NTU_V2', 'YMJA'])
+        choices=['UT', 'SBU', 'NTU', 'NTU_V2'])
     ap.add_argument('-f','--dataset-fold',
         help="dataset fold to be used for predicting",
         default=9,
