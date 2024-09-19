@@ -124,7 +124,7 @@ python3 src/run_protocol.py ARN_inward+outward_no_motion configs/NTU-V2/ARN_inwa
 
 # ARN_inward compute_distance = True compute_motion = True
 python3 src/run_protocol.py ARN_inward configs/NTU-V1/ARN_inward.cfg NTU -n 5 -v 2
-python3 src/run_protocol.py ARN_inward configs/NTU-V2/ARN_inward.cfg NTU-V2 -n 5 -v 2 # x
+python3 src/run_protocol.py ARN_inward configs/NTU-V2/ARN_inward.cfg NTU-V2 -n 5 -v 2
 # ARN_outward compute_distance = True compute_motion = True
 python3 src/run_protocol.py ARN_outward configs/NTU-V1/ARN_outward.cfg NTU -n 5 -v 2
 python3 src/run_protocol.py ARN_outward configs/NTU-V2/ARN_outward.cfg NTU-V2 -n 5 -v 2 # x
