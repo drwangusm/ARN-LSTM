@@ -24,13 +24,13 @@
 # NTU-V1/V2
 # RN_joints
 python3 src/run_protocol.py RN_joint configs/NTU-V1/no-lstm/RN_joint.cfg NTU -n 5 -v 2
-python3 src/run_protocol.py RN_joint configs/NTU-V2/no-lstm/RN_joint.cfg NTU-V2 -n 1 -v 2
+python3 src/run_protocol.py RN_joint configs/NTU-V2/no-lstm/RN_joint.cfg NTU-V2 -n 5 -v 2  #有时间，重新跑
 # RN_temp
 python3 src/run_protocol.py RN_temp configs/NTU-V1/no-lstm/RN_temp.cfg NTU -n 5 -v 2
-python3 src/run_protocol.py RN_temp configs/NTU-V2/no-lstm/RN_temp.cfg NTU-V2 -n 5 -v 2
+python3 src/run_protocol.py RN_temp configs/NTU-V2/no-lstm/RN_temp.cfg NTU-V2 -n 5 -v 2  
 # RN_joint+temp (RN_two_stream)
 python3 src/run_protocol.py RN_joint+temp configs/NTU-V1/no-lstm/RN_joint+temp.cfg NTU -F middle -n 5 -v 2
-python3 src/run_protocol.py RN_joint+temp configs/NTU-V2/no-lstm/RN_joint+temp.cfg NTU-V2 -F middle -n 5 -v 2 
+python3 src/run_protocol.py RN_joint+temp configs/NTU-V2/no-lstm/RN_joint+temp.cfg NTU-V2 -F middle -n 5 -v 2  #有时间，重新跑
 
 ## Chapter 4
 # # SBU
@@ -65,7 +65,7 @@ python3 src/run_protocol.py ARN_joint configs/NTU-V2/no-lstm/ARN_joint.cfg NTU-V
 python3 src/run_protocol.py ARN_temp configs/NTU-V1/no-lstm/ARN_temp.cfg NTU -n 5 -v 2
 python3 src/run_protocol.py ARN_temp configs/NTU-V2/no-lstm/ARN_temp.cfg NTU-V2 -n 5 -v 2
 # ARN_joint+temp
-python3 src/run_protocol.py ARN_joint+temp configs/NTU-V1/no-lstm/ARN_joint+temp.cfg NTU -F middle -n 5 -v 2
+python3 src/run_protocol.py ARN_joint+temp configs/NTU-V1/no-lstm/ARN_joint+temp.cfg NTU -F middle -n 5 -v 2 
 python3 src/run_protocol.py ARN_joint+temp configs/NTU-V2/no-lstm/ARN_joint+temp.cfg NTU-V2 -F middle -n 5 -v 2
 # ARN-fc1_joint+temp
 python3 src/run_protocol.py ARN-fc1_joint+temp configs/NTU-V1/no-lstm/ARN-fc1_joint+temp.cfg NTU -F middle -n 5 -v 2
@@ -111,28 +111,31 @@ python3 src/run_protocol.py ARN-fc1_joint+temp configs/NTU-V2/no-lstm/ARN-fc1_jo
 # python3 src/run_protocol.py ARN-fc1_inward+outward configs/UT/set_1/ARN-fc1_inward+outward.cfg UT-1 -F middle -n 5 -v 2
 # python3 src/run_protocol.py ARN-fc1_inward+outward configs/UT/set_2/ARN-fc1_inward+outward.cfg UT-2 -F middle -n 5 -v 2
 
-#NTU-V1/V2
-# ARN_inward compute_distance = false compute_motion = false
-python3 src/run_protocol.py ARN_inward_no_motion configs/NTU-V1/ARN_inward_no_motion.cfg NTU -n 5 -v 2
-python3 src/run_protocol.py ARN_inward_no_motion configs/NTU-V2/ARN_inward_no_motion.cfg NTU-V2 -n 5 -v 2
-# ARN_outward compute_distance = false compute_motion = false
-python3 src/run_protocol.py ARN_outward_no_motion configs/NTU-V1/ARN_outward_no_motion.cfg NTU -n 5 -v 2
-python3 src/run_protocol.py ARN_outward_no_motion configs/NTU-V2/ARN_outward_no_motion.cfg NTU-V2 -n 5 -v 2
-# ARN_inward+outward compute_distance = false compute_motion = false
-python3 src/run_protocol.py ARN_inward+outward_no_motion configs/NTU-V1/ARN_inward+outward_no_motion.cfg NTU -F middle -n 5 -v 2
-python3 src/run_protocol.py ARN_inward+outward_no_motion configs/NTU-V2/ARN_inward+outward_no_motion.cfg NTU-V2 -F middle -n 5 -v 2
+# ##################################
+# #NTU-V1/V2
+# # ARN_inward compute_distance = false compute_motion = false
+# python3 src/run_protocol.py ARN_inward_no_motion configs/NTU-V1/ARN_inward_no_motion.cfg NTU -n 5 -v 2
+# python3 src/run_protocol.py ARN_inward_no_motion configs/NTU-V2/ARN_inward_no_motion.cfg NTU-V2 -n 5 -v 2
+# # ARN_outward compute_distance = false compute_motion = false
+# python3 src/run_protocol.py ARN_outward_no_motion configs/NTU-V1/ARN_outward_no_motion.cfg NTU -n 5 -v 2
+# python3 src/run_protocol.py ARN_outward_no_motion configs/NTU-V2/ARN_outward_no_motion.cfg NTU-V2 -n 5 -v 2
+# # ARN_inward+outward compute_distance = false compute_motion = false
+# python3 src/run_protocol.py ARN_inward+outward_no_motion configs/NTU-V1/ARN_inward+outward_no_motion.cfg NTU -F middle -n 5 -v 2
+# python3 src/run_protocol.py ARN_inward+outward_no_motion configs/NTU-V2/ARN_inward+outward_no_motion.cfg NTU-V2 -F middle -n 5 -v 2
 
-# ARN_inward compute_distance = True compute_motion = True
-python3 src/run_protocol.py ARN_inward configs/NTU-V1/ARN_inward.cfg NTU -n 5 -v 2
-python3 src/run_protocol.py ARN_inward configs/NTU-V2/ARN_inward.cfg NTU-V2 -n 5 -v 2
-# ARN_outward compute_distance = True compute_motion = True
-python3 src/run_protocol.py ARN_outward configs/NTU-V1/ARN_outward.cfg NTU -n 5 -v 2
-python3 src/run_protocol.py ARN_outward configs/NTU-V2/ARN_outward.cfg NTU-V2 -n 5 -v 2
-# ARN_inward+outward compute_distance = True compute_motion = True
-python3 src/run_protocol.py ARN_inward+outward configs/NTU-V1/ARN_inward+outward.cfg NTU -F middle -n 5 -v 2
-python3 src/run_protocol.py ARN_inward+outward configs/NTU-V2/ARN_inward+outward.cfg NTU-V2 -F middle -n 5 -v 2
-python3 src/run_protocol.py ARN-fc1_inward+outward configs/NTU-V1/ARN-fc1_inward+outward.cfg NTU -F middle -n 5 -v 2
-python3 src/run_protocol.py ARN-fc1_inward+outward configs/NTU-V2/ARN-fc1_inward+outward.cfg NTU-V2 -F middle -n 5 -v 2 
+# # ARN_inward compute_distance = True compute_motion = True
+# python3 src/run_protocol.py ARN_inward configs/NTU-V1/ARN_inward.cfg NTU -n 5 -v 2
+# python3 src/run_protocol.py ARN_inward configs/NTU-V2/ARN_inward.cfg NTU-V2 -n 5 -v 2
+# # ARN_outward compute_distance = True compute_motion = True
+# python3 src/run_protocol.py ARN_outward configs/NTU-V1/ARN_outward.cfg NTU -n 5 -v 2
+# python3 src/run_protocol.py ARN_outward configs/NTU-V2/ARN_outward.cfg NTU-V2 -n 5 -v 2
+# # ARN_inward+outward compute_distance = True compute_motion = True
+# python3 src/run_protocol.py ARN_inward+outward configs/NTU-V1/ARN_inward+outward.cfg NTU -F middle -n 5 -v 2
+# python3 src/run_protocol.py ARN_inward+outward configs/NTU-V2/ARN_inward+outward.cfg NTU-V2 -F middle -n 5 -v 2
+# python3 src/run_protocol.py ARN-fc1_inward+outward configs/NTU-V1/ARN-fc1_inward+outward.cfg NTU -F middle -n 5 -v 2
+# python3 src/run_protocol.py ARN-fc1_inward+outward configs/NTU-V2/ARN-fc1_inward+outward.cfg NTU-V2 -F middle -n 5 -v 2 
+# ###################################
+
 
 ## Chapter 6
 # # SBU

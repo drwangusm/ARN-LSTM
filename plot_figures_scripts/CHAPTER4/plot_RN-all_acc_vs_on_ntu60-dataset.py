@@ -1,0 +1,46 @@
+import matplotlib.pyplot as plt
+import numpy as np
+
+# ntu rgb+d 60标签
+labels = [
+    'Punch/slap','Kicking','Pushing','Pat on the back','Point finger','Hugging','Giving object','Touch pocket','Shake hands','Walk towards','Walk apart'
+]
+
+#cross_subject
+accuracy_RN_joint = [0.8029197080291971,0.7862318840579711,0.7282608695652174,0.6521739130434783,0.8152173913043478,0.8868613138686131,0.6847826086956522,0.8181818181818182,0.7246376811594203,0.9304029304029304,0.8188405797101449]
+accuracy_RN_temp = [0.7737226277372263,0.8115942028985508,0.8514492753623188,0.6992753623188406,0.8478260869565217,0.9233576642335767,0.7137681159420289,0.6618181818181819,0.6340579710144928,0.9487179487179487,0.8804347826086957]
+accuracy_RN_joint_temp= [0.8284671532846716,0.8695652173913043,0.7717391304347826,0.782608695652174,0.8405797101449275,0.9562043795620438,0.7065217391304348,0.7636363636363637,0.7282608695652174,0.9230769230769231,0.8659420289855072]
+
+
+# #cross_view
+# accuracy_RN_joint = [0.8178913738019169,0.8598726114649682,0.8539682539682539,0.8607594936708861,0.8184713375796179,0.9579288025889967,0.680379746835443,0.680379746835443,0.6329113924050633,0.9715189873417721,0.8338658146964856]
+# accuracy_RN_temp = [0.792332268370607,0.945859872611465,0.8634920634920635,0.8734177215189873,0.8407643312101911,0.9546925566343042,0.6360759493670886,0.7183544303797469,0.7784810126582279,0.9588607594936709,0.9041533546325878]
+# accuracy_RN_joint_temp= [0.8115015974440895,0.7993630573248408,0.8507936507936508,0.9113924050632911,0.8375796178343949,0.912621359223301,0.6234177215189873,0.7025316455696202,0.8955696202531646,0.9240506329113924,0.9041533546325878]
+
+# 设置图表大小
+plt.figure(figsize=(14, 7))
+
+# 绘制折线图
+plt.plot(accuracy_RN_joint, 'rx', label='RN_joint', linestyle='--')
+plt.plot(accuracy_RN_temp, 'g^', label='RN_temp', linestyle='--')
+plt.plot(accuracy_RN_joint_temp, 'bo', label='RN_joint+temp', linestyle='--')
+
+
+# 添加图例
+plt.legend()
+
+# 添加标签和标题
+plt.xlabel("Action Classes", fontsize=12, color='black')
+plt.ylabel("Accuracy (%)")
+plt.title("NTU RGB+D 60 dataset (Cross_subject) action recognition performance comparison")
+
+# 设置x轴刻度并将标签颜色设置为黑色，字体大小设置为18
+plt.xticks(ticks=np.arange(len(labels)), labels=labels, rotation=60, ha="right", fontsize=12, color='black')
+
+# 显示网格
+plt.grid(True, linestyle='--', alpha=0.6)
+
+# 显示图表
+plt.tight_layout()
+plt.savefig(r'/demo/ARN-LSTM/plot_figures_results/CHAPTER4/RN-all(Cross_subject)_acc_vs_ntu60.png',dpi=300,bbox_inches='tight')
+plt.show()
