@@ -185,7 +185,7 @@ def apply_NTU_normalization(video_poses, pose_style):
         and “spine”, 'MidHip' and 'Neck' are respectively used instead.
     """
     
-    if pose_style == 'OpenPose' or pose_style == 'YMJA':
+    if pose_style == 'OpenPose':
         joint_indexing = POSE_BODY_25_BODY_PARTS
     elif pose_style == 'SBU':
         joint_indexing = SBU_15_BODY_PARTS

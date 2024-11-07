@@ -21,8 +21,8 @@ width = 0.35  # 每个柱子的宽度
 fig, ax = plt.subplots(figsize=(10, 8))
 
 # 画柱状图
-rects1 = ax.barh(x - width/2, cross_subject, width, label='Cross-Subject')
-rects2 = ax.barh(x + width/2, cross_view, width, label='Cross-View')
+rects1 = ax.bar(x - width/2, cross_subject, width, label='Cross-Subject')
+rects2 = ax.bar(x + width/2, cross_view, width, label='Cross-View')
 
 # 添加标签、标题和自定义x轴刻度
 ax.set_xlabel('Accuracy')
@@ -34,6 +34,6 @@ ax.legend()
 # 调整布局
 fig.tight_layout()
 
-plt.savefig(r'/demo/ARN-LSTM/plot_figures_results/NTU-V2/ARN-LSTM_outward_performence_per_class.png',dpi=300,bbox_inches='tight')
+plt.savefig(r'/demo/ARN-LSTM/plot_figures_results/NTU-V2/ARN-LSTM_outward_performence_per_class_2.png',dpi=300,bbox_inches='tight')
 # 显示图像
 plt.show()

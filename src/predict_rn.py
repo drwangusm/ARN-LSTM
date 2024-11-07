@@ -524,10 +524,7 @@ def predict_fused_rn_seq(fusion_weights_path, dataset_name, dataset_fold,
         return acc
     else:
         return Y_pred, Y_val
-
-    
-
-    
+  
 #%% Main
 if __name__ == '__main__':
     args = vars(load_args())
