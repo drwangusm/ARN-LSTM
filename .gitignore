@@ -15,9 +15,6 @@ data/
 #weight
 models/
 
-final_runs.log
-final_runs.log2
-
 runs/
 
 visualize/results/
