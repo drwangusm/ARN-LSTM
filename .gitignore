@@ -21,7 +21,7 @@ visualize/results/
 
 figure/
 
-plot_figures_results/
+# plot_figures_results/
 
 src/__pycache__/
 src/datasets/__pycache__/
