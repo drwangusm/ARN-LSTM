@@ -7,7 +7,6 @@ from datasets import UT, NTU, NTU_V2 , SBU
 
 from train_rn import train_rn, train_fused_rn
 from train_temp_rn import train_temp_rn, train_fused_temp_rn
-
 from predict_rn import predict_rn_seq, predict_fused_rn_seq
 from misc.print_train_stats import pretty_print_stats
 from misc.utils import read_config, find_best_weights
@@ -62,7 +61,6 @@ def load_args():
         action='store_true')
     
     args = ap.parse_args()
-    
 
     return args
 
@@ -73,8 +71,7 @@ def parse_fit_history(fit_history):
     
     return hist_df
 
-def run_protocol(experiment_name, config_filepath, dataset_name, num_reruns=1,
-        folds=None, verbose=0, batch_size=64, seqs_eval=False, fusion_mode=None,
+def run_protocol(experiment_name, config_filepath, dataset_name, num_reruns=1, folds=None, verbose=0, batch_size=64, seqs_eval=False, fusion_mode=None,
         temp_rn=False):
     if fusion_mode is None:
         data_kwargs, model_kwargs, train_kwargs = read_config(config_filepath)
