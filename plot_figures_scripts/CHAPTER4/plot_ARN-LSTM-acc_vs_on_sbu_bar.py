@@ -56,6 +56,6 @@ plt.grid(axis='y', linestyle='--', alpha=0.6)
 plt.tight_layout()
 
 # 保存图表（根据需要修改路径）
-# plt.savefig(r'/demo/ARN-LSTM/plot_figures_results/SBU/ARN-LSTM(chapter 6)-all_acc_bar.png', dpi=300, bbox_inches='tight')
+plt.savefig(r'/demo/ARN-LSTM/plot_figures_results/CHAPTER4/ARN-LSTM_sbu-all_acc_bar.png', dpi=300, bbox_inches='tight')
 
 plt.show()
